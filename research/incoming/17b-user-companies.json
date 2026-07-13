@@ -1,0 +1,305 @@
+[
+  {
+    "name": "Superset",
+    "website": "https://superset.sh/",
+    "hq": "San Francisco, California, United States",
+    "founded": 2026,
+    "stage": "Seed",
+    "sector": "Developer tools & agents",
+    "subsector": "Local-first orchestration workspace for parallel coding agents",
+    "layer": "Developer tool",
+    "product": "A desktop IDE, CLI and MCP control plane that gives third-party coding agents isolated Git worktrees, persistent terminals, task orchestration and review workflows.",
+    "targetCustomer": "Software engineers and engineering teams already using CLI coding agents",
+    "buyer": "Individual developer, engineering manager or VP Engineering",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Third-party coding-agent integration",
+      "Agent orchestration",
+      "Git worktree isolation",
+      "MCP"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 3,
+    "verticalIntegration": 3,
+    "fundingUsdM": null,
+    "fundingDisplay": "Not publicly disclosed",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; financing amount not disclosed",
+    "headcount": "3 (YC team size)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator"
+    ],
+    "traction": "YC reports 11K+ GitHub stars, 75+ contributors and use by engineers at thousands of companies five months after launch; the public repository showed 12.4K stars on 13 July 2026.",
+    "confidence": "Medium",
+    "notes": "The requested 'coding' label is directionally correct, but Superset does not build a coding foundation model: it orchestrates external agents such as Claude Code, Codex and Gemini CLI. The current repository is source-available under Elastic License 2.0, not OSI open source despite 'open-source' wording on YC. Early distribution is strong, but switching costs and a defensible technical moat are not yet demonstrated. Funding beyond YC participation is not public. Homonym warning: this is superset.sh, not Apache Superset, the super{set} venture studio, or trustsuperset.com.",
+    "sources": [
+      {
+        "label": "Superset product and pricing",
+        "url": "https://superset.sh/",
+        "type": "primary"
+      },
+      {
+        "label": "Superset technical overview",
+        "url": "https://docs.superset.sh/overview",
+        "type": "primary"
+      },
+      {
+        "label": "Superset GitHub repository, metrics and ELv2 license",
+        "url": "https://github.com/superset-sh/superset",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator company profile",
+        "url": "https://www.ycombinator.com/companies/superset",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Ploy",
+    "website": "https://ploy.ai/",
+    "hq": "San Francisco, California, United States",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Horizontal enterprise software",
+    "subsector": "Agentic website operations and B2B growth marketing",
+    "layer": "Horizontal application",
+    "product": "An AI growth platform whose agents build and optimize websites, identify visitors, generate SEO and ABM pages, run advertising workflows and synchronize outcomes with CRM and analytics systems.",
+    "targetCustomer": "B2B startups, marketing teams, enterprises and digital agencies",
+    "buyer": "Founder, CMO, VP Growth or agency principal",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "LLM agents",
+      "Agent orchestration",
+      "Generative web design and copy",
+      "Intent scoring"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 3,
+    "verticalIntegration": 5,
+    "fundingUsdM": 27,
+    "fundingDisplay": "$27M seed publicly announced",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "$27M seed, June 2026",
+    "headcount": "14 (YC team size)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "First Round Capital",
+      "Y Combinator",
+      "Lenny Rachitsky",
+      "Ben Lang",
+      "Eoghan McCabe"
+    ],
+    "traction": "YC says more than 13% of its Spring 2026 batch used Ploy; the company names Hex and Clay plus agencies Tonik and TNT Growth as users, while commercial revenue and retention remain undisclosed.",
+    "confidence": "High",
+    "notes": "The requested marketing/growth classification is accurate. The product is materially broader than an AI website builder because it closes the loop across publishing, visitor identification, ABM, advertising and CRM. The strongest prospective moat is accumulated workflow and experiment context plus distribution from founder Bryant Chou's Webflow network; neither data advantage nor autonomous outcome quality has yet been independently evidenced. The $27M is described as one seed financing, not cumulative revenue or a valuation. The team is also described as based in New York.",
+    "sources": [
+      {
+        "label": "Ploy product, buyers and integrations",
+        "url": "https://ploy.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Ploy $27M seed announcement",
+        "url": "https://ploy.ai/blog/ploy-raises-27m",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator company profile and traction",
+        "url": "https://www.ycombinator.com/companies/ploy",
+        "type": "primary"
+      },
+      {
+        "label": "Company-issued launch release",
+        "url": "https://www.prnewswire.com/news-releases/ploy-raises-27m-to-turn-your-companys-website-into-your-hardest-working-employee-302803231.html",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Together AI",
+    "website": "https://www.together.ai/",
+    "hq": "San Francisco, California, United States",
+    "founded": 2022,
+    "stage": "Growth",
+    "sector": "AI infrastructure & compute",
+    "subsector": "Research-driven inference, model shaping and accelerated compute cloud",
+    "layer": "Infrastructure",
+    "product": "A full-stack cloud for serverless and dedicated inference, GPU clusters, model fine-tuning and evaluation, storage and agent sandboxes centered on open-weight and custom models.",
+    "targetCustomer": "AI-native companies, enterprise AI platform teams and model researchers",
+    "buyer": "CTO, VP AI, Head of ML Platform or infrastructure lead",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Distributed training",
+      "High-performance LLM inference",
+      "Custom kernels and compilers",
+      "Quantization and speculative decoding",
+      "Fine-tuning and evaluation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Infrastructure",
+      "Distribution"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 2,
+    "fundingUsdM": 1333.5,
+    "fundingDisplay": "$1.3335B across five publicly announced financings",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "$800M Series C, July 2026",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Aramco Ventures",
+      "Vista Equity Partners",
+      "General Catalyst",
+      "Prosperity7 Ventures",
+      "Salesforce Ventures",
+      "Kleiner Perkins",
+      "Emergence Capital",
+      "Lux Capital",
+      "Coatue",
+      "March Capital",
+      "NEA",
+      "SE Ventures",
+      "Pegatron",
+      "DTCP Growth",
+      "Geodesic",
+      "PSP Partners"
+    ],
+    "traction": "The July 2026 Series C announcement says Together AI serves thousands of customers including Cognition, Decagon, ElevenLabs, Cursor and Suno; its February 2025 announcement reported 450,000 AI developers, but revenue, utilization and gross margin remain undisclosed.",
+    "confidence": "High",
+    "notes": "The requested inference/compute and AI-infrastructure labels are accurate. Unlike a thin model API reseller, Together productizes systems research across kernels, compilers, inference engines and cluster infrastructure, though it still faces hyperscalers, neoclouds and specialized serving vendors and carries high capital and supply-chain exposure. Publicly announced financing sums to $1.3335B: $20M seed + $102.5M Series A + $106M follow-on + $305M Series B + $800M Series C. The Series C also mentions more than 500 MW of independently capitalized compute commitments; those commitments are excluded from funding total. Vertical-integration score is deliberately low because this is horizontal infrastructure rather than a domain workflow.",
+    "sources": [
+      {
+        "label": "Together AI platform and product stack",
+        "url": "https://www.together.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "$800M Series C announcement",
+        "url": "https://www.together.ai/blog/announcing-our-series-c",
+        "type": "primary"
+      },
+      {
+        "label": "$305M Series B announcement",
+        "url": "https://www.together.ai/blog/together-ai-announcing-305m-series-b",
+        "type": "primary"
+      },
+      {
+        "label": "$106M follow-on financing announcement",
+        "url": "https://www.together.ai/blog/series-a2",
+        "type": "primary"
+      },
+      {
+        "label": "$102.5M Series A announcement",
+        "url": "https://www.together.ai/blog/series-a",
+        "type": "primary"
+      },
+      {
+        "label": "$20M seed announcement",
+        "url": "https://www.together.ai/blog/seed-funding",
+        "type": "primary"
+      },
+      {
+        "label": "LinkedIn public headcount range",
+        "url": "https://www.linkedin.com/company/togethercomputer",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "TechCrunch Series C valuation corroboration",
+        "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Stathera",
+    "website": "https://www.stathera.com/",
+    "hq": "Montreal, Quebec, Canada",
+    "founded": 2020,
+    "stage": "Series B",
+    "sector": "Semiconductors, hardware & edge",
+    "subsector": "Fabless MEMS silicon timing for electronics and future AI data centers",
+    "layer": "Hardware",
+    "product": "A fabless semiconductor company building patented DualMode MEMS resonators and oscillators that combine kHz and MHz timing outputs to replace multiple quartz timing components.",
+    "targetCustomer": "Semiconductor, device, communications and data-center equipment manufacturers",
+    "buyer": "Hardware engineering leader, system architect or semiconductor procurement executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "No AI model; MEMS timing hardware",
+      "Mixed-signal semiconductor design"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Research"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 2,
+    "fundingUsdM": 75,
+    "fundingDisplay": "$75M total per company-issued Series B release",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "$55M Series B, June 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Maverick Silicon",
+      "Celesta Capital",
+      "BDC Capital",
+      "MediaTek Innovation Fund",
+      "TXC Corporation",
+      "Ultratech Capital Partners",
+      "Seiko Epson",
+      "Doosan Corporation"
+    ],
+    "traction": "Stathera markets STA320 and STA156 devices and reports a 2026 Best MEMS Solution award for STA320; the Series B is intended to move its GEN2 portfolio into mass production and fund GEN3 products, while customer shipments and revenue are not disclosed.",
+    "confidence": "High",
+    "notes": "The requested 'AI infra' label needs qualification: Stathera is not an AI company and does not train or serve models. It is a semiconductor timing supplier positioning a future GEN3 line for AI, communications, enterprise and data-center systems; current public products also target mobile and IoT. Its potential moat is patented MEMS design, manufacturing qualification and OEM integration. The company-issued Series B release states $75M total funding, while the publicly visible $15M Series A plus $55M Series B sum to $70M; the remaining $5M is not characterized in the reviewed sources and is therefore an explicit perimeter uncertainty.",
+    "sources": [
+      {
+        "label": "Stathera company and product site",
+        "url": "https://www.stathera.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Company-issued $55M Series B and $75M total funding release",
+        "url": "https://www.newswire.ca/news-releases/stathera-announces-us-55-million-series-b-to-scale-silicon-timing-and-accelerate-next-generation-ai-data-center-solutions-890979239.html",
+        "type": "primary"
+      },
+      {
+        "label": "Company-issued $15M Series A release",
+        "url": "https://www.businesswire.com/news/home/20230518005002/en/Fabless-Semiconductor-Innovator-Stathera-Announces-US-15M-Series-A-Funding-Round",
+        "type": "primary"
+      },
+      {
+        "label": "LinkedIn company profile and headcount range",
+        "url": "https://www.linkedin.com/company/stathera",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "EE Times Silicon 100 startup profile",
+        "url": "https://polyn.ai/wp-content/uploads/2025/07/Silicon-100_2025.pdf",
+        "type": "credible-secondary"
+      }
+    ]
+  }
+]

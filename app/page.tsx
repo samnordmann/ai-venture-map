@@ -6,8 +6,14 @@ import { capitalFacts, capitalNodes, fundingArchetypes } from "./data/capital";
 import { averageIdeaScore, ideas } from "./data/ideas";
 import { trends } from "./data/trends";
 import type { Company, Idea, IdeaVerdict } from "./data/types";
+import {
+  CompanyEditorSection,
+  PersonalNotesEditor,
+  useCompanyWorkspace,
+  type CompanyRecord,
+} from "./components/company-workspace";
 
-const companies = companiesJson as Company[];
+const baseCompanies = companiesJson as Company[];
 const AS_OF = "13 juillet 2026";
 
 const sectorPalette = ["#2f6fed", "#e65c3d", "#07866f", "#7857d6", "#c58a00", "#187aa2", "#b94273", "#5d6a72"];
@@ -107,6 +113,7 @@ function Header() {
       </a>
       <nav aria-label="Navigation principale">
         <a href="#cartographie">Cartographie</a>
+        <a href="#editeur">Éditeur</a>
         <a href="#tendances">Tendances</a>
         <a href="#capital">Capital</a>
         <a href="#idees">Idées</a>
@@ -117,7 +124,7 @@ function Header() {
   );
 }
 
-function Hero() {
+function Hero({ companies }: { companies: CompanyRecord[] }) {
   const knownFunding = companies.filter((company) => company.fundingUsdM !== null);
   const sectors = new Set(companies.map((company) => company.sector)).size;
   const countries = new Set(companies.map((company) => getRegion(company.hq))).size;
@@ -161,7 +168,17 @@ function Hero() {
 
 type CompanySort = "name" | "sector" | "status" | "stage" | "hq" | "fundingUsdM" | "technicalDepth" | "verticalIntegration" | "moatStrength";
 
-function CompanyExplorer() {
+function CompanyExplorer({
+  companies,
+  personalNotes,
+  onNoteChange,
+  onEdit,
+}: {
+  companies: CompanyRecord[];
+  personalNotes: Record<string, string>;
+  onNoteChange: (recordId: string, value: string) => void;
+  onEdit: (recordId: string) => void;
+}) {
   const [query, setQuery] = useState("");
   const [sector, setSector] = useState("Tous");
   const [layer, setLayer] = useState("Toutes");
@@ -181,7 +198,7 @@ function CompanyExplorer() {
     statuses: [...new Set(companies.map((company) => company.status))].sort(),
     stages: [...new Set(companies.map((company) => company.stage))].sort(),
     moats: [...new Set(companies.flatMap((company) => company.differentiators))].sort(),
-  }), []);
+  }), [companies]);
 
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -204,15 +221,15 @@ function CompanyExplorer() {
         const comparison = typeof aValue === "string" ? aValue.localeCompare(String(bValue)) : Number(aValue) - Number(bValue);
         return direction === "asc" ? comparison : -comparison;
       });
-  }, [query, sector, layer, region, status, stage, moat, minFunding, sort, direction]);
+  }, [companies, query, sector, layer, region, status, stage, moat, minFunding, sort, direction]);
 
-  const selectedCompany = companies.find((company) => company.name === selected) ?? null;
+  const selectedCompany = companies.find((company) => company.recordId === selected) ?? null;
 
   const reset = () => {
     setQuery(""); setSector("Tous"); setLayer("Toutes"); setRegion("Toutes"); setStatus("Tous"); setStage("Tous"); setMoat("Tous"); setMinFunding("0");
   };
-  const selectFromMap = (name: string) => {
-    setSelected(name);
+  const selectFromMap = (recordId: string) => {
+    setSelected(recordId);
     window.requestAnimationFrame(() => document.getElementById("company-table-start")?.scrollIntoView({ behavior: "smooth", block: "start" }));
   };
 
@@ -252,8 +269,8 @@ function CompanyExplorer() {
             <thead><tr><th>Entreprise</th><th>Secteur / couche</th><th>Géo / statut</th><th>Financement / équipe</th><th>GTM et buyer</th><th>Différenciation</th><th>Tech ↔ métier</th></tr></thead>
             <tbody>
               {filtered.map((company) => (
-                <tr key={company.name} className={selected === company.name ? "selected" : ""}>
-                  <td><button className="company-name" onClick={() => setSelected(company.name)}>{company.name}</button><span className="table-sub">{company.product}</span></td>
+                <tr key={company.recordId} className={selected === company.recordId ? "selected" : ""}>
+                  <td><button className="company-name" onClick={() => setSelected(company.recordId)}>{company.name}</button><span className="table-sub">{company.product}</span></td>
                   <td><span className="sector-dot" style={{ background: sectorColor(company.sector) }} />{company.sector}<span className="table-sub">{company.layer} · {company.subsector}</span></td>
                   <td>{company.hq || "Inconnu"}<span className="table-sub">{company.status} · {company.stage || "stade non public"}</span></td>
                   <td><strong>{formatFunding(company.fundingUsdM, company.fundingDisplay)}</strong><span className="table-sub">{company.headcount || "Taille inconnue"}</span></td>
@@ -266,13 +283,21 @@ function CompanyExplorer() {
           </table>
           {!filtered.length && <div className="empty-state"><strong>Aucun résultat</strong><p>Élargis les filtres ou réinitialise la recherche.</p></div>}
         </div>
-        {selectedCompany && <CompanyDetail company={selectedCompany} onClose={() => setSelected(null)} />}
+        {selectedCompany && (
+          <CompanyDetail
+            company={selectedCompany}
+            note={personalNotes[selectedCompany.recordId] ?? ""}
+            onNoteChange={(value) => onNoteChange(selectedCompany.recordId, value)}
+            onEdit={() => onEdit(selectedCompany.recordId)}
+            onClose={() => setSelected(null)}
+          />
+        )}
       </div>
     </section>
   );
 }
 
-function Landscape({ companies: rows, selected, onSelect }: { companies: Company[]; selected: string | null; onSelect: (name: string) => void }) {
+function Landscape({ companies: rows, selected, onSelect }: { companies: CompanyRecord[]; selected: string | null; onSelect: (recordId: string) => void }) {
   const visible = [...rows].sort((a, b) => (b.fundingUsdM ?? 0) - (a.fundingUsdM ?? 0)).slice(0, 80);
   const sectorCounts = [...rows.reduce((map, company) => map.set(company.sector, (map.get(company.sector) ?? 0) + 1), new Map<string, number>())]
     .sort((a, b) => b[1] - a[1]).slice(0, 8);
@@ -285,12 +310,12 @@ function Landscape({ companies: rows, selected, onSelect }: { companies: Company
           <span className="axis-label y">Intégration métier forte →</span>
           <div className="scatter" role="img" aria-label="Nuage de points des entreprises par profondeur technique et intégration métier">
             <span className="quadrant q1">Deep tech vertical</span><span className="quadrant q2">Distribution / workflow</span><span className="quadrant q3">Faible moat perçu</span><span className="quadrant q4">Infrastructure / research</span>
-            {visible.map((company, index) => {
+            {visible.map((company) => {
               const jitter = (hashIndex(company.name, 13) - 6) * 0.38;
               const size = Math.max(9, Math.min(34, 9 + Math.log10((company.fundingUsdM ?? 0) + 1) * 6));
               const left = Math.max(3, Math.min(97, ((company.technicalDepth - 1) / 4) * 88 + 6 + jitter));
               const bottom = Math.max(3, Math.min(97, ((company.verticalIntegration - 1) / 4) * 82 + 8 - jitter));
-              return <button key={`${company.name}-${index}`} className={`bubble ${selected === company.name ? "active" : ""}`} style={{ width: size, height: size, left: `${left}%`, bottom: `${bottom}%`, background: sectorColor(company.sector) }} title={`${company.name} · ${company.sector} · tech ${company.technicalDepth}/5 · métier ${company.verticalIntegration}/5`} onClick={() => onSelect(company.name)} aria-label={`Ouvrir ${company.name}`} />;
+              return <button key={company.recordId} className={`bubble ${selected === company.recordId ? "active" : ""}`} style={{ width: size, height: size, left: `${left}%`, bottom: `${bottom}%`, background: sectorColor(company.sector) }} title={`${company.name} · ${company.sector} · tech ${company.technicalDepth}/5 · métier ${company.verticalIntegration}/5`} onClick={() => onSelect(company.recordId)} aria-label={`Ouvrir ${company.name}`} />;
             })}
           </div>
           <span className="axis-label x">Profondeur technique forte →</span>
@@ -304,13 +329,26 @@ function Landscape({ companies: rows, selected, onSelect }: { companies: Company
   );
 }
 
-function CompanyDetail({ company, onClose }: { company: Company; onClose: () => void }) {
+function CompanyDetail({
+  company,
+  note,
+  onNoteChange,
+  onEdit,
+  onClose,
+}: {
+  company: CompanyRecord;
+  note: string;
+  onNoteChange: (value: string) => void;
+  onEdit: () => void;
+  onClose: () => void;
+}) {
   return (
     <aside className="company-detail">
       <button className="close-button" onClick={onClose} aria-label="Fermer la fiche">×</button>
       <span className="eyebrow">Fiche entreprise</span>
       <h3>{company.name}</h3>
       <a className="website-link" href={company.website} target="_blank" rel="noreferrer">Site officiel ↗</a>
+      <button className="detail-edit-button" onClick={onEdit}>Modifier cette fiche</button>
       <p className="detail-product">{company.product}</p>
       <div className="detail-scores"><ScorePill value={company.technicalDepth * 20} label="tech" /><ScorePill value={company.verticalIntegration * 20} label="métier" /><ScorePill value={company.moatStrength * 20} label="moat" /></div>
       <dl>
@@ -328,6 +366,7 @@ function CompanyDetail({ company, onClose }: { company: Company; onClose: () => 
       </dl>
       <div className="confidence-row"><span>Confiance de la fiche</span><strong className={`confidence ${company.confidence.toLowerCase()}`}>{company.confidence}</strong></div>
       <SourceLinks sources={company.sources} />
+      <PersonalNotesEditor value={note} onChange={onNoteChange} />
     </aside>
   );
 }
@@ -339,7 +378,7 @@ function TrendSection() {
   return (
     <section className="section alternate" id="tendances">
       <div className="section-heading">
-        <div><span className="section-number">02</span><span className="eyebrow">Market signals</span><h2>Les tendances qui déplacent la valeur</h2></div>
+        <div><span className="section-number">03</span><span className="eyebrow">Market signals</span><h2>Les tendances qui déplacent la valeur</h2></div>
         <p>Une tendance n’est pas une idée. Nous cherchons le mécanisme économique, le risque de commoditisation et l’endroit où un moat peut réellement se former.</p>
       </div>
       <div className="chip-row" aria-label="Filtrer les tendances">{categories.map((item) => <button className={category === item ? "active" : ""} key={item} onClick={() => setCategory(item)}>{item}</button>)}</div>
@@ -380,7 +419,7 @@ function IdeaSection() {
   return (
     <section className="section" id="idees">
       <div className="section-heading">
-        <div><span className="section-number">04</span><span className="eyebrow">Thesis backlog</span><h2>La banque d’idées à falsifier</h2></div>
+        <div><span className="section-number">05</span><span className="eyebrow">Thesis backlog</span><h2>La banque d’idées à falsifier</h2></div>
         <p>Reprise des explorations existantes, y compris les pistes faibles. Les scores sont des heuristiques de comparaison, jamais une preuve de marché.</p>
       </div>
       <div className="idea-matrix-note"><strong>Le quadrant recherché</strong><span>différenciation technique forte</span><b>×</b><span>intégration métier forte</span><b>×</b><span>distribution plausible</span><button className={dualMoatOnly ? "active" : ""} onClick={() => setDualMoatOnly(!dualMoatOnly)}>{dualMoatOnly ? "Voir toutes" : "Filtrer tech ≥70 & métier ≥80"}</button></div>
@@ -427,7 +466,7 @@ function MethodSection() {
   return (
     <section className="section methodology" id="methode">
       <div className="section-heading">
-        <div><span className="section-number">05</span><span className="eyebrow">Evidence discipline</span><h2>Comment lire et faire évoluer l’atlas</h2></div>
+        <div><span className="section-number">06</span><span className="eyebrow">Evidence discipline</span><h2>Comment lire et faire évoluer l’atlas</h2></div>
         <p>Le but n’est pas d’accumuler des logos. Le but est de distinguer faits, jugements et inconnues, puis de mettre à jour les thèses quand le marché change.</p>
       </div>
       <div className="method-grid">
@@ -439,7 +478,7 @@ function MethodSection() {
       <div className="method-bottom">
         <div><h3>Barème des moats</h3><ol><li>Feature copiable ou wrapper</li><li>Intégration utile mais faible lock-in</li><li>Data/workflow ou techno différenciée</li><li>Flywheel, infra complexe ou distribution forte</li><li>Avantage cumulatif rare et prouvé</li></ol></div>
         <div><h3>Règles de prudence</h3><ul><li>Sources primaires privilégiées; presse/investment databases en corroboration.</li><li>Aucun TAM inventé; aucun montant additionné sans préciser le périmètre.</li><li>Aucune donnée, benchmark, roadmap ou relation confidentielle NVIDIA.</li><li>Toute idée adjacente à l’emploi exige une revue conflit d’intérêts/IP indépendante.</li></ul></div>
-        <div className="known-gaps"><span className="eyebrow">Known gaps</span><h3>Ce que cette version ne sait pas encore</h3><p>79 fiches reposent uniquement sur des domaines de l’entreprise : une annonce est sourcée, pas auditée. ARR, churn, qualité produit et economics des pilotes exigent désormais des entretiens buyers et anciens clients.</p></div>
+        <div className="known-gaps"><span className="eyebrow">Known gaps</span><h3>Ce que cette version ne sait pas encore</h3><p>Certaines fiches reposent uniquement sur des domaines de l’entreprise : une annonce est sourcée, pas auditée. ARR, churn, qualité produit et economics des pilotes exigent désormais des entretiens buyers et anciens clients.</p></div>
       </div>
     </section>
   );
@@ -449,7 +488,7 @@ function CapitalSection() {
   return (
     <section className="section capital-section" id="capital">
       <div className="section-heading">
-        <div><span className="section-number">03</span><span className="eyebrow">Funding ecosystem</span><h2>Ce qui lève — et ce que les chiffres cachent</h2></div>
+        <div><span className="section-number">04</span><span className="eyebrow">Funding ecosystem</span><h2>Ce qui lève — et ce que les chiffres cachent</h2></div>
         <p>Le capital IA est abondant en agrégé et extrêmement concentré. La bonne lecture n’est pas « quel secteur lève ? », mais « quelle preuve réduit un risque que les investisseurs ne peuvent pas underwriting seuls ? »</p>
       </div>
       <div className="capital-warning"><strong>Lecture critique</strong><p>En 2025, le deal médian IA était de $5M alors que 73 % de la valeur allait aux tours supérieurs à $100M. Une poignée de model labs et d’acteurs compute déforme donc fortement la perception de facilité.</p><a href="https://www.oecd.org/en/publications/venture-capital-investments-in-artificial-intelligence-through-2025_a13752f5-en/full-report.html" target="_blank" rel="noreferrer">Voir la méthodologie OCDE ↗</a></div>
@@ -466,11 +505,49 @@ function CapitalSection() {
 }
 
 export default function Home() {
+  const workspace = useCompanyWorkspace(baseCompanies);
+  const [editingRecordId, setEditingRecordId] = useState<string | null>(null);
+  const editingRecord = workspace.records.find((record) => record.recordId === editingRecordId) ?? null;
+
+  const startEditing = (recordId: string) => {
+    setEditingRecordId(recordId);
+    window.requestAnimationFrame(() => document.getElementById("editeur")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+  };
+
   return (
     <main>
       <Header />
-      <Hero />
-      <CompanyExplorer />
+      <Hero companies={workspace.records} />
+      <CompanyExplorer
+        companies={workspace.records}
+        personalNotes={workspace.personalNotes}
+        onNoteChange={workspace.setPersonalNote}
+        onEdit={startEditing}
+      />
+      <CompanyEditorSection
+        key={editingRecord?.recordId ?? "new-company"}
+        records={workspace.records}
+        editingRecord={editingRecord}
+        overrideIds={workspace.overrideIds}
+        addedCount={workspace.addedCount}
+        notesCount={workspace.notesCount}
+        hydrated={workspace.hydrated}
+        onAdd={workspace.addCompany}
+        onSave={workspace.saveCompany}
+        onCancelEdit={() => setEditingRecordId(null)}
+        onEdit={startEditing}
+        onRevert={workspace.revertCompany}
+        onRemove={(recordId) => {
+          workspace.removeAddedCompany(recordId);
+          if (editingRecordId === recordId) setEditingRecordId(null);
+        }}
+        onExport={workspace.exportWorkspace}
+        onImport={workspace.importWorkspace}
+        onReset={() => {
+          workspace.resetWorkspace();
+          setEditingRecordId(null);
+        }}
+      />
       <TrendSection />
       <CapitalSection />
       <IdeaSection />

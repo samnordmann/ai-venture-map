@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Etched",
+    "website": "https://www.etched.com/",
+    "hq": "San Jose, California, United States",
+    "founded": 2022,
+    "stage": "Growth",
+    "sector": "Semiconductors, hardware & edge",
+    "subsector": "Vertically integrated rack-scale AI inference clusters",
+    "layer": "Hardware",
+    "product": "Frontier inference clusters co-designed across accelerator chips, packages, racks, interconnects, memory, cooling, software, and manufacturing for both prefill and decode workloads.",
+    "targetCustomer": "Frontier-model developers, hyperscalers, AI cloud providers, and very large inference operators",
+    "buyer": "Chief infrastructure officer, VP of AI infrastructure, or data-center systems architect",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Inference accelerator ASIC",
+      "Low-voltage compute architecture",
+      "HBM/SRAM cluster-scale memory",
+      "Proprietary scale-up interconnect",
+      "Compiler and inference software"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure",
+      "Workflow integration"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 800,
+    "fundingDisplay": "$800M total publicly announced funding",
+    "fundingAsOf": "2026-06-30",
+    "latestRound": "$500M financing closed December 2025 and disclosed June 2026",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-06-30",
+    "investors": [
+      "VentureTech Alliance",
+      "Peter Thiel",
+      "Jane Street",
+      "Hudson River Trading",
+      "Jump Trading",
+      "Two Sigma",
+      "Stripes",
+      "Ribbit Capital",
+      "Radical Ventures",
+      "Primary Venture Partners",
+      "Positive Sum"
+    ],
+    "traction": "Etched reports successful first-pass A0 silicon on TSMC N4P, more than $1B in signed customer contracts, customer validation of its first rack-scale product, and initial rack shipments planned for summer 2026; these are company-reported contracts and milestones, not audited revenue or evidence of sustained production yield.",
+    "confidence": "High",
+    "notes": "Fact: Etched reports more than 400 employees, four financing rounds, a Taiwan factory, and production ramp-up. Inference: full-stack co-design and manufacturing execution create a materially stronger barrier than a standalone accelerator design. Unknown: customer identities, contract conditions, realized revenue, volume yield, unit economics, and independently reproduced performance. The principal risks are leading-edge foundry and HBM dependence, an extremely capital-intensive ramp, incumbent software ecosystems, and model-architecture shifts that could erode specialization benefits.",
+    "sources": [
+      {
+        "label": "Etched product, architecture, team, contracts, and production overview",
+        "url": "https://www.etched.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Etched financing and first-silicon announcement",
+        "url": "https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html",
+        "type": "primary"
+      },
+      {
+        "label": "Etched LinkedIn company and workforce profile",
+        "url": "https://www.linkedin.com/company/etched-ai",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "1001 AI",
+    "website": "https://1001.ai/",
+    "hq": "Dubai, United Arab Emirates and London, United Kingdom",
+    "founded": 2025,
+    "stage": "Series A",
+    "sector": "Industrial AI, robotics & supply chain",
+    "subsector": "Sovereign operational AI for GCC critical infrastructure",
+    "layer": "Vertical application",
+    "product": "A sovereign operational-intelligence platform that unifies live data, systems, workflows, assets, and constraints to predict bottlenecks and recommend or execute actions in construction, ports, energy, airports, logistics, and industrial operations.",
+    "targetCustomer": "Large GCC owners and operators of critical physical infrastructure",
+    "buyer": "COO, chief digital or data officer, VP of operations, or public-infrastructure executive",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic AI",
+      "Operational digital twins",
+      "Predictive modeling",
+      "Decision optimization",
+      "Real-time data integration"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 39,
+    "fundingDisplay": "$39M publicly announced across a $9M seed and $30M Series A",
+    "fundingAsOf": "2026-06-30",
+    "latestRound": "$30M Series A led by Lux Capital, June 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Lux Capital",
+      "General Catalyst",
+      "CIV",
+      "Sanabil Investments",
+      "9Yards Capital",
+      "Hanabi Capital",
+      "Chris Re"
+    ],
+    "traction": "The company and investors say 1001 is deployed in live operations with leading GCC institutions, but no customer, contract value, revenue, or measured operational outcome has been publicly identified. The team publicly lists 13 associated employees while LinkedIn's self-reported size band remains 2-10.",
+    "confidence": "Medium",
+    "notes": "Fact: the company raised $39M within roughly eight months and describes a platform-plus-embedded-engineering delivery model sold on measurable outcomes. Inference: sovereignty, local governance, data residency, and deep integration can be a meaningful wedge in GCC critical infrastructure, where generic SaaS is often insufficient. Unknown: named deployments, architecture, model ownership, data rights, contract repeatability, gross margin, safety validation, and whether outcome-based deployments scale beyond services-heavy delivery. Long procurement cycles, state-linked distribution, operational liability, cybersecurity, and country-specific data rules are material risks.",
+    "sources": [
+      {
+        "label": "1001 product and vertical solutions",
+        "url": "https://1001.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "1001 company announcement of $30M Series A",
+        "url": "https://www.linkedin.com/posts/ai-1001_today-were-announcing-1001s-30m-series-activity-7477612113914585090-3_YV",
+        "type": "primary"
+      },
+      {
+        "label": "1001 $9M seed announcement and operating model",
+        "url": "https://www.wamda.com/en/2025/10/1001-ai-closes-9-million-seed-round-accelerate-gcc-landing",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "1001 Series A terms and embedded deployment model",
+        "url": "https://www.sahmcapital.com/news/content/zawya-pressr-sanabil-joins-lux-capital-to-back-30mln-series-a-in-1001-2026-06-30",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "1001 LinkedIn company and workforce profile",
+        "url": "https://www.linkedin.com/company/ai-1001",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Z.ai (Zhipu AI)",
+    "website": "https://z.ai/",
+    "hq": "Beijing, China",
+    "founded": 2019,
+    "stage": "Public",
+    "sector": "Foundation models & research",
+    "subsector": "GLM foundation models, MaaS, coding products, and enterprise agents",
+    "layer": "Foundation model",
+    "product": "The GLM family of open and proprietary language, coding, reasoning, and multimodal models, delivered through consumer products, subscriptions, APIs and MaaS, enterprise agents, and private on-premises deployments.",
+    "targetCustomer": "Developers, enterprises, government organizations, and consumers in China and international markets",
+    "buyer": "CIO, CTO, AI platform leader, software engineering leader, or individual developer",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "General-purpose large language models",
+      "Mixture-of-experts models",
+      "Multimodal models",
+      "Long-context reasoning",
+      "Coding and long-horizon agents",
+      "Model-as-a-service"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Infrastructure",
+      "Workflow integration",
+      "Distribution",
+      "Regulatory"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "HK$4.896B net IPO proceeds; lifetime pre-IPO funding is not consolidated here",
+    "fundingAsOf": "2026-04-19",
+    "latestRound": "Hong Kong IPO on January 8, 2026 (HKEX: 2513)",
+    "headcount": "1,001-5,000",
+    "headcountAsOf": "2025-12-31",
+    "investors": [
+      "Alibaba",
+      "Tencent",
+      "Meituan",
+      "Ant Group",
+      "Legend Capital",
+      "Prosperity7 Ventures"
+    ],
+    "traction": "Audited FY2025 revenue was RMB724.3M versus RMB312.4M in 2024; the annual report records 1,094 permanent employees, 242,000 paying GLM Coding Plan developers, and more than 4M MaaS-platform users by March 2026. The same filing reports a RMB4.718B FY2025 net loss.",
+    "confidence": "High",
+    "notes": "Fact: Z.ai is a listed, vertically integrated model company with 73.7% of FY2025 revenue coming from on-premises deployment; GLM-5.2 was announced with a one-million-token context window and MIT-licensed release. Inference: research cadence, Chinese enterprise deployment, local chip adaptation, and regulatory fit can be defensible domestically. Unknown: durable international retention, independently verified frontier-model quality, economics after compute costs, and the long-term mix between standardized API revenue and delivery-heavy on-premises projects. Dependence on third-party compute, large losses, China content and data rules, export controls, and cross-border procurement restrictions are material risks.",
+    "sources": [
+      {
+        "label": "Knowledge Atlas Technology 2025 audited annual report",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0419/2026041900085.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "HKEX announcement of GLM-5.2",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500277.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "HKEX IPO offer price, allocation, and initial net proceeds",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0107/2026010701798.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "Knowledge Atlas Technology IPO prospectus",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000017.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "Z.ai model and API documentation",
+        "url": "https://docs.z.ai/guides/overview/overview",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Prosper AI",
+    "website": "https://www.getprosper.ai/",
+    "hq": "New York, New York, United States",
+    "founded": 2023,
+    "stage": "Series A",
+    "sector": "Healthcare & life sciences",
+    "subsector": "Healthcare voice agents for patient access and revenue-cycle management",
+    "layer": "Vertical application",
+    "product": "Healthcare-specialized voice agents that handle patient and payer calls across scheduling, eligibility and benefit verification, prior authorization, billing, collections, and related workflows while reading from and writing to EHR and practice-management systems.",
+    "targetCustomer": "Outpatient specialty groups, hospitals and health systems, revenue-cycle companies, EHR vendors, payers, and pharmaceutical organizations",
+    "buyer": "COO, CFO, VP of patient access, VP of revenue-cycle management, or healthcare-technology product executive",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Generative voice AI",
+      "LLM agents",
+      "Speech recognition and synthesis",
+      "Healthcare workflow orchestration",
+      "Portal and browser automation",
+      "Human escalation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 35,
+    "fundingDisplay": "$35M publicly announced across a $5M seed and $30M Series A",
+    "fundingAsOf": "2026-06-22",
+    "latestRound": "$30M Series A led by Andreessen Horowitz, June 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Andreessen Horowitz",
+      "Base10 Partners",
+      "Emergence Capital",
+      "Y Combinator",
+      "CRV",
+      "Company Ventures"
+    ],
+    "traction": "Prosper reports 60+ healthcare organizations, coverage across more than 150,000 providers, more than $1.3B in patient care coordinated, 5x revenue growth in the six months before its Series A, and channel deployments with athenahealth and ImagineSoftware; these operating metrics are company and investor claims rather than audited disclosures.",
+    "confidence": "High",
+    "notes": "Fact: Prosper expanded from phone-point tasks into an end-to-end patient-access and revenue-cycle workflow spanning patients and payers, with more than 80 integrations and channel distribution through EHR and RCM vendors. Inference: healthcare-specific workflow blueprints, integration depth, accumulated exception data, and channel partnerships are more defensible than generic voice quality alone. Unknown: recurring revenue, gross margin after telephony and model costs, net retention, automation quality by workflow, human-review burden, and independently audited outcomes. HIPAA and PHI safeguards, TCPA consent, call recording, patient disclosure, model errors, payer policy changes, and clinical escalation boundaries are material risks.",
+    "sources": [
+      {
+        "label": "Prosper product, use cases, integrations, and customer claims",
+        "url": "https://www.getprosper.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Prosper $5M seed announcement",
+        "url": "https://www.globenewswire.com/news-release/2025/09/23/3154716/0/en/prosper-ai-raises-5m-to-be-the-default-voice-ai-platform-for-healthcare-s-450b-admin-crisis.html",
+        "type": "primary"
+      },
+      {
+        "label": "Prosper $30M Series A and traction announcement",
+        "url": "https://www.globenewswire.com/news-release/2026/06/22/3315343/0/en/prosper-ai-raises-30m-from-andreessen-horowitz-to-scale-the-first-ai-platform-to-run-the-entire-patient-journey.html",
+        "type": "primary"
+      },
+      {
+        "label": "Andreessen Horowitz investment thesis for Prosper",
+        "url": "https://a16z.com/announcement/investing-in-prosper-ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Prosper LinkedIn company and workforce profile",
+        "url": "https://www.linkedin.com/company/prospertechnologies",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Prosper Y Combinator profile",
+        "url": "https://www.ycombinator.com/companies/prosper",
+        "type": "primary"
+      }
+    ]
+  }
+]

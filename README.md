@@ -4,14 +4,29 @@ Site de recherche partagé pour cartographier l’écosystème des entreprises I
 
 ## Contenu
 
-- cartographie de 254 entreprises, 14 macro-secteurs et 888 liens, filtrable et exportable en CSV ;
+- cartographie de 266 entreprises, 14 macro-secteurs et 953 liens, filtrable et exportable en CSV ;
 - visualisation `profondeur technique × intégration métier` ;
+- éditeur local pour ajouter/modifier/restaurer des fiches, notes personnelles par entreprise et import/export JSON ;
 - 15 tendances sourcées dans 9 familles ;
 - lecture critique de l’écosystème de financement et 19 investisseurs/accélérateurs ;
 - banque de 30 idées issue des explorations précédentes ;
 - méthodologie séparant faits, inférences et inconnues.
 
 Les sources sont publiques. Aucune information confidentielle NVIDIA n’est utilisée.
+
+## Éditeur et notes
+
+L’onglet **Éditeur** sauvegarde automatiquement les ajouts, modifications et notes dans le `localStorage` du navigateur. Ces données sont privées à ce navigateur : elles ne sont pas synchronisées entre collaborateurs et ne partent pas dans l’export CSV. L’export/import JSON sert de sauvegarde et de revue manuelle tant qu’un backend authentifié n’est pas connecté.
+
+## Version statique
+
+Le site peut désormais être exporté sans serveur :
+
+```bash
+npm run static:build
+```
+
+Le dossier `out/` contient le site HTML/CSS/JavaScript à publier sur n’importe quel hébergeur statique. Le workflow GitHub Pages est prêt dans `.github/workflows/deploy-static.yml` : il suffit d’activer **Settings → Pages → GitHub Actions** dans le dépôt. Les entrées et notes restent locales à chaque navigateur ; l’export statique ne crée pas d’édition collaborative.
 
 ## Développement
 

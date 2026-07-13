@@ -1,0 +1,307 @@
+[
+  {
+    "name": "Norm AI",
+    "website": "https://www.norm.ai/",
+    "hq": "New York, USA",
+    "founded": 2023,
+    "stage": "Growth",
+    "sector": "Compliance",
+    "subsector": "Agentic law, regulatory compliance and supervised legal services",
+    "layer": "AI-native service",
+    "product": "Builds attorney-engineered legal and compliance agents, an inline supervisory layer for enterprise AI, and supplies the technology used by affiliated AI-native law firm Norm Law.",
+    "targetCustomer": "Regulated financial institutions, asset managers, insurers and large enterprises",
+    "buyer": "General counsel, chief compliance officer, chief risk officer or enterprise AI governance leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "LLM",
+      "Agentic AI",
+      "Supervisory AI",
+      "Domain-specific language",
+      "Legal reasoning benchmarks"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 260,
+    "fundingDisplay": ">$260M publicly announced funding",
+    "fundingAsOf": "2026-07-07",
+    "latestRound": "$120M Series C at a $1.2B valuation, Jul 2026",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Khosla Ventures",
+      "Blackstone",
+      "Bain Capital Ventures",
+      "Craft Ventures",
+      "Coatue",
+      "Vanguard",
+      "New York Life",
+      "TIAA",
+      "Citi Ventures",
+      "Fenwick"
+    ],
+    "traction": "Norm reports clients representing more than $30T in aggregate assets under management; this is client AUM, not Norm revenue, and the number of clients and ARR are not disclosed.",
+    "confidence": "High",
+    "notes": "This is materially broader than a generic legal copilot: Norm combines a regulatory domain-specific language, attorney-built agents, legal-reasoning research, API/MCP/OpenTelemetry supervision and an affiliated law firm with outcome-based pricing. The law-firm feedback loop and embedded legal expertise are plausible moats, but regulated-service delivery, conflicts, human review and margins are structural constraints. Funding is a company-reported lower bound (> $260M). LinkedIn exposed roughly 204-205 associated profiles while its configured company-size band still showed 51-200; the atlas therefore stores the profile-derived 201-500 range with lower confidence than the other fields.",
+    "sources": [
+      {
+        "label": "Norm AI Series C, funding total, investors and client AUM, Jul 2026",
+        "url": "https://www.norm.ai/resources/norm-ai-raises-20-million-at-a-1-2-billion-valuation",
+        "type": "primary"
+      },
+      {
+        "label": "Norm AI technology, legal engineering and AI-native law-firm model",
+        "url": "https://www.norm.ai/technology",
+        "type": "primary"
+      },
+      {
+        "label": "Norm Supervisory AI architecture and enterprise integrations",
+        "url": "https://www.norm.ai/supervisory-ai",
+        "type": "primary"
+      },
+      {
+        "label": "Norm AI company timeline and funding milestones",
+        "url": "https://www.norm.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Norm AI LinkedIn headcount and headquarters profile",
+        "url": "https://www.linkedin.com/company/normative-ai/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Tangos AI",
+    "website": "https://tangos.ai/",
+    "hq": "Tel Aviv, Israel",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Compliance",
+    "subsector": "Autonomous financial-crime, sanctions and risk investigations",
+    "layer": "AI-native service",
+    "product": "Runs end-to-end AML, sanctions, fraud, enhanced-due-diligence and intelligence investigations from an escalated alert to a source-traced, examiner-ready case file.",
+    "targetCustomer": "Banks, fintechs, payment providers, government agencies and intelligence organizations",
+    "buyer": "Chief compliance officer, MLRO, head of financial-crime investigations or government intelligence leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic AI",
+      "Domain-specific models",
+      "Graph and network analysis",
+      "Multilingual retrieval",
+      "Evidence-grounded reasoning"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 20,
+    "fundingDisplay": "$20M total publicly announced funding",
+    "fundingAsOf": "2026-07-07",
+    "latestRound": "$20M seed, Jul 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Red Dot Capital Partners",
+      "Leaders Fund",
+      "Clarim Ventures",
+      "VentureIsrael",
+      "SignalFire",
+      "Clutch Capital",
+      "Selah Ventures",
+      "Bright Data"
+    ],
+    "traction": "The company says it is already supporting major financial institutions and intelligence organizations; its LinkedIn page more specifically says it is in production with a major U.S. fintech and international intelligence organizations, but customers, contract values and independently measured accuracy are not public.",
+    "confidence": "Medium",
+    "notes": "Tangos is not primarily another detection or alert-scoring product: its wedge is the expensive L2/L3 investigation work after an alert, using expert playbooks, hypothesis testing, counter-evidence, provenance and immutable audit trails. It supports cloud, private-cloud and air-gapped deployment and proposes proof-of-value comparisons on historical cases. That creates strong métier integration; the technical moat remains unproven until accuracy, false-positive/negative rates and production references can be independently audited. Funding and traction were announced only in Jul 2026, and most evidence is company-issued.",
+    "sources": [
+      {
+        "label": "Tangos $20M seed, investors, founding and product architecture, Jul 2026",
+        "url": "https://tangos.ai/press/tangos-raises-20-million-seed-round-to-scale-financial-crime-investigations-with-autonomous-ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Tangos platform, deployment modes and proof-of-value workflow",
+        "url": "https://tangos.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Tangos team and financial-crime domain expertise",
+        "url": "https://tangos.ai/about/",
+        "type": "primary"
+      },
+      {
+        "label": "Tangos LinkedIn headcount and production claims",
+        "url": "https://www.linkedin.com/company/tangos-ai/",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Calcalist corroboration of funding and approximately 20 employees",
+        "url": "https://www.calcalist.co.il/calcalistech/article/hkvpll5qfx",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Aligned",
+    "website": "https://alignedup.com/",
+    "hq": "New York, USA and Tel Aviv, Israel",
+    "founded": 2021,
+    "stage": "Series B",
+    "sector": "Horizontal enterprise AI",
+    "subsector": "AI-native B2B deal execution and digital sales rooms",
+    "layer": "Horizontal application",
+    "product": "Provides a shared buyer-seller deal workspace in which AI agents build deal rooms and assets, map stakeholders, interpret intent and risk, answer buyer questions and recommend or execute next steps.",
+    "targetCustomer": "B2B sales, revenue operations and customer-success teams running complex deals",
+    "buyer": "Chief revenue officer, VP Sales, head of revenue operations or customer-success leader",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "LLM",
+      "Agentic AI",
+      "Retrieval-augmented generation",
+      "Intent and engagement signals",
+      "Cross-system context synthesis"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 3,
+    "verticalIntegration": 5,
+    "fundingUsdM": 73.8,
+    "fundingDisplay": "$73.8M total funding",
+    "fundingAsOf": "2026-07-01",
+    "latestRound": "$60M Series B, Jul 2026",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-07-01",
+    "investors": [
+      "PeakSpan Capital",
+      "Hetz Ventures",
+      "JAL Ventures",
+      "NFX"
+    ],
+    "traction": "Aligned reports 70,000 sellers and 1M monthly buyers, customers including Deel, Similarweb and WordPress, and 3x ARR growth over the prior 12 months; the company does not disclose ARR, retention or customer concentration.",
+    "confidence": "High",
+    "notes": "The strongest moat thesis is not a novel base model but ownership of the buyer-facing transaction surface and its between-meeting activity data across calls, email, CRM and workspace engagement. This is meaningful workflow/data differentiation, though sales-tech competition is intense and the AI stack is not technically disclosed enough to establish model-level IP. The company release inconsistently refers to 70,000 sellers in its body and over 70,000 revenue teams in its boilerplate; this entry uses the narrower, internally consistent seller metric. CTech reported 55 employees and a small secondary component in the Series B; funding is recorded at the announced financing total without attempting to split that component.",
+    "sources": [
+      {
+        "label": "Company-issued $60M Series B, $73.8M total, investors, traction and Deal Brain description",
+        "url": "https://www.globenewswire.com/news-release/2026/07/01/3320495/0/en/aligned-closes-60m-series-b-to-solidify-leadership-position-as-the-system-of-action-for-b2b-sales.html",
+        "type": "primary"
+      },
+      {
+        "label": "Aligned product, AI agents, integrations and public pricing motion",
+        "url": "https://alignedup.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Aligned AI Deal Workspace launch and detailed capabilities",
+        "url": "https://www.prnewswire.com/news-releases/aligned-launches-the-ai-deal-workspace--the-missing-execution-layer-for-modern-sales-302684951.html",
+        "type": "primary"
+      },
+      {
+        "label": "CTech funding corroboration, founding year and 55-person headcount",
+        "url": "https://www.calcalistech.com/ctechnews/article/b1kmpvz7gx",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "LinqAlpha",
+    "website": "https://linqalpha.com/",
+    "hq": "New York, USA",
+    "founded": 2022,
+    "stage": "Series A",
+    "sector": "Finance",
+    "subsector": "AI-native institutional investment and global-markets research",
+    "layer": "Vertical application",
+    "product": "Provides institutional investors with specialized AI agents that connect market, filings, web and internal data, learn each team's investment framework and produce source-linked multi-step research across global public markets.",
+    "targetCustomer": "Hedge funds, asset managers, investment banks and institutional public-markets teams",
+    "buyer": "Head of investment research, CIO, portfolio manager or head of sell-side research and trading",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Multi-agent systems",
+      "Retrieval-augmented generation",
+      "Finance-specific embeddings",
+      "Multilingual information retrieval",
+      "Cross-model delegation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 28.6,
+    "fundingDisplay": "$28.6M disclosed funding, derived from a $6.6M seed plus $22M Series A",
+    "fundingAsOf": "2026-07-02",
+    "latestRound": "$22M Series A, Jul 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "AVP",
+      "Atinum Investment",
+      "GFT Ventures",
+      "InterVest",
+      "Techstars",
+      "Kakao Ventures",
+      "Smilegate Investment",
+      "Yellowdog",
+      "SBI Investment",
+      "Z Venture Capital",
+      "NuVentures"
+    ],
+    "traction": "LinqAlpha reports more than 70 financial-institution clients across the U.S., Europe and Asia, including Causeway Capital Management and Schonfeld, with its buy-side customers managing more than $5T in aggregate assets; a founder separately reported 30% month-over-month growth, but ARR is not disclosed.",
+    "confidence": "High",
+    "notes": "The initial user label is accurate but underspecified: LinqAlpha is vertical institutional-finance software, not a generic web research assistant. Its technical differentiation includes finance-specific retrieval and embedding research, multilingual/global source coverage, cross-model delegation and fully source-linked outputs; its business integration spans market data, filings, internal documents and reusable analyst workflows. The moat is not yet proven against Bloomberg, FactSet, AlphaSense and bank-built tooling because LinqAlpha licenses or connects much of the underlying data and has only 70+ disclosed institutions. The $28.6M total is an arithmetic sum of two separately announced equity rounds, not a company-stated lifetime total.",
+    "sources": [
+      {
+        "label": "LinqAlpha $22M Series A, investors, 70+ institutions and $5T client AUM",
+        "url": "https://linqalpha.com/blog/linqalpha-raises-22-million-to-build-the-alpha-intelligence-layer-for-global-public-markets",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha $6.6M seed, investors and early enterprise traction",
+        "url": "https://linqalpha.com/blog/linqalpha-raises-6-6m-seed-round-to-accelerate-ai-copilot-for-financial-analysts",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha Terminal data coverage, workflow and source-linked agent capabilities",
+        "url": "https://linqalpha.com/terminal",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha technical blog and finance-specific retrieval research",
+        "url": "https://linqalpha.com/blog",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha LinkedIn founding, headquarters and 11-50 headcount band",
+        "url": "https://www.linkedin.com/company/linqalpha/",
+        "type": "credible-secondary"
+      }
+    ]
+  }
+]

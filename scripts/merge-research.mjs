@@ -6,7 +6,7 @@ const incoming = path.join(root, "research", "incoming");
 const output = path.join(root, "app", "data", "companies.json");
 
 const files = (await readdir(incoming))
-  .filter((file) => file.endsWith(".json") && /^\d{2}-/.test(file))
+  .filter((file) => file.endsWith(".json") && /^\d{2}[a-z]?-/.test(file))
   .sort();
 
 const normalize = (name) => name.toLowerCase().replace(/[^a-z0-9]/g, "");

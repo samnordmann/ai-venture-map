@@ -1,5 +1,82 @@
 [
   {
+    "name": "1001 AI",
+    "website": "https://1001.ai/",
+    "hq": "Dubai, United Arab Emirates and London, United Kingdom",
+    "founded": 2025,
+    "stage": "Series A",
+    "sector": "Industrial AI, robotics & supply chain",
+    "subsector": "Sovereign operational AI for GCC critical infrastructure",
+    "layer": "Vertical application",
+    "product": "A sovereign operational-intelligence platform that unifies live data, systems, workflows, assets, and constraints to predict bottlenecks and recommend or execute actions in construction, ports, energy, airports, logistics, and industrial operations.",
+    "targetCustomer": "Large GCC owners and operators of critical physical infrastructure",
+    "buyer": "COO, chief digital or data officer, VP of operations, or public-infrastructure executive",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic AI",
+      "Operational digital twins",
+      "Predictive modeling",
+      "Decision optimization",
+      "Real-time data integration"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 39,
+    "fundingDisplay": "$39M publicly announced across a $9M seed and $30M Series A",
+    "fundingAsOf": "2026-06-30",
+    "latestRound": "$30M Series A led by Lux Capital, June 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Lux Capital",
+      "General Catalyst",
+      "CIV",
+      "Sanabil Investments",
+      "9Yards Capital",
+      "Hanabi Capital",
+      "Chris Re"
+    ],
+    "traction": "The company and investors say 1001 is deployed in live operations with leading GCC institutions, but no customer, contract value, revenue, or measured operational outcome has been publicly identified. The team publicly lists 13 associated employees while LinkedIn's self-reported size band remains 2-10.",
+    "confidence": "Medium",
+    "notes": "Fact: the company raised $39M within roughly eight months and describes a platform-plus-embedded-engineering delivery model sold on measurable outcomes. Inference: sovereignty, local governance, data residency, and deep integration can be a meaningful wedge in GCC critical infrastructure, where generic SaaS is often insufficient. Unknown: named deployments, architecture, model ownership, data rights, contract repeatability, gross margin, safety validation, and whether outcome-based deployments scale beyond services-heavy delivery. Long procurement cycles, state-linked distribution, operational liability, cybersecurity, and country-specific data rules are material risks.",
+    "sources": [
+      {
+        "label": "1001 product and vertical solutions",
+        "url": "https://1001.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "1001 company announcement of $30M Series A",
+        "url": "https://www.linkedin.com/posts/ai-1001_today-were-announcing-1001s-30m-series-activity-7477612113914585090-3_YV",
+        "type": "primary"
+      },
+      {
+        "label": "1001 $9M seed announcement and operating model",
+        "url": "https://www.wamda.com/en/2025/10/1001-ai-closes-9-million-seed-round-accelerate-gcc-landing",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "1001 Series A terms and embedded deployment model",
+        "url": "https://www.sahmcapital.com/news/content/zawya-pressr-sanabil-joins-lux-capital-to-back-30mln-series-a-in-1001-2026-06-30",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "1001 LinkedIn company and workforce profile",
+        "url": "https://www.linkedin.com/company/ai-1001",
+        "type": "credible-secondary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
     "name": "Abridge",
     "website": "https://www.abridge.com",
     "hq": "Pittsburgh, United States",
@@ -462,6 +539,75 @@
         "label": "Akur8 Guidewire PolicyCenter pricing deployment integration",
         "url": "https://www.akur8.com/news/akur8-accelerator-for-ai-powered-pricing",
         "type": "primary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
+    "name": "Aligned",
+    "website": "https://alignedup.com/",
+    "hq": "New York, United States and Tel Aviv, Israel",
+    "founded": 2021,
+    "stage": "Series B",
+    "sector": "Horizontal enterprise software",
+    "subsector": "AI-native B2B deal execution and digital sales rooms",
+    "layer": "Horizontal application",
+    "product": "Provides a shared buyer-seller deal workspace in which AI agents build deal rooms and assets, map stakeholders, interpret intent and risk, answer buyer questions and recommend or execute next steps.",
+    "targetCustomer": "B2B sales, revenue operations and customer-success teams running complex deals",
+    "buyer": "Chief revenue officer, VP Sales, head of revenue operations or customer-success leader",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "LLM",
+      "Agentic AI",
+      "Retrieval-augmented generation",
+      "Intent and engagement signals",
+      "Cross-system context synthesis"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 3,
+    "verticalIntegration": 5,
+    "fundingUsdM": 73.8,
+    "fundingDisplay": "$73.8M total funding",
+    "fundingAsOf": "2026-07-01",
+    "latestRound": "$60M Series B, Jul 2026",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-07-01",
+    "investors": [
+      "PeakSpan Capital",
+      "Hetz Ventures",
+      "JAL Ventures",
+      "NFX"
+    ],
+    "traction": "Aligned reports 70,000 sellers and 1M monthly buyers, customers including Deel, Similarweb and WordPress, and 3x ARR growth over the prior 12 months; the company does not disclose ARR, retention or customer concentration.",
+    "confidence": "High",
+    "notes": "The strongest moat thesis is not a novel base model but ownership of the buyer-facing transaction surface and its between-meeting activity data across calls, email, CRM and workspace engagement. This is meaningful workflow/data differentiation, though sales-tech competition is intense and the AI stack is not technically disclosed enough to establish model-level IP. The company release inconsistently refers to 70,000 sellers in its body and over 70,000 revenue teams in its boilerplate; this entry uses the narrower, internally consistent seller metric. CTech reported 55 employees and a small secondary component in the Series B; funding is recorded at the announced financing total without attempting to split that component.",
+    "sources": [
+      {
+        "label": "Company-issued $60M Series B, $73.8M total, investors, traction and Deal Brain description",
+        "url": "https://www.globenewswire.com/news-release/2026/07/01/3320495/0/en/aligned-closes-60m-series-b-to-solidify-leadership-position-as-the-system-of-action-for-b2b-sales.html",
+        "type": "primary"
+      },
+      {
+        "label": "Aligned product, AI agents, integrations and public pricing motion",
+        "url": "https://alignedup.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Aligned AI Deal Workspace launch and detailed capabilities",
+        "url": "https://www.prnewswire.com/news-releases/aligned-launches-the-ai-deal-workspace--the-missing-execution-layer-for-modern-sales-302684951.html",
+        "type": "primary"
+      },
+      {
+        "label": "CTech funding corroboration, founding year and 55-person headcount",
+        "url": "https://www.calcalistech.com/ctechnews/article/b1kmpvz7gx",
+        "type": "credible-secondary"
       }
     ],
     "status": "Privée indépendante"
@@ -1036,6 +1182,77 @@
         "label": "Aqemia company news",
         "url": "https://aqemia.com/news/page/2",
         "type": "primary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
+    "name": "Arga Labs",
+    "website": "https://www.argalabs.com/",
+    "hq": "San Francisco, United States",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Developer tools & agents",
+    "subsector": "Production-like sandboxes and digital twins for testing AI agents and software",
+    "layer": "Developer tool",
+    "product": "Creates isolated, resettable environments containing API, MCP and CLI-compatible twins of third-party services so applications and agents can run cross-system workflows, generate scenarios, capture traces and compare outcomes without production side effects.",
+    "targetCustomer": "Software and AI teams shipping agents or applications that act across external services",
+    "buyer": "Head of AI engineering, platform engineering leader, developer-productivity leader or application-security leader",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Agentic test planning",
+      "Stateful digital twins",
+      "Natural-language scenario generation",
+      "Semantic test abstraction",
+      "Sandbox orchestration and replay"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Infrastructure",
+      "Workflow integration"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 3,
+    "fundingUsdM": null,
+    "fundingDisplay": "Y Combinator Spring 2026; funding amount not publicly disclosed",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; amount not publicly disclosed",
+    "headcount": "4 (YC directory)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator",
+      "Comma Capital"
+    ],
+    "traction": "Arga has a live self-serve free plan, a team plan and a paid enterprise motion. Its YC profile says limited features are publicly available; its LinkedIn page says it has onboarded Seed-to-Series-B customers and caught production integration bugs, but names no customer and publishes no revenue, retention, fidelity benchmark or workload volume.",
+    "confidence": "Medium",
+    "notes": "The product is materially more than a generic agent-evaluation dashboard: it attempts to own the execution environment through stateful third-party-service twins, per-PR sandboxes, traces and production-informed scenarios. The defensible asset could become breadth and behavioral fidelity of the twin library plus accumulated failure scenarios. That moat is unproven and expensive to maintain as external APIs evolve; cloud sandboxes, browser-testing platforms and model-lab simulators can converge on the same layer. Documentation says agent/security testing is in private beta, so it should not be treated as broadly production-ready. Claims about thousands of parallel instances, customers and caught bugs are company-issued, not independently audited; use of scoped production data also creates security and privacy risk.",
+    "sources": [
+      {
+        "label": "Arga Labs product, supported twins, sandbox workflow and positioning",
+        "url": "https://www.argalabs.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Arga documentation: architecture, validation modes and production-informed scenarios",
+        "url": "https://docs.argalabs.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Arga plans, self-serve limits and paid go-to-market",
+        "url": "https://docs.argalabs.com/plans",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator directory: Spring 2026 batch, founders, team size and launch claims",
+        "url": "https://www.ycombinator.com/companies/arga-labs",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Arga Labs LinkedIn: employee band, Comma Capital backing and early-customer claims",
+        "url": "https://www.linkedin.com/company/arga-labs",
+        "type": "credible-secondary"
       }
     ],
     "status": "Privée indépendante"
@@ -4792,57 +5009,79 @@
   },
   {
     "name": "Etched",
-    "website": "https://etched.com/",
+    "website": "https://www.etched.com/",
     "hq": "San Jose, California, United States",
     "founded": 2022,
     "stage": "Growth",
     "sector": "Semiconductors, hardware & edge",
-    "subsector": "Transformer-specific inference ASICs",
+    "subsector": "Vertically integrated rack-scale AI inference clusters",
     "layer": "Hardware",
-    "product": "Sohu transformer-specific ASICs and rack-scale inference systems optimized for transformer workloads.",
-    "targetCustomer": "Frontier model labs, inference-cloud providers, hyperscalers, and quantitative trading firms",
-    "buyer": "Chief infrastructure officer, VP AI infrastructure, or data-center architect",
+    "product": "Frontier inference clusters co-designed across accelerator chips, packages, racks, interconnects, memory, cooling, software, and manufacturing for both prefill and decode workloads.",
+    "targetCustomer": "Frontier-model developers, hyperscalers, AI cloud providers, and very large inference operators",
+    "buyer": "Chief infrastructure officer, VP of AI infrastructure, or data-center systems architect",
     "gtm": "Enterprise sales",
     "aiTech": [
       "Transformer ASIC",
       "Rack-scale inference",
       "Compiler",
-      "LLM serving"
+      "LLM serving",
+      "Inference accelerator ASIC",
+      "Low-voltage compute architecture",
+      "HBM/SRAM cluster-scale memory",
+      "Proprietary scale-up interconnect",
+      "Compiler and inference software"
     ],
     "deployment": "Hardware",
     "differentiators": [
       "Hardware",
-      "Technical"
+      "Technical",
+      "Infrastructure",
+      "Workflow integration"
     ],
-    "moatStrength": 3,
+    "moatStrength": 4,
     "technicalDepth": 5,
     "verticalIntegration": 5,
     "fundingUsdM": 800,
-    "fundingDisplay": "$800M total raised",
+    "fundingDisplay": "$800M total publicly announced funding",
     "fundingAsOf": "2026-06-30",
-    "latestRound": "$500M round closed December 2025 and disclosed June 2026",
-    "headcount": null,
-    "headcountAsOf": null,
+    "latestRound": "$500M financing closed December 2025 and disclosed June 2026",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-06-30",
     "investors": [
       "Peter Thiel",
       "Jane Street",
       "Hudson River Trading",
       "Jump Trading",
       "Two Sigma",
-      "VentureTech Alliance"
+      "VentureTech Alliance",
+      "Stripes",
+      "Ribbit Capital",
+      "Radical Ventures",
+      "Primary Venture Partners",
+      "Positive Sum"
     ],
-    "traction": "Etched reported a functioning A0 chip, more than $1B of signed customer contracts, and first rack shipments planned for summer 2026. Contracts and successful first silicon are not recognized revenue or evidence of sustained volume yield; customers were not publicly named.",
-    "confidence": "Medium",
-    "notes": "A transformer-only architecture can deliver substantial specialization but creates architecture-obsolescence risk if dominant models move beyond compatible operators. The company was only entering shipments at the cutoff, with no disclosed revenue. Leading-edge foundry, HBM, packaging, rack power, and working-capital needs make execution highly capital-intensive.",
+    "traction": "Etched reports successful first-pass A0 silicon on TSMC N4P, more than $1B in signed customer contracts, customer validation of its first rack-scale product, and initial rack shipments planned for summer 2026; these are company-reported contracts and milestones, not audited revenue or evidence of sustained production yield.",
+    "confidence": "High",
+    "notes": "Fact: Etched reports more than 400 employees, four financing rounds, a Taiwan factory, and production ramp-up. Inference: full-stack co-design and manufacturing execution create a materially stronger barrier than a standalone accelerator design. Unknown: customer identities, contract conditions, realized revenue, volume yield, unit economics, and independently reproduced performance. The principal risks are leading-edge foundry and HBM dependence, an extremely capital-intensive ramp, incumbent software ecosystems, and model-architecture shifts that could erode specialization benefits.",
     "sources": [
       {
-        "label": "Etched financing, working-chip, contracts, and shipment announcement",
+        "label": "Etched financing and first-silicon announcement",
         "url": "https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html",
         "type": "primary"
       },
       {
         "label": "TechCrunch assessment of Etched launch status",
         "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Etched product, architecture, team, contracts, and production overview",
+        "url": "https://www.etched.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Etched LinkedIn company and workforce profile",
+        "url": "https://www.linkedin.com/company/etched-ai",
         "type": "credible-secondary"
       }
     ],
@@ -5439,6 +5678,65 @@
       {
         "label": "LinkedIn company profile",
         "url": "https://www.linkedin.com/company/flexaihq",
+        "type": "credible-secondary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
+    "name": "Flowscope",
+    "website": "https://www.flowscope.com/",
+    "hq": "San Francisco, United States",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Horizontal enterprise software",
+    "subsector": "Agentic process mining, workflow redesign and AI-native transformation services",
+    "layer": "AI-native service",
+    "product": "Uses observation agents to shadow work and generate process maps, then combines engineers and agents to redesign and automate repetitive workflows on the customer's existing systems, with ongoing maintenance and outcome-based pricing.",
+    "targetCustomer": "Mid-market and enterprise operations teams, including private-equity portfolio companies",
+    "buyer": "COO, CFO, head of transformation or private-equity operating partner",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic process observation",
+      "Process mining",
+      "LLM-based workflow analysis",
+      "Cross-system workflow automation",
+      "Outcome monitoring"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Proprietary data",
+      "Workflow integration"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 2,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "Y Combinator Spring 2026; funding amount not separately announced",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; amount not separately announced",
+    "headcount": "2 (YC directory)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator"
+    ],
+    "traction": "Flowscope publishes no named customer, revenue, deployment count or independently verified savings. Its YC profile asks for introductions to CFOs, COOs and private-equity operating partners, consistent with a very early enterprise-services go-to-market rather than established product traction.",
+    "confidence": "Medium",
+    "notes": "Flowscope explicitly says it is structurally a consulting/services firm: an engineer enters the customer environment, an agent observes employees for roughly two weeks, and the team ships and maintains automation on the existing stack. It proposes a fixed diagnostic fee followed by pricing equal to 25% of measured savings. That is strong métier integration but weak demonstrated technical differentiation today. The venture case depends on the unverified claim that agent infrastructure built for the first ten customers is reusable across the next hundred; custom integration labor, long enterprise sales, savings attribution disputes, employee-surveillance/privacy constraints and customer-specific exceptions could keep delivery linear. Do not classify it as conventional SaaS or treat its claims of speed and margins as audited outcomes.",
+    "sources": [
+      {
+        "label": "Flowscope homepage: two-week process observation, automation and ongoing maintenance",
+        "url": "https://www.flowscope.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Flowscope operating model, outcome pricing and explicit services-firm structure",
+        "url": "https://www.flowscope.com/blog/aligned-ai-engagement-flowscope",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator directory: Spring 2026 batch, founders, team size, target buyers and launch description",
+        "url": "https://www.ycombinator.com/companies/flowscope",
         "type": "credible-secondary"
       }
     ],
@@ -6427,6 +6725,76 @@
       {
         "label": "Company profile and headcount range",
         "url": "https://www.linkedin.com/company/gong-io",
+        "type": "credible-secondary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
+    "name": "Gradial",
+    "website": "https://www.gradial.com/",
+    "hq": "Seattle, United States",
+    "founded": 2023,
+    "stage": "Growth",
+    "sector": "Horizontal enterprise software",
+    "subsector": "Agentic enterprise marketing operations and content execution",
+    "layer": "Horizontal application",
+    "product": "Orchestrates AI agents, people and enterprise marketing systems to execute the work between a brief and publication, including content assembly, CMS and DAM operations, QA, approvals, accessibility, governance and GEO remediation.",
+    "targetCustomer": "Large enterprises with complex, high-volume marketing and digital-content operations",
+    "buyer": "Chief marketing officer, head of marketing operations, chief digital officer or digital-experience leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Multi-agent orchestration",
+      "Multi-model routing",
+      "Continuous evaluations",
+      "Enterprise context engineering",
+      "Rules and governance engine"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 120,
+    "fundingDisplay": "$120M disclosed funding, derived from $55M total at Series B plus a $65M Series C",
+    "fundingAsOf": "2026-06-17",
+    "latestRound": "$65M Series C led by Insight Partners, Jun 2026",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Insight Partners",
+      "VMG Partners",
+      "Madrona",
+      "PruVen Capital",
+      "Outsiders Fund"
+    ],
+    "traction": "Gradial names AWS, T-Mobile, Prudential, Vanguard, Kaiser Permanente and U.S. Bank as customers and reported more than 10x ARR growth over the preceding 12 months. It also reports customer outcomes of up to 20x efficiency and same-day rather than 10-day SLA turnaround; ARR, retention and the methodology behind those outcome claims are not public, and all figures are company-reported.",
+    "confidence": "High",
+    "notes": "This is not primarily an AI copywriting product: the wedge is governed execution inside CMS, DAM, workflow and experimentation systems. The plausible moat is accumulated enterprise context, integrations, approval/evaluation data and deep workflow switching costs, not a proprietary foundation model. Public documentation confirms multi-model routing, native MCP, continuous evals and a rules layer, but does not disclose model-level IP or audited performance. The $120M total is arithmetic across company announcements ($55M cumulative at Series B plus $65M Series C), while the later statement of more than $110M raised in 16 months is not itself a lifetime total.",
+    "sources": [
+      {
+        "label": "Gradial $65M Series C, investors, ARR growth and customer claims, Jun 2026",
+        "url": "https://www.gradial.com/blog/gradial-65m-series-c",
+        "type": "primary"
+      },
+      {
+        "label": "Gradial $35M Series B, $55M cumulative funding and founding year, Jan 2026",
+        "url": "https://www.gradial.com/blog/series-b-announcement",
+        "type": "primary"
+      },
+      {
+        "label": "Gradial product architecture, integrations, model routing, evals and governance",
+        "url": "https://docs.gradial.com/docs/getting-started/what-is-gradial",
+        "type": "primary"
+      },
+      {
+        "label": "Gradial LinkedIn headquarters, founding year and employee-size band",
+        "url": "https://www.linkedin.com/company/gradialai",
         "type": "credible-secondary"
       }
     ],
@@ -7985,6 +8353,65 @@
     "status": "Privée indépendante"
   },
   {
+    "name": "Lab0",
+    "website": "https://lab0.ai/",
+    "hq": "San Francisco, United States",
+    "founded": 2026,
+    "stage": "Seed",
+    "sector": "Horizontal enterprise software",
+    "subsector": "AI forward-deployed engineering for enterprise software implementation",
+    "layer": "AI-native service",
+    "product": "Runs enterprise software implementation from requirements discovery through configuration, integration, testing and go-live, combining deterministic recipes, agent judgment, dry runs, approval gates and rollback across platforms such as ServiceNow, SAP, Salesforce and Workday.",
+    "targetCustomer": "Enterprise-software vendors and systems integrators with large implementation or post-sales delivery teams",
+    "buyer": "VP Professional Services, head of implementation, chief customer officer or solutions engineering leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic workflow orchestration",
+      "LLM-assisted requirements discovery",
+      "Deterministic deployment recipes",
+      "Automated integration generation",
+      "Agentic testing and validation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Workflow integration"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 3,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "Y Combinator Spring 2026; funding amount not separately announced",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; amount not separately announced",
+    "headcount": "3 (YC directory)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator"
+    ],
+    "traction": "The YC launch says Lab0 is working with Adobe and a couple of systems integrators and claims to compress a six-month implementation to roughly ten days. No customer case study, revenue, retention, completed-deployment count or independently measured time-to-value is public.",
+    "confidence": "Medium",
+    "notes": "Lab0's thesis is productizing the work of forward-deployed engineers rather than selling another assistant. The strongest potential moat would be reusable deployment recipes, connectors, validation traces and exception data accumulated across implementations, but none is yet evidenced at scale. The company explicitly frames deterministic logic for repeatable work and AI for ambiguous work, with dry runs and human approval. At three people and with no public deployment metrics, the central falsification risk is that heterogeneous enterprise rollouts still require linear expert labor, leaving a services business rather than repeatable software. YC participation is recorded as backing, not converted into an assumed financing amount.",
+    "sources": [
+      {
+        "label": "Lab0 product, safety model, supported systems and deterministic-agent split",
+        "url": "https://lab0.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Lab0 AI FDE workflow and open multi-platform positioning",
+        "url": "https://lab0.ai/ai-fde",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator directory: founders, Spring 2026 batch, team size and early traction claims",
+        "url": "https://www.ycombinator.com/companies/lab0",
+        "type": "credible-secondary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
     "name": "Labelbox",
     "website": "https://labelbox.com",
     "hq": "San Francisco, United States",
@@ -8569,6 +8996,87 @@
       }
     ],
     "status": "Cotée"
+  },
+  {
+    "name": "LinqAlpha",
+    "website": "https://linqalpha.com/",
+    "hq": "New York, United States",
+    "founded": 2022,
+    "stage": "Series A",
+    "sector": "Financial services & insurance",
+    "subsector": "AI-native institutional investment and global-markets research",
+    "layer": "Vertical application",
+    "product": "Provides institutional investors with specialized AI agents that connect market, filings, web and internal data, learn each team's investment framework and produce source-linked multi-step research across global public markets.",
+    "targetCustomer": "Hedge funds, asset managers, investment banks and institutional public-markets teams",
+    "buyer": "Head of investment research, CIO, portfolio manager or head of sell-side research and trading",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Multi-agent systems",
+      "Retrieval-augmented generation",
+      "Finance-specific embeddings",
+      "Multilingual information retrieval",
+      "Cross-model delegation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 28.6,
+    "fundingDisplay": "$28.6M disclosed funding, derived from a $6.6M seed plus $22M Series A",
+    "fundingAsOf": "2026-07-02",
+    "latestRound": "$22M Series A, Jul 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "AVP",
+      "Atinum Investment",
+      "GFT Ventures",
+      "InterVest",
+      "Techstars",
+      "Kakao Ventures",
+      "Smilegate Investment",
+      "Yellowdog",
+      "SBI Investment",
+      "Z Venture Capital",
+      "NuVentures"
+    ],
+    "traction": "LinqAlpha reports more than 70 financial-institution clients across the U.S., Europe and Asia, including Causeway Capital Management and Schonfeld, with its buy-side customers managing more than $5T in aggregate assets; a founder separately reported 30% month-over-month growth, but ARR is not disclosed.",
+    "confidence": "High",
+    "notes": "The initial user label is accurate but underspecified: LinqAlpha is vertical institutional-finance software, not a generic web research assistant. Its technical differentiation includes finance-specific retrieval and embedding research, multilingual/global source coverage, cross-model delegation and fully source-linked outputs; its business integration spans market data, filings, internal documents and reusable analyst workflows. The moat is not yet proven against Bloomberg, FactSet, AlphaSense and bank-built tooling because LinqAlpha licenses or connects much of the underlying data and has only 70+ disclosed institutions. The $28.6M total is an arithmetic sum of two separately announced equity rounds, not a company-stated lifetime total.",
+    "sources": [
+      {
+        "label": "LinqAlpha $22M Series A, investors, 70+ institutions and $5T client AUM",
+        "url": "https://linqalpha.com/blog/linqalpha-raises-22-million-to-build-the-alpha-intelligence-layer-for-global-public-markets",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha $6.6M seed, investors and early enterprise traction",
+        "url": "https://linqalpha.com/blog/linqalpha-raises-6-6m-seed-round-to-accelerate-ai-copilot-for-financial-analysts",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha Terminal data coverage, workflow and source-linked agent capabilities",
+        "url": "https://linqalpha.com/terminal",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha technical blog and finance-specific retrieval research",
+        "url": "https://linqalpha.com/blog",
+        "type": "primary"
+      },
+      {
+        "label": "LinqAlpha LinkedIn founding, headquarters and 11-50 headcount band",
+        "url": "https://www.linkedin.com/company/linqalpha/",
+        "type": "credible-secondary"
+      }
+    ],
+    "status": "Privée indépendante"
   },
   {
     "name": "Liquid AI",
@@ -9967,33 +10475,36 @@
     "founded": 2023,
     "stage": "Growth",
     "sector": "Legal, compliance & tax",
-    "subsector": "Regulatory compliance and legal services",
+    "subsector": "Agentic law, regulatory compliance and supervised legal services",
     "layer": "AI-native service",
-    "product": "Supervised AI agents and an affiliated law firm that execute regulatory compliance work for financial institutions and enterprises.",
-    "targetCustomer": "Regulated financial institutions and large enterprises",
-    "buyer": "Chief compliance officer, general counsel or chief risk officer",
+    "product": "Builds attorney-engineered legal and compliance agents, an inline supervisory layer for enterprise AI, and supplies the technology used by affiliated AI-native law firm Norm Law.",
+    "targetCustomer": "Regulated financial institutions, asset managers, insurers and large enterprises",
+    "buyer": "General counsel, chief compliance officer, chief risk officer or enterprise AI governance leader",
     "gtm": "Enterprise sales",
     "aiTech": [
       "LLM",
       "Agentic AI",
-      "Supervisory AI"
+      "Supervisory AI",
+      "Domain-specific language",
+      "Legal reasoning benchmarks"
     ],
     "deployment": "Cloud",
     "differentiators": [
       "Regulatory",
       "Proprietary data",
       "Workflow integration",
-      "Technical"
+      "Technical",
+      "Research"
     ],
-    "moatStrength": 4,
+    "moatStrength": 5,
     "technicalDepth": 5,
     "verticalIntegration": 5,
     "fundingUsdM": 260,
-    "fundingDisplay": ">$260M",
+    "fundingDisplay": ">$260M publicly announced funding",
     "fundingAsOf": "2026-07-07",
-    "latestRound": "Series C, Jul 2026 ($120M at $1.2B valuation)",
-    "headcount": null,
-    "headcountAsOf": null,
+    "latestRound": "$120M Series C at a $1.2B valuation, Jul 2026",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
     "investors": [
       "Khosla Ventures",
       "Blackstone",
@@ -10001,19 +10512,22 @@
       "Craft Ventures",
       "Coatue",
       "Vanguard",
-      "New York Life"
+      "New York Life",
+      "TIAA",
+      "Citi Ventures",
+      "Fenwick"
     ],
-    "traction": "Norm AI says its customers include institutions representing $30T in assets under management and that it has raised more than $260M since its Jul 2023 founding.",
+    "traction": "Norm reports clients representing more than $30T in aggregate assets under management; this is client AUM, not Norm revenue, and the number of clients and ARR are not disclosed.",
     "confidence": "High",
-    "notes": "Deep vertical integration through supervised legal agents, an affiliated licensed law firm and outcome-based pricing makes this an AI-native service rather than a software wrapper. Human review, legal-services regulation, conflicts and service delivery economics are material constraints; customer metrics are company-reported.",
+    "notes": "This is materially broader than a generic legal copilot: Norm combines a regulatory domain-specific language, attorney-built agents, legal-reasoning research, API/MCP/OpenTelemetry supervision and an affiliated law firm with outcome-based pricing. The law-firm feedback loop and embedded legal expertise are plausible moats, but regulated-service delivery, conflicts, human review and margins are structural constraints. Funding is a company-reported lower bound (> $260M). LinkedIn exposed roughly 204-205 associated profiles while its configured company-size band still showed 51-200; the atlas therefore stores the profile-derived 201-500 range with lower confidence than the other fields.",
     "sources": [
       {
-        "label": "Norm AI Series C, funding total and customer scale, Jul 2026",
+        "label": "Norm AI Series C, funding total, investors and client AUM, Jul 2026",
         "url": "https://www.norm.ai/resources/norm-ai-raises-20-million-at-a-1-2-billion-valuation",
         "type": "primary"
       },
       {
-        "label": "Norm AI technology and supervisory architecture",
+        "label": "Norm AI technology, legal engineering and AI-native law-firm model",
         "url": "https://www.norm.ai/technology",
         "type": "primary"
       },
@@ -10021,6 +10535,16 @@
         "label": "Norm AI company timeline and funding milestones",
         "url": "https://www.norm.ai/",
         "type": "primary"
+      },
+      {
+        "label": "Norm Supervisory AI architecture and enterprise integrations",
+        "url": "https://www.norm.ai/supervisory-ai",
+        "type": "primary"
+      },
+      {
+        "label": "Norm AI LinkedIn headcount and headquarters profile",
+        "url": "https://www.linkedin.com/company/normative-ai/",
+        "type": "credible-secondary"
       }
     ],
     "status": "Privée indépendante"
@@ -11181,6 +11705,74 @@
     "status": "Privée indépendante"
   },
   {
+    "name": "Ploy",
+    "website": "https://ploy.ai/",
+    "hq": "San Francisco, California, United States",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Horizontal enterprise software",
+    "subsector": "Agentic website operations and B2B growth marketing",
+    "layer": "Horizontal application",
+    "product": "An AI growth platform whose agents build and optimize websites, identify visitors, generate SEO and ABM pages, run advertising workflows and synchronize outcomes with CRM and analytics systems.",
+    "targetCustomer": "B2B startups, marketing teams, enterprises and digital agencies",
+    "buyer": "Founder, CMO, VP Growth or agency principal",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "LLM agents",
+      "Agent orchestration",
+      "Generative web design and copy",
+      "Intent scoring"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 3,
+    "verticalIntegration": 5,
+    "fundingUsdM": 27,
+    "fundingDisplay": "$27M seed publicly announced",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "$27M seed, June 2026",
+    "headcount": "14 (YC team size)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "First Round Capital",
+      "Y Combinator",
+      "Lenny Rachitsky",
+      "Ben Lang",
+      "Eoghan McCabe"
+    ],
+    "traction": "YC says more than 13% of its Spring 2026 batch used Ploy; the company names Hex and Clay plus agencies Tonik and TNT Growth as users, while commercial revenue and retention remain undisclosed.",
+    "confidence": "High",
+    "notes": "The requested marketing/growth classification is accurate. The product is materially broader than an AI website builder because it closes the loop across publishing, visitor identification, ABM, advertising and CRM. The strongest prospective moat is accumulated workflow and experiment context plus distribution from founder Bryant Chou's Webflow network; neither data advantage nor autonomous outcome quality has yet been independently evidenced. The $27M is described as one seed financing, not cumulative revenue or a valuation. The team is also described as based in New York.",
+    "sources": [
+      {
+        "label": "Ploy product, buyers and integrations",
+        "url": "https://ploy.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Ploy $27M seed announcement",
+        "url": "https://ploy.ai/blog/ploy-raises-27m",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator company profile and traction",
+        "url": "https://www.ycombinator.com/companies/ploy",
+        "type": "primary"
+      },
+      {
+        "label": "Company-issued launch release",
+        "url": "https://www.prnewswire.com/news-releases/ploy-raises-27m-to-turn-your-companys-website-into-your-hardest-working-employee-302803231.html",
+        "type": "primary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
     "name": "PolyAI",
     "website": "https://poly.ai",
     "hq": "London, United Kingdom",
@@ -11524,6 +12116,89 @@
       {
         "label": "Skore documentation",
         "url": "https://docs.skore.probabl.ai/stable/user_guide/index.html",
+        "type": "primary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
+    "name": "Prosper AI",
+    "website": "https://www.getprosper.ai/",
+    "hq": "New York, New York, United States",
+    "founded": 2023,
+    "stage": "Series A",
+    "sector": "Healthcare & life sciences",
+    "subsector": "Healthcare voice agents for patient access and revenue-cycle management",
+    "layer": "Vertical application",
+    "product": "Healthcare-specialized voice agents that handle patient and payer calls across scheduling, eligibility and benefit verification, prior authorization, billing, collections, and related workflows while reading from and writing to EHR and practice-management systems.",
+    "targetCustomer": "Outpatient specialty groups, hospitals and health systems, revenue-cycle companies, EHR vendors, payers, and pharmaceutical organizations",
+    "buyer": "COO, CFO, VP of patient access, VP of revenue-cycle management, or healthcare-technology product executive",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Generative voice AI",
+      "LLM agents",
+      "Speech recognition and synthesis",
+      "Healthcare workflow orchestration",
+      "Portal and browser automation",
+      "Human escalation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 35,
+    "fundingDisplay": "$35M publicly announced across a $5M seed and $30M Series A",
+    "fundingAsOf": "2026-06-22",
+    "latestRound": "$30M Series A led by Andreessen Horowitz, June 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Andreessen Horowitz",
+      "Base10 Partners",
+      "Emergence Capital",
+      "Y Combinator",
+      "CRV",
+      "Company Ventures"
+    ],
+    "traction": "Prosper reports 60+ healthcare organizations, coverage across more than 150,000 providers, more than $1.3B in patient care coordinated, 5x revenue growth in the six months before its Series A, and channel deployments with athenahealth and ImagineSoftware; these operating metrics are company and investor claims rather than audited disclosures.",
+    "confidence": "High",
+    "notes": "Fact: Prosper expanded from phone-point tasks into an end-to-end patient-access and revenue-cycle workflow spanning patients and payers, with more than 80 integrations and channel distribution through EHR and RCM vendors. Inference: healthcare-specific workflow blueprints, integration depth, accumulated exception data, and channel partnerships are more defensible than generic voice quality alone. Unknown: recurring revenue, gross margin after telephony and model costs, net retention, automation quality by workflow, human-review burden, and independently audited outcomes. HIPAA and PHI safeguards, TCPA consent, call recording, patient disclosure, model errors, payer policy changes, and clinical escalation boundaries are material risks.",
+    "sources": [
+      {
+        "label": "Prosper product, use cases, integrations, and customer claims",
+        "url": "https://www.getprosper.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Prosper $5M seed announcement",
+        "url": "https://www.globenewswire.com/news-release/2025/09/23/3154716/0/en/prosper-ai-raises-5m-to-be-the-default-voice-ai-platform-for-healthcare-s-450b-admin-crisis.html",
+        "type": "primary"
+      },
+      {
+        "label": "Prosper $30M Series A and traction announcement",
+        "url": "https://www.globenewswire.com/news-release/2026/06/22/3315343/0/en/prosper-ai-raises-30m-from-andreessen-horowitz-to-scale-the-first-ai-platform-to-run-the-entire-patient-journey.html",
+        "type": "primary"
+      },
+      {
+        "label": "Andreessen Horowitz investment thesis for Prosper",
+        "url": "https://a16z.com/announcement/investing-in-prosper-ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Prosper LinkedIn company and workforce profile",
+        "url": "https://www.linkedin.com/company/prospertechnologies",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Prosper Y Combinator profile",
+        "url": "https://www.ycombinator.com/companies/prosper",
         "type": "primary"
       }
     ],
@@ -14256,6 +14931,80 @@
     "status": "Privée indépendante"
   },
   {
+    "name": "Stathera",
+    "website": "https://www.stathera.com/",
+    "hq": "Montreal, Quebec, Canada",
+    "founded": 2020,
+    "stage": "Series B",
+    "sector": "Semiconductors, hardware & edge",
+    "subsector": "Fabless MEMS silicon timing for electronics and future AI data centers",
+    "layer": "Hardware",
+    "product": "A fabless semiconductor company building patented DualMode MEMS resonators and oscillators that combine kHz and MHz timing outputs to replace multiple quartz timing components.",
+    "targetCustomer": "Semiconductor, device, communications and data-center equipment manufacturers",
+    "buyer": "Hardware engineering leader, system architect or semiconductor procurement executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "No AI model; MEMS timing hardware",
+      "Mixed-signal semiconductor design"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Research"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 2,
+    "fundingUsdM": 75,
+    "fundingDisplay": "$75M total per company-issued Series B release",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "$55M Series B, June 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Maverick Silicon",
+      "Celesta Capital",
+      "BDC Capital",
+      "MediaTek Innovation Fund",
+      "TXC Corporation",
+      "Ultratech Capital Partners",
+      "Seiko Epson",
+      "Doosan Corporation"
+    ],
+    "traction": "Stathera markets STA320 and STA156 devices and reports a 2026 Best MEMS Solution award for STA320; the Series B is intended to move its GEN2 portfolio into mass production and fund GEN3 products, while customer shipments and revenue are not disclosed.",
+    "confidence": "High",
+    "notes": "The requested 'AI infra' label needs qualification: Stathera is not an AI company and does not train or serve models. It is a semiconductor timing supplier positioning a future GEN3 line for AI, communications, enterprise and data-center systems; current public products also target mobile and IoT. Its potential moat is patented MEMS design, manufacturing qualification and OEM integration. The company-issued Series B release states $75M total funding, while the publicly visible $15M Series A plus $55M Series B sum to $70M; the remaining $5M is not characterized in the reviewed sources and is therefore an explicit perimeter uncertainty.",
+    "sources": [
+      {
+        "label": "Stathera company and product site",
+        "url": "https://www.stathera.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Company-issued $55M Series B and $75M total funding release",
+        "url": "https://www.newswire.ca/news-releases/stathera-announces-us-55-million-series-b-to-scale-silicon-timing-and-accelerate-next-generation-ai-data-center-solutions-890979239.html",
+        "type": "primary"
+      },
+      {
+        "label": "Company-issued $15M Series A release",
+        "url": "https://www.businesswire.com/news/home/20230518005002/en/Fabless-Semiconductor-Innovator-Stathera-Announces-US-15M-Series-A-Funding-Round",
+        "type": "primary"
+      },
+      {
+        "label": "LinkedIn company profile and headcount range",
+        "url": "https://www.linkedin.com/company/stathera",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "EE Times Silicon 100 startup profile",
+        "url": "https://polyn.ai/wp-content/uploads/2025/07/Silicon-100_2025.pdf",
+        "type": "credible-secondary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
     "name": "SuperAnnotate",
     "website": "https://www.superannotate.com",
     "hq": "San Francisco, United States",
@@ -14311,6 +15060,70 @@
       {
         "label": "SuperAnnotate platform overview",
         "url": "https://www.superannotate.com/",
+        "type": "primary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
+    "name": "Superset",
+    "website": "https://superset.sh/",
+    "hq": "San Francisco, California, United States",
+    "founded": 2026,
+    "stage": "Seed",
+    "sector": "Developer tools & agents",
+    "subsector": "Local-first orchestration workspace for parallel coding agents",
+    "layer": "Developer tool",
+    "product": "A desktop IDE, CLI and MCP control plane that gives third-party coding agents isolated Git worktrees, persistent terminals, task orchestration and review workflows.",
+    "targetCustomer": "Software engineers and engineering teams already using CLI coding agents",
+    "buyer": "Individual developer, engineering manager or VP Engineering",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Third-party coding-agent integration",
+      "Agent orchestration",
+      "Git worktree isolation",
+      "MCP"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 3,
+    "verticalIntegration": 3,
+    "fundingUsdM": null,
+    "fundingDisplay": "Not publicly disclosed",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; financing amount not disclosed",
+    "headcount": "3 (YC team size)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator"
+    ],
+    "traction": "YC reports 11K+ GitHub stars, 75+ contributors and use by engineers at thousands of companies five months after launch; the public repository showed 12.4K stars on 13 July 2026.",
+    "confidence": "Medium",
+    "notes": "The requested 'coding' label is directionally correct, but Superset does not build a coding foundation model: it orchestrates external agents such as Claude Code, Codex and Gemini CLI. The current repository is source-available under Elastic License 2.0, not OSI open source despite 'open-source' wording on YC. Early distribution is strong, but switching costs and a defensible technical moat are not yet demonstrated. Funding beyond YC participation is not public. Homonym warning: this is superset.sh, not Apache Superset, the super{set} venture studio, or trustsuperset.com.",
+    "sources": [
+      {
+        "label": "Superset product and pricing",
+        "url": "https://superset.sh/",
+        "type": "primary"
+      },
+      {
+        "label": "Superset technical overview",
+        "url": "https://docs.superset.sh/overview",
+        "type": "primary"
+      },
+      {
+        "label": "Superset GitHub repository, metrics and ELv2 license",
+        "url": "https://github.com/superset-sh/superset",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator company profile",
+        "url": "https://www.ycombinator.com/companies/superset",
         "type": "primary"
       }
     ],
@@ -14436,6 +15249,84 @@
         "label": "Synthesia careers, funding and team profile",
         "url": "https://www.synthesia.io/careers",
         "type": "primary"
+      }
+    ],
+    "status": "Privée indépendante"
+  },
+  {
+    "name": "Tangos AI",
+    "website": "https://tangos.ai/",
+    "hq": "Tel Aviv, Israel",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Legal, compliance & tax",
+    "subsector": "Autonomous financial-crime, sanctions and risk investigations",
+    "layer": "AI-native service",
+    "product": "Runs end-to-end AML, sanctions, fraud, enhanced-due-diligence and intelligence investigations from an escalated alert to a source-traced, examiner-ready case file.",
+    "targetCustomer": "Banks, fintechs, payment providers, government agencies and intelligence organizations",
+    "buyer": "Chief compliance officer, MLRO, head of financial-crime investigations or government intelligence leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic AI",
+      "Domain-specific models",
+      "Graph and network analysis",
+      "Multilingual retrieval",
+      "Evidence-grounded reasoning"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 20,
+    "fundingDisplay": "$20M total publicly announced funding",
+    "fundingAsOf": "2026-07-07",
+    "latestRound": "$20M seed, Jul 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Red Dot Capital Partners",
+      "Leaders Fund",
+      "Clarim Ventures",
+      "VentureIsrael",
+      "SignalFire",
+      "Clutch Capital",
+      "Selah Ventures",
+      "Bright Data"
+    ],
+    "traction": "The company says it is already supporting major financial institutions and intelligence organizations; its LinkedIn page more specifically says it is in production with a major U.S. fintech and international intelligence organizations, but customers, contract values and independently measured accuracy are not public.",
+    "confidence": "Medium",
+    "notes": "Tangos is not primarily another detection or alert-scoring product: its wedge is the expensive L2/L3 investigation work after an alert, using expert playbooks, hypothesis testing, counter-evidence, provenance and immutable audit trails. It supports cloud, private-cloud and air-gapped deployment and proposes proof-of-value comparisons on historical cases. That creates strong métier integration; the technical moat remains unproven until accuracy, false-positive/negative rates and production references can be independently audited. Funding and traction were announced only in Jul 2026, and most evidence is company-issued.",
+    "sources": [
+      {
+        "label": "Tangos $20M seed, investors, founding and product architecture, Jul 2026",
+        "url": "https://tangos.ai/press/tangos-raises-20-million-seed-round-to-scale-financial-crime-investigations-with-autonomous-ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Tangos platform, deployment modes and proof-of-value workflow",
+        "url": "https://tangos.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Tangos team and financial-crime domain expertise",
+        "url": "https://tangos.ai/about/",
+        "type": "primary"
+      },
+      {
+        "label": "Tangos LinkedIn headcount and production claims",
+        "url": "https://www.linkedin.com/company/tangos-ai/",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Calcalist corroboration of funding and approximately 20 employees",
+        "url": "https://www.calcalist.co.il/calcalistech/article/hkvpll5qfx",
+        "type": "credible-secondary"
       }
     ],
     "status": "Privée indépendante"
@@ -14900,29 +15791,34 @@
     "founded": 2022,
     "stage": "Growth",
     "sector": "AI infrastructure & compute",
-    "subsector": "Training and inference cloud for open models",
+    "subsector": "Research-driven inference, model shaping and accelerated compute cloud",
     "layer": "Infrastructure",
-    "product": "A cloud platform for training, fine-tuning and serving open-weight and custom AI models.",
-    "targetCustomer": "AI-native companies and enterprise AI teams",
-    "buyer": "CTO, VP AI, ML Platform Lead",
+    "product": "A full-stack cloud for serverless and dedicated inference, GPU clusters, model fine-tuning and evaluation, storage and agent sandboxes centered on open-weight and custom models.",
+    "targetCustomer": "AI-native companies, enterprise AI platform teams and model researchers",
+    "buyer": "CTO, VP AI, Head of ML Platform or infrastructure lead",
     "gtm": "Hybrid",
     "aiTech": [
       "Distributed training",
       "Inference optimization",
       "Fine-tuning",
-      "Open-weight models"
+      "Open-weight models",
+      "High-performance LLM inference",
+      "Custom kernels and compilers",
+      "Quantization and speculative decoding",
+      "Fine-tuning and evaluation"
     ],
     "deployment": "Cloud",
     "differentiators": [
       "Research",
       "Technical",
-      "Infrastructure"
+      "Infrastructure",
+      "Distribution"
     ],
-    "moatStrength": 4,
+    "moatStrength": 5,
     "technicalDepth": 5,
-    "verticalIntegration": 4,
+    "verticalIntegration": 2,
     "fundingUsdM": 1333.5,
-    "fundingDisplay": "Approximately $1.33B",
+    "fundingDisplay": "$1.3335B across five publicly announced financings",
     "fundingAsOf": "2026-07-13",
     "latestRound": "$800M Series C, July 2026",
     "headcount": "201-500",
@@ -14930,24 +15826,37 @@
     "investors": [
       "General Catalyst",
       "Prosperity7 Ventures",
-      "Kleiner Perkins"
+      "Kleiner Perkins",
+      "Aramco Ventures",
+      "Vista Equity Partners",
+      "Salesforce Ventures",
+      "Emergence Capital",
+      "Lux Capital",
+      "Coatue",
+      "March Capital",
+      "NEA",
+      "SE Ventures",
+      "Pegatron",
+      "DTCP Growth",
+      "Geodesic",
+      "PSP Partners"
     ],
-    "traction": "The Series C announcement says the platform serves thousands of customers; revenue and utilization were not disclosed.",
-    "confidence": "Medium",
-    "notes": "The cumulative total combines directly verified rounds with a credible funding compilation. Technical depth is high, but training and inference clouds face hyperscaler, model-provider and specialized-serving competition plus heavy capital requirements.",
+    "traction": "The July 2026 Series C announcement says Together AI serves thousands of customers including Cognition, Decagon, ElevenLabs, Cursor and Suno; its February 2025 announcement reported 450,000 AI developers, but revenue, utilization and gross margin remain undisclosed.",
+    "confidence": "High",
+    "notes": "The requested inference/compute and AI-infrastructure labels are accurate. Unlike a thin model API reseller, Together productizes systems research across kernels, compilers, inference engines and cluster infrastructure, though it still faces hyperscalers, neoclouds and specialized serving vendors and carries high capital and supply-chain exposure. Publicly announced financing sums to $1.3335B: $20M seed + $102.5M Series A + $106M follow-on + $305M Series B + $800M Series C. The Series C also mentions more than 500 MW of independently capitalized compute commitments; those commitments are excluded from funding total. Vertical-integration score is deliberately low because this is horizontal infrastructure rather than a domain workflow.",
     "sources": [
       {
-        "label": "Series C announcement",
+        "label": "$800M Series C announcement",
         "url": "https://www.together.ai/blog/announcing-our-series-c",
         "type": "primary"
       },
       {
-        "label": "Series B announcement",
+        "label": "$305M Series B announcement",
         "url": "https://www.together.ai/blog/together-ai-announcing-305m-series-b",
         "type": "primary"
       },
       {
-        "label": "Series A announcement",
+        "label": "$102.5M Series A announcement",
         "url": "https://www.together.ai/blog/series-a",
         "type": "primary"
       },
@@ -14957,8 +15866,28 @@
         "type": "credible-secondary"
       },
       {
-        "label": "LinkedIn company profile",
+        "label": "LinkedIn public headcount range",
         "url": "https://www.linkedin.com/company/togethercomputer",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Together AI platform and product stack",
+        "url": "https://www.together.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "$106M follow-on financing announcement",
+        "url": "https://www.together.ai/blog/series-a2",
+        "type": "primary"
+      },
+      {
+        "label": "$20M seed announcement",
+        "url": "https://www.together.ai/blog/seed-funding",
+        "type": "primary"
+      },
+      {
+        "label": "TechCrunch Series C valuation corroboration",
+        "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
         "type": "credible-secondary"
       }
     ],
@@ -16488,18 +17417,24 @@
     "founded": 2019,
     "stage": "Public",
     "sector": "Foundation models & research",
-    "subsector": "GLM foundation models and enterprise MaaS",
+    "subsector": "GLM foundation models, MaaS, coding products, and enterprise agents",
     "layer": "Foundation model",
-    "product": "GLM language and multimodal models, coding and general agents, MaaS APIs and private enterprise deployments.",
-    "targetCustomer": "Developers, enterprises, governments and consumers",
-    "buyer": "CIO, CTO, AI platform and engineering leaders; individual users",
+    "product": "The GLM family of open and proprietary language, coding, reasoning, and multimodal models, delivered through consumer products, subscriptions, APIs and MaaS, enterprise agents, and private on-premises deployments.",
+    "targetCustomer": "Developers, enterprises, government organizations, and consumers in China and international markets",
+    "buyer": "CIO, CTO, AI platform leader, software engineering leader, or individual developer",
     "gtm": "Hybrid",
     "aiTech": [
       "large language models",
       "multimodal models",
       "reasoning models",
       "coding agents",
-      "model-as-a-service"
+      "model-as-a-service",
+      "General-purpose large language models",
+      "Mixture-of-experts models",
+      "Multimodal models",
+      "Long-context reasoning",
+      "Coding and long-horizon agents",
+      "Model-as-a-service"
     ],
     "deployment": "Hybrid",
     "differentiators": [
@@ -16508,36 +17443,58 @@
       "Regulatory",
       "Proprietary data",
       "Distribution",
-      "Infrastructure"
+      "Infrastructure",
+      "Technical"
     ],
     "moatStrength": 4,
     "technicalDepth": 5,
     "verticalIntegration": 5,
     "fundingUsdM": null,
-    "fundingDisplay": "HK$4.17B estimated net IPO proceeds; pre-IPO lifetime funding not consolidated",
-    "fundingAsOf": "2025-12-30",
-    "latestRound": "Hong Kong IPO, January 2026",
-    "headcount": "501-1,000",
-    "headcountAsOf": "2025-06-30",
+    "fundingDisplay": "HK$4.896B net IPO proceeds; lifetime pre-IPO funding is not consolidated here",
+    "fundingAsOf": "2026-04-19",
+    "latestRound": "Hong Kong IPO on January 8, 2026 (HKEX: 2513)",
+    "headcount": "1,001-5,000",
+    "headcountAsOf": "2025-12-31",
     "investors": [
       "Alibaba",
       "Tencent",
       "Meituan",
       "Ant Group",
-      "Prosperity7 Ventures"
+      "Prosperity7 Ventures",
+      "Legend Capital"
     ],
-    "traction": "The prospectus reports 883 employees at June 2025, including 657 in R&D (74.4%), and a commercial stack spanning model APIs, agents and private deployment.",
+    "traction": "Audited FY2025 revenue was RMB724.3M versus RMB312.4M in 2024; the annual report records 1,094 permanent employees, 242,000 paying GLM Coding Plan developers, and more than 4M MaaS-platform users by March 2026. The same filing reports a RMB4.718B FY2025 net loss.",
     "confidence": "High",
-    "notes": "Fact: Z.ai is public and the prospectus supplies staffing, offering and IPO data; IPO proceeds are not lifetime venture funding. Inference: deep enterprise deployment and local regulatory fit can be defensible within China. Unknown: international product-market fit and long-term margins. Cross-border data, content, export-control and procurement risk is material.",
+    "notes": "Fact: Z.ai is a listed, vertically integrated model company with 73.7% of FY2025 revenue coming from on-premises deployment; GLM-5.2 was announced with a one-million-token context window and MIT-licensed release. Inference: research cadence, Chinese enterprise deployment, local chip adaptation, and regulatory fit can be defensible domestically. Unknown: durable international retention, independently verified frontier-model quality, economics after compute costs, and the long-term mix between standardized API revenue and delivery-heavy on-premises projects. Dependence on third-party compute, large losses, China content and data rules, export controls, and cross-border procurement restrictions are material risks.",
     "sources": [
       {
-        "label": "Zhipu AI Hong Kong prospectus",
+        "label": "Knowledge Atlas Technology IPO prospectus",
         "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000017.pdf",
         "type": "primary"
       },
       {
         "label": "HKEX — AI IPOs in 2026",
         "url": "https://www.hkexgroup.com/media-centre/insight/insight/2026/johnson-chui/ai-ipos-drive-a-strong-start-to-2026?sc_lang=en",
+        "type": "primary"
+      },
+      {
+        "label": "Knowledge Atlas Technology 2025 audited annual report",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0419/2026041900085.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "HKEX announcement of GLM-5.2",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500277.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "HKEX IPO offer price, allocation, and initial net proceeds",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0107/2026010701798.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "Z.ai model and API documentation",
+        "url": "https://docs.z.ai/guides/overview/overview",
         "type": "primary"
       }
     ],

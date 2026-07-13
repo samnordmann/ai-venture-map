@@ -21,6 +21,9 @@ test("server-renders the AI Venture Atlas", async () => {
   assert.match(html, /<title>AI Venture Atlas/);
   assert.match(html, /Cartographier l’écosystème/);
   assert.match(html, /La cartographie des entreprises IA/);
+  assert.match(html, /Ajouter et modifier la cartographie/);
+  assert.match(html, /Mode local explicite/);
+  assert.match(html, /notes personnelles/i);
   assert.match(html, /Les tendances qui déplacent la valeur/);
   assert.match(html, /Ce qui lève/);
   assert.match(html, /La banque d’idées à falsifier/);
@@ -36,7 +39,13 @@ test("research dataset has the required evidence fields", async () => {
     "Semiconductors, hardware & edge", "Scientific AI & materials", "Media, voice & commerce",
   ]);
   const statuses = new Set(["Privée indépendante", "Cotée", "Acquise", "Acquisition annoncée", "Transaction stratégique"]);
-  assert.ok(companies.length >= 250, `expected at least 250 companies, received ${companies.length}`);
+  const requestedDomains = [
+    "norm.ai", "tangos.ai", "alignedup.com", "linqalpha.com", "superset.sh", "ploy.ai", "together.ai", "stathera.com",
+    "etched.com", "1001.ai", "z.ai", "getprosper.ai", "gradial.com", "lab0.ai", "argalabs.com", "flowscope.com",
+  ];
+  const companyDomains = new Set(companies.map((company) => new URL(company.website).hostname.replace(/^www\./, "")));
+  assert.ok(companies.length >= 266, `expected at least 266 companies, received ${companies.length}`);
+  for (const domain of requestedDomains) assert.ok(companyDomains.has(domain), `requested company domain missing: ${domain}`);
   for (const company of companies) {
     assert.ok(company.name);
     assert.match(company.website, /^https?:\/\//);

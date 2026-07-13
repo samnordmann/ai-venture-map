@@ -4,29 +4,29 @@ Généré le 2026-07-13. Sources publiques uniquement.
 
 ## Résumé
 
-- **254** entreprises après déduplication ;
-- **888** liens attachés aux fiches ;
-- financement public exploitable pour **165/254** entreprises ;
-- taille d’équipe publiquement renseignée pour **111/254** entreprises ;
-- **157** fiches à confiance haute ;
+- **266** entreprises après déduplication ;
+- **953** liens attachés aux fiches ;
+- financement public exploitable pour **173/266** entreprises ;
+- taille d’équipe publiquement renseignée pour **125/266** entreprises ;
+- **165** fiches à confiance haute ;
 - les scores de moat, profondeur technique et intégration métier sont des jugements analytiques, pas des faits déclarés.
 
 ## Couverture par secteur
 
 | Secteur | Entreprises | Part |
 |---|---:|---:|
-| Healthcare & life sciences | 33 | 13 % |
-| Industrial AI, robotics & supply chain | 24 | 9 % |
-| Semiconductors, hardware & edge | 24 | 9 % |
+| Healthcare & life sciences | 34 | 13 % |
+| Horizontal enterprise software | 28 | 11 % |
+| Industrial AI, robotics & supply chain | 25 | 9 % |
+| Semiconductors, hardware & edge | 25 | 9 % |
 | AI infrastructure & compute | 23 | 9 % |
-| Horizontal enterprise software | 23 | 9 % |
-| Data infrastructure | 22 | 9 % |
+| Data infrastructure | 22 | 8 % |
+| Developer tools & agents | 22 | 8 % |
 | Defense, space & autonomy | 21 | 8 % |
-| Developer tools & agents | 20 | 8 % |
 | Climate, energy & geospatial | 19 | 7 % |
 | Foundation models & research | 18 | 7 % |
-| Financial services & insurance | 11 | 4 % |
-| Legal, compliance & tax | 10 | 4 % |
+| Financial services & insurance | 12 | 5 % |
+| Legal, compliance & tax | 11 | 4 % |
 | Media, voice & commerce | 4 | 2 % |
 | Scientific AI & materials | 2 | 1 % |
 
@@ -34,22 +34,22 @@ Généré le 2026-07-13. Sources publiques uniquement.
 
 | Couche | Entreprises | Part |
 |---|---:|---:|
-| Vertical application | 63 | 25 % |
-| Hardware | 49 | 19 % |
-| Infrastructure | 42 | 17 % |
-| Foundation model | 27 | 11 % |
-| Developer tool | 26 | 10 % |
-| Horizontal application | 25 | 10 % |
-| AI-native service | 22 | 9 % |
+| Vertical application | 66 | 25 % |
+| Hardware | 50 | 19 % |
+| Infrastructure | 42 | 16 % |
+| Horizontal application | 28 | 11 % |
+| Developer tool | 28 | 11 % |
+| Foundation model | 27 | 10 % |
+| AI-native service | 25 | 9 % |
 
 ## Couverture par stade
 
 | Stade | Entreprises | Part |
 |---|---:|---:|
-| Growth | 126 | 50 % |
-| Series B | 64 | 25 % |
-| Series A | 34 | 13 % |
-| Seed | 15 | 6 % |
+| Growth | 127 | 48 % |
+| Series B | 66 | 25 % |
+| Series A | 37 | 14 % |
+| Seed | 21 | 8 % |
 | Public | 11 | 4 % |
 | Unknown | 4 | 2 % |
 
@@ -57,7 +57,7 @@ Généré le 2026-07-13. Sources publiques uniquement.
 
 | Statut | Entreprises | Part |
 |---|---:|---:|
-| Privée indépendante | 231 | 91 % |
+| Privée indépendante | 243 | 91 % |
 | Cotée | 10 | 4 % |
 | Acquisition annoncée | 6 | 2 % |
 | Acquise | 5 | 2 % |
@@ -67,14 +67,14 @@ Généré le 2026-07-13. Sources publiques uniquement.
 
 | Différenciateur | Entreprises | Part |
 |---|---:|---:|
-| Technical | 196 | 77 % |
-| Workflow integration | 180 | 71 % |
-| Distribution | 120 | 47 % |
-| Proprietary data | 110 | 43 % |
-| Infrastructure | 101 | 40 % |
-| Research | 83 | 33 % |
-| Hardware | 73 | 29 % |
-| Regulatory | 71 | 28 % |
+| Technical | 208 | 78 % |
+| Workflow integration | 192 | 72 % |
+| Distribution | 126 | 47 % |
+| Proprietary data | 116 | 44 % |
+| Infrastructure | 103 | 39 % |
+| Research | 86 | 32 % |
+| Regulatory | 75 | 28 % |
+| Hardware | 74 | 28 % |
 | Network effects | 20 | 8 % |
 
 ## Limites
@@ -82,7 +82,7 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - Les montants equity, dette, secondaire, valorisation et engagements cloud ne sont pas additionnés entre entreprises.
 - Les headcounts sont des plages publiques et vieillissent rapidement.
 - Les métriques de traction sont souvent déclaratives; les notes le signalent.
-- 79 fiches reposent uniquement sur le domaine de l’entreprise; l’annonce est traçable mais non corroborée indépendamment.
+- 70 fiches reposent uniquement sur le domaine de l’entreprise; l’annonce est traçable mais non corroborée indépendamment.
 - ARR, churn, gross margin, profondeur contractuelle et qualité produit sont rarement publics.
 - Ce corpus est une sélection de sociétés financées/high-signal, pas la totalité mathématique des entreprises IA mondiales.
 
@@ -153,9 +153,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Runpod](https://www.runpod.io/)** — On-demand GPU pods and serverless endpoints for training, inference and custom container workloads.  
   San Francisco, California, United States · Privée indépendante · Series A · $120M · confiance High.  
   Sources : [$20M financing announcement](https://www.runpod.io/blog/runpod-raises-20mm) · [$100M Series A and one-million-developer milestone](https://www.runpod.io/blog/one-million-developers) · [January 2026 business update](https://www.runpod.io/blog/a-note-to-the-developers-who-built-runpod-with-us) · [LinkedIn company profile](https://www.linkedin.com/company/runpod-io)
-- **[Together AI](https://www.together.ai/)** — A cloud platform for training, fine-tuning and serving open-weight and custom AI models.  
-  San Francisco, California, United States · Privée indépendante · Growth · Approximately $1.33B · confiance Medium.  
-  Sources : [Series C announcement](https://www.together.ai/blog/announcing-our-series-c) · [Series B announcement](https://www.together.ai/blog/together-ai-announcing-305m-series-b) · [Series A announcement](https://www.together.ai/blog/series-a) · [Sacra company profile](https://sacra.com/c/together-ai/) · [LinkedIn company profile](https://www.linkedin.com/company/togethercomputer)
+- **[Together AI](https://www.together.ai/)** — A full-stack cloud for serverless and dedicated inference, GPU clusters, model fine-tuning and evaluation, storage and agent sandboxes centered on open-weight and custom models.  
+  San Francisco, California, United States · Privée indépendante · Growth · $1.3335B across five publicly announced financings · confiance High.  
+  Sources : [$800M Series C announcement](https://www.together.ai/blog/announcing-our-series-c) · [$305M Series B announcement](https://www.together.ai/blog/together-ai-announcing-305m-series-b) · [$102.5M Series A announcement](https://www.together.ai/blog/series-a) · [Sacra company profile](https://sacra.com/c/together-ai/) · [LinkedIn public headcount range](https://www.linkedin.com/company/togethercomputer) · [Together AI platform and product stack](https://www.together.ai/) · [$106M follow-on financing announcement](https://www.together.ai/blog/series-a2) · [$20M seed announcement](https://www.together.ai/blog/seed-funding) · [TechCrunch Series C valuation corroboration](https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/)
 - **[Verda](https://verda.com/)** — A European GPU cloud, formerly DataCrunch, operating compute infrastructure in Finland and Iceland.  
   Helsinki, Finland · Privée indépendante · Series A · $77M announced equity and debt; exact equity/debt split of Series A not disclosed · confiance Medium.  
   Sources : [Verda rebrand announcement](https://verda.com/blog/datacrunch-is-changing-its-name-to-verda) · [$64M Series A announcement](https://verda.com/blog/verda-formerly-datacrunch-usd64m-series-a-funding) · [Tesi Series A financing release](https://tesi.fi/en/news-item/datacrunch-series-a-round/) · [2024 seed financing breakdown](https://techcrunch.com/2024/10/21/datacrunch-wants-to-be-europes-first-ai-cloud-hyperscaler-powered-by-renewable-energy/) · [LinkedIn legacy company profile](https://www.linkedin.com/company/datacrunch)
@@ -357,6 +357,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 
 ### Developer tools & agents
 
+- **[Arga Labs](https://www.argalabs.com/)** — Creates isolated, resettable environments containing API, MCP and CLI-compatible twins of third-party services so applications and agents can run cross-system workflows, generate scenarios, capture traces and compare outcomes without production side effects.  
+  San Francisco, United States · Privée indépendante · Seed · Y Combinator Spring 2026; funding amount not publicly disclosed · confiance Medium.  
+  Sources : [Arga Labs product, supported twins, sandbox workflow and positioning](https://www.argalabs.com/) · [Arga documentation: architecture, validation modes and production-informed scenarios](https://docs.argalabs.com/) · [Arga plans, self-serve limits and paid go-to-market](https://docs.argalabs.com/plans) · [Y Combinator directory: Spring 2026 batch, founders, team size and launch claims](https://www.ycombinator.com/companies/arga-labs) · [Arga Labs LinkedIn: employee band, Comma Capital backing and early-customer claims](https://www.linkedin.com/company/arga-labs)
 - **[Augment Code](https://www.augmentcode.com)** — Enterprise coding assistant and agent with a context engine designed for large, multi-repository codebases.  
   Palo Alto, United States · Privée indépendante · Series B · $252M · confiance Medium.  
   Sources : [Series B and cumulative funding](https://www.augmentcode.com/blog/augment-inc-raises-227-million) · [Product and technical approach](https://www.augmentcode.com/blog/introducing-augment) · [Company headcount range](https://www.linkedin.com/company/augmentinc)
@@ -417,6 +420,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Replit](https://replit.com)** — Browser-based agentic platform that turns natural-language specifications into running, tested and deployed applications.  
   Foster City, United States · Privée indépendante · Growth · ~$878M estimated · confiance Medium.  
   Sources : [2026 funding announcement](https://replit.com/blog/replit-raises-400-million-dollars) · [2025 Series C and operating metrics](https://replit.com/news/funding-announcement-series-c) · [PitchBook funding estimate](https://techcrunch.com/2025/09/10/replit-hits-3b-valuation-on-150m-annualized-revenue/) · [Company headcount range](https://www.linkedin.com/company/repl-it)
+- **[Superset](https://superset.sh/)** — A desktop IDE, CLI and MCP control plane that gives third-party coding agents isolated Git worktrees, persistent terminals, task orchestration and review workflows.  
+  San Francisco, California, United States · Privée indépendante · Seed · Not publicly disclosed · confiance Medium.  
+  Sources : [Superset product and pricing](https://superset.sh/) · [Superset technical overview](https://docs.superset.sh/overview) · [Superset GitHub repository, metrics and ELv2 license](https://github.com/superset-sh/superset) · [Y Combinator company profile](https://www.ycombinator.com/companies/superset)
 
 ### Financial services & insurance
 
@@ -435,6 +441,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Gradient Labs](https://gradient-labs.ai/)** — Provides an AI customer-operations agent for regulated financial services, with guardrails, quality monitoring and human escalation.  
   London, United Kingdom · Privée indépendante · Series A · $26M Series A financing · confiance High.  
   Sources : [Gradient Labs $26M Series A](https://gradient-labs.ai/blog/weve-raised-26m-to-bring-autonomous-customer-operations-to-financial-services) · [Gradient Labs company and team profile](https://gradient-labs.ai/about) · [Gradient Labs product, customers and controls](https://gradient-labs.ai/llms/latest)
+- **[LinqAlpha](https://linqalpha.com/)** — Provides institutional investors with specialized AI agents that connect market, filings, web and internal data, learn each team's investment framework and produce source-linked multi-step research across global public markets.  
+  New York, United States · Privée indépendante · Series A · $28.6M disclosed funding, derived from a $6.6M seed plus $22M Series A · confiance High.  
+  Sources : [LinqAlpha $22M Series A, investors, 70+ institutions and $5T client AUM](https://linqalpha.com/blog/linqalpha-raises-22-million-to-build-the-alpha-intelligence-layer-for-global-public-markets) · [LinqAlpha $6.6M seed, investors and early enterprise traction](https://linqalpha.com/blog/linqalpha-raises-6-6m-seed-round-to-accelerate-ai-copilot-for-financial-analysts) · [LinqAlpha Terminal data coverage, workflow and source-linked agent capabilities](https://linqalpha.com/terminal) · [LinqAlpha technical blog and finance-specific retrieval research](https://linqalpha.com/blog) · [LinqAlpha LinkedIn founding, headquarters and 11-50 headcount band](https://www.linkedin.com/company/linqalpha/)
 - **[Qantev](https://www.qantev.com/)** — Applies machine learning to health and life insurance claims triage, provider behavior, fraud detection and medical-operations workflows.  
   Paris, France · Privée indépendante · Unknown · $40M+ total funding · confiance High.  
   Sources : [Qantev €30M round and $40M+ total](https://www.qantev.com/news/qantev-raise-30-million-euros-from-blossom-capital) · [Qantev product](https://www.qantev.com/)
@@ -507,9 +516,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[xAI](https://x.ai/)** — Grok models, consumer assistant, API and real-time AI experiences integrated with X.  
   Palo Alto, California, United States · Acquise · Public · $20B Series E before its February 2026 acquisition by SpaceX; lifetime standalone funding not consolidated · confiance High.  
   Sources : [xAI — Series E](https://x.ai/news/series-e) · [xAI joins SpaceX](https://x.ai/news/xai-joins-spacex) · [SpaceX EU prospectus](https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX%20-%20EU%20Prospectus%20%28Approved%20by%20Bafin%29%20-%20June%205%2C%202026.pdf) · [xAI company page](https://www.linkedin.com/company/xai)
-- **[Z.ai (Zhipu AI)](https://z.ai/)** — GLM language and multimodal models, coding and general agents, MaaS APIs and private enterprise deployments.  
-  Beijing, China · Cotée · Public · HK$4.17B estimated net IPO proceeds; pre-IPO lifetime funding not consolidated · confiance High.  
-  Sources : [Zhipu AI Hong Kong prospectus](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000017.pdf) · [HKEX — AI IPOs in 2026](https://www.hkexgroup.com/media-centre/insight/insight/2026/johnson-chui/ai-ipos-drive-a-strong-start-to-2026?sc_lang=en)
+- **[Z.ai (Zhipu AI)](https://z.ai/)** — The GLM family of open and proprietary language, coding, reasoning, and multimodal models, delivered through consumer products, subscriptions, APIs and MaaS, enterprise agents, and private on-premises deployments.  
+  Beijing, China · Cotée · Public · HK$4.896B net IPO proceeds; lifetime pre-IPO funding is not consolidated here · confiance High.  
+  Sources : [Knowledge Atlas Technology IPO prospectus](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000017.pdf) · [HKEX — AI IPOs in 2026](https://www.hkexgroup.com/media-centre/insight/insight/2026/johnson-chui/ai-ipos-drive-a-strong-start-to-2026?sc_lang=en) · [Knowledge Atlas Technology 2025 audited annual report](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0419/2026041900085.pdf) · [HKEX announcement of GLM-5.2](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0615/2026061500277.pdf) · [HKEX IPO offer price, allocation, and initial net proceeds](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0107/2026010701798.pdf) · [Z.ai model and API documentation](https://docs.z.ai/guides/overview/overview)
 
 ### Healthcare & life sciences
 
@@ -573,6 +582,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[PathAI](https://www.pathai.com)** — AI-powered digital pathology platform spanning diagnostic slide workflow, algorithm-assisted interpretation and biopharma biomarker services.  
   Boston, United States · Acquisition annoncée · Growth · ~$255.5M before pending acquisition · confiance Medium.  
   Sources : [Series C](https://www.pathai.com/resources/pathai-announces-completion-of-165-million-financing-for-advancing-medicine-with-ai-powered-pathology) · [MedStar deployment](https://www.pathai.com/news/pathai-and-medstar-health-announce-partnership-to-deploy-the-aisight-dx-digital-pathology-platform-and-advanced-ai-applications) · [Definitive Roche acquisition agreement](https://www.roche.com/investors/updates/inv-update-2026-05-07) · [Aggregate private funding estimate](https://forgeglobal.com/pathai_ipo/)
+- **[Prosper AI](https://www.getprosper.ai/)** — Healthcare-specialized voice agents that handle patient and payer calls across scheduling, eligibility and benefit verification, prior authorization, billing, collections, and related workflows while reading from and writing to EHR and practice-management systems.  
+  New York, New York, United States · Privée indépendante · Series A · $35M publicly announced across a $5M seed and $30M Series A · confiance High.  
+  Sources : [Prosper product, use cases, integrations, and customer claims](https://www.getprosper.ai/) · [Prosper $5M seed announcement](https://www.globenewswire.com/news-release/2025/09/23/3154716/0/en/prosper-ai-raises-5m-to-be-the-default-voice-ai-platform-for-healthcare-s-450b-admin-crisis.html) · [Prosper $30M Series A and traction announcement](https://www.globenewswire.com/news-release/2026/06/22/3315343/0/en/prosper-ai-raises-30m-from-andreessen-horowitz-to-scale-the-first-ai-platform-to-run-the-entire-patient-journey.html) · [Andreessen Horowitz investment thesis for Prosper](https://a16z.com/announcement/investing-in-prosper-ai/) · [Prosper LinkedIn company and workforce profile](https://www.linkedin.com/company/prospertechnologies) · [Prosper Y Combinator profile](https://www.ycombinator.com/companies/prosper)
 - **[Qure.ai](https://www.qure.ai)** — Medical imaging AI suite for chest X-ray, head CT and lung-nodule screening, triage and diagnostic-support workflows.  
   Mumbai, India · Privée indépendante · Growth · At least $121M in disclosed equity rounds · confiance Medium.  
   Sources : [Series D, global footprint and regulatory count](https://www.qure.ai/us/news-press-coverages/qure-ai-gets-series-d-funding-to-expand-healthcare-ai) · [Series A financing](https://www.qure.ai/us/news-press-coverages/qure-ai-raises-million-from-sequoia-india) · [Company newsroom including Series C](https://www.qure.ai/us/newsroom) · [FY2024-25 impact report](https://www.qure.ai/us/impact-stories/qure-ai-fy-24-25-impact-report-global-ai-healthcare-innovations)
@@ -615,6 +627,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 
 ### Horizontal enterprise software
 
+- **[Aligned](https://alignedup.com/)** — Provides a shared buyer-seller deal workspace in which AI agents build deal rooms and assets, map stakeholders, interpret intent and risk, answer buyer questions and recommend or execute next steps.  
+  New York, United States and Tel Aviv, Israel · Privée indépendante · Series B · $73.8M total funding · confiance High.  
+  Sources : [Company-issued $60M Series B, $73.8M total, investors, traction and Deal Brain description](https://www.globenewswire.com/news-release/2026/07/01/3320495/0/en/aligned-closes-60m-series-b-to-solidify-leadership-position-as-the-system-of-action-for-b2b-sales.html) · [Aligned product, AI agents, integrations and public pricing motion](https://alignedup.com/) · [Aligned AI Deal Workspace launch and detailed capabilities](https://www.prnewswire.com/news-releases/aligned-launches-the-ai-deal-workspace--the-missing-execution-layer-for-modern-sales-302684951.html) · [CTech funding corroboration, founding year and 55-person headcount](https://www.calcalistech.com/ctechnews/article/b1kmpvz7gx)
 - **[Clay](https://www.clay.com)** — GTM development environment that combines data enrichment, buying signals, agentic web research and multichannel workflow automation.  
   New York, United States · Privée indépendante · Growth · ~$202M primary funding; $75M secondary tenders excluded · confiance Medium.  
   Sources : [Series C announcement](https://www.clay.com/blog/clay-series-c-announcement-the-gtm-engineering-era-begins-now) · [$100M ARR and retention metrics](https://www.clay.com/blog/100m-arr) · [Funding-round aggregate](https://www.clay.com/dossier/clay-funding) · [Company profile and headcount range](https://www.linkedin.com/company/grow-with-clay)
@@ -624,6 +639,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Dust](https://dust.tt)** — Model-agnostic platform for building shared enterprise agents connected to internal knowledge and business tools.  
   Paris, France · Privée indépendante · Series B · >$60M · confiance Medium.  
   Sources : [Series B announcement](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/Dust-raises-40M-to-make-AI-multiplayer-inside-the-enterprise.html) · [Company product site](https://dust.tt) · [Company profile and headcount range](https://www.linkedin.com/company/dust-tt)
+- **[Flowscope](https://www.flowscope.com/)** — Uses observation agents to shadow work and generate process maps, then combines engineers and agents to redesign and automate repetitive workflows on the customer's existing systems, with ongoing maintenance and outcome-based pricing.  
+  San Francisco, United States · Privée indépendante · Seed · Y Combinator Spring 2026; funding amount not separately announced · confiance Medium.  
+  Sources : [Flowscope homepage: two-week process observation, automation and ongoing maintenance](https://www.flowscope.com/) · [Flowscope operating model, outcome pricing and explicit services-firm structure](https://www.flowscope.com/blog/aligned-ai-engagement-flowscope) · [Y Combinator directory: Spring 2026 batch, founders, team size, target buyers and launch description](https://www.ycombinator.com/companies/flowscope)
 - **[Gamma](https://gamma.app)** — AI design partner for generating and editing presentations, documents, websites and social content from prompts or source material.  
   San Francisco, United States · Privée indépendante · Growth · ~$90M announced; latest round includes secondary shares · confiance Medium.  
   Sources : [Series B and operating metrics](https://gamma.app/insights/how-we-built-a-usd100m-business-differently) · [Funding total and secondary-round detail](https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/) · [Company profile and headcount range](https://www.linkedin.com/company/gamma-app)
@@ -633,12 +651,18 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Gong](https://www.gong.io)** — Revenue AI operating system that captures customer interactions, builds a revenue graph and supports coaching, forecasting and agentic sales workflows.  
   San Francisco, United States · Privée indépendante · Growth · $584M · confiance High.  
   Sources : [Series E and cumulative funding](https://www.gong.io/press/gong-raises-250-million-in-series-e-funding-at-7-25-billion-valuation) · [2026 growth and ARR metrics](https://www.gong.io/press/gong-growth-accelerates-past-55-yoy-arr-tops-500m) · [Company profile and headcount range](https://www.linkedin.com/company/gong-io)
+- **[Gradial](https://www.gradial.com/)** — Orchestrates AI agents, people and enterprise marketing systems to execute the work between a brief and publication, including content assembly, CMS and DAM operations, QA, approvals, accessibility, governance and GEO remediation.  
+  Seattle, United States · Privée indépendante · Growth · $120M disclosed funding, derived from $55M total at Series B plus a $65M Series C · confiance High.  
+  Sources : [Gradial $65M Series C, investors, ARR growth and customer claims, Jun 2026](https://www.gradial.com/blog/gradial-65m-series-c) · [Gradial $35M Series B, $55M cumulative funding and founding year, Jan 2026](https://www.gradial.com/blog/series-b-announcement) · [Gradial product architecture, integrations, model routing, evals and governance](https://docs.gradial.com/docs/getting-started/what-is-gradial) · [Gradial LinkedIn headquarters, founding year and employee-size band](https://www.linkedin.com/company/gradialai)
 - **[Granola](https://www.granola.ai)** — Bot-free AI notepad that transcribes meetings, enriches user notes and builds searchable team context across conversations.  
   London, United Kingdom · Privée indépendante · Growth · ~$192M · confiance High.  
   Sources : [Series C and product architecture](https://www.granola.ai/blog/series-c) · [Funding aggregate](https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/) · [Company profile and headcount range](https://uk.linkedin.com/company/meetgranola)
 - **[Hebbia](https://www.hebbia.com)** — Matrix is a multi-agent research workspace that analyzes large document sets and produces cited tables, memos, presentations and spreadsheets.  
   New York, United States · Privée indépendante · Series B · ~$161M · confiance Medium.  
   Sources : [Series B announcement](https://www.hebbia.com/blog/hebbia-raises-usd130m-series-b) · [Company profile and customer signal](https://www.linkedin.com/company/hebbia) · [Funding aggregate](https://sacra.com/c/hebbia/)
+- **[Lab0](https://lab0.ai/)** — Runs enterprise software implementation from requirements discovery through configuration, integration, testing and go-live, combining deterministic recipes, agent judgment, dry runs, approval gates and rollback across platforms such as ServiceNow, SAP, Salesforce and Workday.  
+  San Francisco, United States · Privée indépendante · Seed · Y Combinator Spring 2026; funding amount not separately announced · confiance Medium.  
+  Sources : [Lab0 product, safety model, supported systems and deterministic-agent split](https://lab0.ai/) · [Lab0 AI FDE workflow and open multi-platform positioning](https://lab0.ai/ai-fde) · [Y Combinator directory: founders, Spring 2026 batch, team size and early traction claims](https://www.ycombinator.com/companies/lab0)
 - **[Langdock](https://www.langdock.com/)** — Provides a model-agnostic enterprise workspace for AI chat, assistants, agents, workflows and internal integrations.  
   Berlin, Germany · Privée indépendante · Seed · $3M seed round publicly disclosed · confiance Medium.  
   Sources : [Langdock enterprise product and Merck usage](https://www.langdock.com/enterprise) · [General Catalyst portfolio profile](https://www.generalcatalyst.com/companies/langdock) · [TechCrunch on $3M seed and Merck rollout](https://techcrunch.com/2024/04/19/langdock/) · [Langdock company profile](https://www.linkedin.com/company/langdock)
@@ -657,6 +681,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Parloa](https://www.parloa.com)** — Agent-management platform for creating, testing and operating enterprise customer-service agents across voice and messaging channels.  
   Berlin, Germany · Privée indépendante · Growth · >$560M · confiance High.  
   Sources : [Series D announcement](https://www.parloa.com/parloa-in-the-press/parloa-valued-at-3-billion-with-350m-series-d/) · [ARR and retention announcement](https://www.parloa.com/parloa-in-the-press/parloa-surpasses-50m-revenue-mark/) · [Low-latency voice architecture](https://www.parloa.com/knowledge-hub/examples-of-low-latency-ai-agents/) · [Company profile and headcount range](https://www.linkedin.com/company/parloa)
+- **[Ploy](https://ploy.ai/)** — An AI growth platform whose agents build and optimize websites, identify visitors, generate SEO and ABM pages, run advertising workflows and synchronize outcomes with CRM and analytics systems.  
+  San Francisco, California, United States · Privée indépendante · Seed · $27M seed publicly announced · confiance High.  
+  Sources : [Ploy product, buyers and integrations](https://ploy.ai/) · [Ploy $27M seed announcement](https://ploy.ai/blog/ploy-raises-27m) · [Y Combinator company profile and traction](https://www.ycombinator.com/companies/ploy) · [Company-issued launch release](https://www.prnewswire.com/news-releases/ploy-raises-27m-to-turn-your-companys-website-into-your-hardest-working-employee-302803231.html)
 - **[PolyAI](https://poly.ai)** — Enterprise voice-assistant platform that automates high-volume customer-service calls while integrating with contact-center and back-office systems.  
   London, United Kingdom · Privée indépendante · Growth · >$120M · confiance Medium.  
   Sources : [Series C announcement](https://poly.ai/blog/polyai-raises-50-million-series-c) · [Company background and research heritage](https://poly.ai/about) · [Company profile and headcount range](https://www.linkedin.com/company/polyai)
@@ -687,6 +714,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 
 ### Industrial AI, robotics & supply chain
 
+- **[1001 AI](https://1001.ai/)** — A sovereign operational-intelligence platform that unifies live data, systems, workflows, assets, and constraints to predict bottlenecks and recommend or execute actions in construction, ports, energy, airports, logistics, and industrial operations.  
+  Dubai, United Arab Emirates and London, United Kingdom · Privée indépendante · Series A · $39M publicly announced across a $9M seed and $30M Series A · confiance Medium.  
+  Sources : [1001 product and vertical solutions](https://1001.ai/) · [1001 company announcement of $30M Series A](https://www.linkedin.com/posts/ai-1001_today-were-announcing-1001s-30m-series-activity-7477612113914585090-3_YV) · [1001 $9M seed announcement and operating model](https://www.wamda.com/en/2025/10/1001-ai-closes-9-million-seed-round-accelerate-gcc-landing) · [1001 Series A terms and embedded deployment model](https://www.sahmcapital.com/news/content/zawya-pressr-sanabil-joins-lux-capital-to-back-30mln-series-a-in-1001-2026-06-30) · [1001 LinkedIn company and workforce profile](https://www.linkedin.com/company/ai-1001)
 - **[ANYbotics](https://www.anybotics.com/)** — The ANYmal autonomous quadruped robot performs repeatable visual, thermal, acoustic and gas inspections in hazardous industrial facilities.  
   Zurich, Switzerland · Privée indépendante · Growth · More than $130M total raised · confiance High.  
   Sources : [ANYbotics $60M financing, total funding, customers and team size](https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/) · [ANYmal technical specification](https://www.anybotics.com/ANYbotics_Specs_US.pdf) · [ANYbotics inspection product overview](https://www.anybotics.com/anymal/)
@@ -786,12 +816,15 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Legora](https://legora.com/)** — Collaborative AI platform for legal research, drafting, document review and firm-specific legal workflows.  
   Stockholm, Sweden · Privée indépendante · Growth · >$785M disclosed lower bound · confiance High.  
   Sources : [Legora Series D extension and operating scale, Apr 2026](https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors) · [Legora $550M Series D, Mar 2026](https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth) · [Legora $150M Series C and customer scale, Oct 2025](https://legora.com/blog/series-c) · [Legora US launch and prior funding, Mar 2025](https://legora.com/newsroom/legora-launches-in-the-us)
-- **[Norm AI](https://www.norm.ai/)** — Supervised AI agents and an affiliated law firm that execute regulatory compliance work for financial institutions and enterprises.  
-  New York, United States · Privée indépendante · Growth · >$260M · confiance High.  
-  Sources : [Norm AI Series C, funding total and customer scale, Jul 2026](https://www.norm.ai/resources/norm-ai-raises-20-million-at-a-1-2-billion-valuation) · [Norm AI technology and supervisory architecture](https://www.norm.ai/technology) · [Norm AI company timeline and funding milestones](https://www.norm.ai/)
+- **[Norm AI](https://www.norm.ai/)** — Builds attorney-engineered legal and compliance agents, an inline supervisory layer for enterprise AI, and supplies the technology used by affiliated AI-native law firm Norm Law.  
+  New York, United States · Privée indépendante · Growth · >$260M publicly announced funding · confiance High.  
+  Sources : [Norm AI Series C, funding total, investors and client AUM, Jul 2026](https://www.norm.ai/resources/norm-ai-raises-20-million-at-a-1-2-billion-valuation) · [Norm AI technology, legal engineering and AI-native law-firm model](https://www.norm.ai/technology) · [Norm AI company timeline and funding milestones](https://www.norm.ai/) · [Norm Supervisory AI architecture and enterprise integrations](https://www.norm.ai/supervisory-ai) · [Norm AI LinkedIn headcount and headquarters profile](https://www.linkedin.com/company/normative-ai/)
 - **[Spellbook](https://spellbook.com/)** — Microsoft Word-native AI for drafting, reviewing and negotiating commercial contracts.  
   Toronto, Canada · Privée indépendante · Series B · >$120M including $40M debt · confiance Medium.  
   Sources : [Spellbook Series B, customers and markets, Oct 2025](https://spellbook.com/blog/series-b) · [RBCx $40M debt financing and operating metrics, Mar 2026](https://www.rbcx.com/news/press-releases/spellbook-secures-40m-usd-debt-financing-from-rbcx-to-support-strategic-acquisitions-in-consolidating-legal-ai-market/) · [Government of Canada profile: product launch, investment and employment](https://www.canada.ca/en/atlantic-canada-opportunities/campaigns/impacts/spellbook.html)
+- **[Tangos AI](https://tangos.ai/)** — Runs end-to-end AML, sanctions, fraud, enhanced-due-diligence and intelligence investigations from an escalated alert to a source-traced, examiner-ready case file.  
+  Tel Aviv, Israel · Privée indépendante · Seed · $20M total publicly announced funding · confiance Medium.  
+  Sources : [Tangos $20M seed, investors, founding and product architecture, Jul 2026](https://tangos.ai/press/tangos-raises-20-million-seed-round-to-scale-financial-crime-investigations-with-autonomous-ai/) · [Tangos platform, deployment modes and proof-of-value workflow](https://tangos.ai/) · [Tangos team and financial-crime domain expertise](https://tangos.ai/about/) · [Tangos LinkedIn headcount and production claims](https://www.linkedin.com/company/tangos-ai/) · [Calcalist corroboration of funding and approximately 20 employees](https://www.calcalist.co.il/calcalistech/article/hkvpll5qfx)
 
 ### Media, voice & commerce
 
@@ -843,9 +876,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Enfabrica](https://www.enfabrica.net/)** — Accelerated Compute Fabric SuperNIC silicon and memory-fabric systems for connecting accelerators, CPUs, memory, and networks.  
   Mountain View, California, United States · Transaction stratégique · Growth · Approximately $260M reported before the September 2025 transaction · confiance Medium.  
   Sources : [Enfabrica current company status](https://www.enfabrica.net/about) · [Enfabrica Series C and ACF-S availability](https://www.businesswire.com/news/home/20241119607725/en/Enfabrica-Raises-%24115M-in-New-Funding-to-Advance-its-Leadership-in-AI-Networking-Solutions) · [Enfabrica ACF-S product](https://enfabrica.net/solution/acf-s) · [CNBC transaction and cumulative funding report](https://www.cnbc.com/2025/09/18/nvidia-spent-over-900-million-on-enfabrica-ceo-ai-startup-technology.html)
-- **[Etched](https://etched.com/)** — Sohu transformer-specific ASICs and rack-scale inference systems optimized for transformer workloads.  
-  San Jose, California, United States · Privée indépendante · Growth · $800M total raised · confiance Medium.  
-  Sources : [Etched financing, working-chip, contracts, and shipment announcement](https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html) · [TechCrunch assessment of Etched launch status](https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/)
+- **[Etched](https://www.etched.com/)** — Frontier inference clusters co-designed across accelerator chips, packages, racks, interconnects, memory, cooling, software, and manufacturing for both prefill and decode workloads.  
+  San Jose, California, United States · Privée indépendante · Growth · $800M total publicly announced funding · confiance High.  
+  Sources : [Etched financing and first-silicon announcement](https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html) · [TechCrunch assessment of Etched launch status](https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/) · [Etched product, architecture, team, contracts, and production overview](https://www.etched.com/) · [Etched LinkedIn company and workforce profile](https://www.linkedin.com/company/etched-ai)
 - **[FuriosaAI](https://furiosa.ai/)** — RNGD data-center inference accelerator cards, servers, compiler, runtime, and model-serving software.  
   Seoul, South Korea · Privée indépendante · Growth · $246M total funding · confiance High.  
   Sources : [FuriosaAI Series C bridge and cumulative funding](https://furiosa.ai/blog/announcing-furiosaais-125m-series-c-bridge-funding-to-scale-sustainable-ai-compute) · [FuriosaAI RNGD mass-production announcement](https://furiosa.ai/blog/rngd-enters-mass-production-the-high-performance-ai-accelerator-for-any-data-center) · [FuriosaAI RNGD developer documentation](https://developer.furiosa.ai/v2026.1.0-rc2/en/overview/rngd.html) · [FuriosaAI company profile and headcount range](https://www.linkedin.com/company/furiosaai)
@@ -885,6 +918,9 @@ Généré le 2026-07-13. Sources publiques uniquement.
 - **[Spectricity](https://spectricity.com/)** — Develops chip-scale multispectral sensors, camera modules and vision algorithms for mobile, wearable and IoT devices.  
   Mechelen, Belgium · Privée indépendante · Series B · €20M total equity funding publicly announced as of 2021; €3M later grant excluded · confiance Medium.  
   Sources : [Spectricity €14M Series B and €20M total](https://spectricity.com/news/spectricity-raises-e14-million-series-b-funding-as-it-accelerates-plans-to-deliver-industry-leading-hyperspectral-sensing-to-mobile-and-consumer-devices/) · [Imec on Spectricity Series B](https://www.imec-int.com/en/press/spectricity-raises-eu14-million-series-b-funding-it-accelerates-plans-deliver-industry) · [Spectricity current product and channel news](https://spectricity.com/news/) · [Spectricity applications](https://spectricity.com/product/applications/)
+- **[Stathera](https://www.stathera.com/)** — A fabless semiconductor company building patented DualMode MEMS resonators and oscillators that combine kHz and MHz timing outputs to replace multiple quartz timing components.  
+  Montreal, Quebec, Canada · Privée indépendante · Series B · $75M total per company-issued Series B release · confiance High.  
+  Sources : [Stathera company and product site](https://www.stathera.com/) · [Company-issued $55M Series B and $75M total funding release](https://www.newswire.ca/news-releases/stathera-announces-us-55-million-series-b-to-scale-silicon-timing-and-accelerate-next-generation-ai-data-center-solutions-890979239.html) · [Company-issued $15M Series A release](https://www.businesswire.com/news/home/20230518005002/en/Fabless-Semiconductor-Innovator-Stathera-Announces-US-15M-Series-A-Funding-Round) · [LinkedIn company profile and headcount range](https://www.linkedin.com/company/stathera) · [EE Times Silicon 100 startup profile](https://polyn.ai/wp-content/uploads/2025/07/Silicon-100_2025.pdf)
 - **[Tenstorrent](https://tenstorrent.com/)** — Programmable AI accelerators, RISC-V CPU and chiplet IP, systems, and an open-source compiler/runtime stack.  
   Toronto, Canada · Privée indépendante · Growth · At least $893M from the two disclosed 2021 and 2024 rounds; exact cumulative total not normalized · confiance Medium.  
   Sources : [Tenstorrent Series D announcement](https://tenstorrent.com/en/newsroom/tenstorrent-closes-693m-of-series-d-funding-led-by-samsung-securities-and-afw-partners) · [Tenstorrent Blackhole developer product announcement](https://tenstorrent.com/en/newsroom/tenstorrent-unveils-blackhole-developer-products-redefining-ai-performance-and-cost-efficiency) · [Tenstorrent and Razer compact accelerator device](https://tenstorrent.com/en/newsroom/tenstorrent-unveils-first-gen-compact-ai-accelerator-device) · [Tenstorrent company profile and headcount range](https://www.linkedin.com/company/tenstorrent-inc.)

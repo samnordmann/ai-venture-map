@@ -19,6 +19,13 @@ const sourceCount = companies.reduce((sum, company) => sum + company.sources.len
 const fundingKnown = companies.filter((company) => company.fundingUsdM !== null).length;
 const headcountKnown = companies.filter((company) => company.headcount && company.headcount !== "Unknown").length;
 const highConfidence = companies.filter((company) => company.confidence === "High").length;
+const hostname = (value) => {
+  try { return new URL(value).hostname.replace(/^www\./, ""); } catch { return ""; }
+};
+const firstPartyOnly = companies.filter((company) => {
+  const companyHost = hostname(company.website);
+  return company.sources.length > 0 && company.sources.every((source) => hostname(source.url) === companyHost);
+}).length;
 const differentiators = [...companies.reduce((map, company) => {
   for (const item of company.differentiators) map.set(item, (map.get(item) ?? 0) + 1);
   return map;
@@ -69,7 +76,7 @@ const lines = [
   "- Les montants equity, dette, secondaire, valorisation et engagements cloud ne sont pas additionnés entre entreprises.",
   "- Les headcounts sont des plages publiques et vieillissent rapidement.",
   "- Les métriques de traction sont souvent déclaratives; les notes le signalent.",
-  "- 79 fiches reposent uniquement sur le domaine de l’entreprise; l’annonce est traçable mais non corroborée indépendamment.",
+  `- ${firstPartyOnly} fiches reposent uniquement sur le domaine de l’entreprise; l’annonce est traçable mais non corroborée indépendamment.`,
   "- ARR, churn, gross margin, profondeur contractuelle et qualité produit sont rarement publics.",
   "- Ce corpus est une sélection de sociétés financées/high-signal, pas la totalité mathématique des entreprises IA mondiales.",
   "",

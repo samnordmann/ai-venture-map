@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Gradial",
+    "website": "https://www.gradial.com/",
+    "hq": "Seattle, USA",
+    "founded": 2023,
+    "stage": "Growth",
+    "sector": "Horizontal enterprise AI",
+    "subsector": "Agentic enterprise marketing operations and content execution",
+    "layer": "Horizontal application",
+    "product": "Orchestrates AI agents, people and enterprise marketing systems to execute the work between a brief and publication, including content assembly, CMS and DAM operations, QA, approvals, accessibility, governance and GEO remediation.",
+    "targetCustomer": "Large enterprises with complex, high-volume marketing and digital-content operations",
+    "buyer": "Chief marketing officer, head of marketing operations, chief digital officer or digital-experience leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Multi-agent orchestration",
+      "Multi-model routing",
+      "Continuous evaluations",
+      "Enterprise context engineering",
+      "Rules and governance engine"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 120,
+    "fundingDisplay": "$120M disclosed funding, derived from $55M total at Series B plus a $65M Series C",
+    "fundingAsOf": "2026-06-17",
+    "latestRound": "$65M Series C led by Insight Partners, Jun 2026",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Insight Partners",
+      "VMG Partners",
+      "Madrona",
+      "PruVen Capital",
+      "Outsiders Fund"
+    ],
+    "traction": "Gradial names AWS, T-Mobile, Prudential, Vanguard, Kaiser Permanente and U.S. Bank as customers and reported more than 10x ARR growth over the preceding 12 months. It also reports customer outcomes of up to 20x efficiency and same-day rather than 10-day SLA turnaround; ARR, retention and the methodology behind those outcome claims are not public, and all figures are company-reported.",
+    "confidence": "High",
+    "notes": "This is not primarily an AI copywriting product: the wedge is governed execution inside CMS, DAM, workflow and experimentation systems. The plausible moat is accumulated enterprise context, integrations, approval/evaluation data and deep workflow switching costs, not a proprietary foundation model. Public documentation confirms multi-model routing, native MCP, continuous evals and a rules layer, but does not disclose model-level IP or audited performance. The $120M total is arithmetic across company announcements ($55M cumulative at Series B plus $65M Series C), while the later statement of more than $110M raised in 16 months is not itself a lifetime total.",
+    "sources": [
+      {
+        "label": "Gradial $65M Series C, investors, ARR growth and customer claims, Jun 2026",
+        "url": "https://www.gradial.com/blog/gradial-65m-series-c",
+        "type": "primary"
+      },
+      {
+        "label": "Gradial $35M Series B, $55M cumulative funding and founding year, Jan 2026",
+        "url": "https://www.gradial.com/blog/series-b-announcement",
+        "type": "primary"
+      },
+      {
+        "label": "Gradial product architecture, integrations, model routing, evals and governance",
+        "url": "https://docs.gradial.com/docs/getting-started/what-is-gradial",
+        "type": "primary"
+      },
+      {
+        "label": "Gradial LinkedIn headquarters, founding year and employee-size band",
+        "url": "https://www.linkedin.com/company/gradialai",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Lab0",
+    "website": "https://lab0.ai/",
+    "hq": "San Francisco, USA",
+    "founded": 2026,
+    "stage": "Seed",
+    "sector": "Horizontal enterprise AI",
+    "subsector": "AI forward-deployed engineering for enterprise software implementation",
+    "layer": "AI-native service",
+    "product": "Runs enterprise software implementation from requirements discovery through configuration, integration, testing and go-live, combining deterministic recipes, agent judgment, dry runs, approval gates and rollback across platforms such as ServiceNow, SAP, Salesforce and Workday.",
+    "targetCustomer": "Enterprise-software vendors and systems integrators with large implementation or post-sales delivery teams",
+    "buyer": "VP Professional Services, head of implementation, chief customer officer or solutions engineering leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic workflow orchestration",
+      "LLM-assisted requirements discovery",
+      "Deterministic deployment recipes",
+      "Automated integration generation",
+      "Agentic testing and validation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Workflow integration"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 3,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "Y Combinator Spring 2026; funding amount not separately announced",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; amount not separately announced",
+    "headcount": "3 (YC directory)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator"
+    ],
+    "traction": "The YC launch says Lab0 is working with Adobe and a couple of systems integrators and claims to compress a six-month implementation to roughly ten days. No customer case study, revenue, retention, completed-deployment count or independently measured time-to-value is public.",
+    "confidence": "Medium",
+    "notes": "Lab0's thesis is productizing the work of forward-deployed engineers rather than selling another assistant. The strongest potential moat would be reusable deployment recipes, connectors, validation traces and exception data accumulated across implementations, but none is yet evidenced at scale. The company explicitly frames deterministic logic for repeatable work and AI for ambiguous work, with dry runs and human approval. At three people and with no public deployment metrics, the central falsification risk is that heterogeneous enterprise rollouts still require linear expert labor, leaving a services business rather than repeatable software. YC participation is recorded as backing, not converted into an assumed financing amount.",
+    "sources": [
+      {
+        "label": "Lab0 product, safety model, supported systems and deterministic-agent split",
+        "url": "https://lab0.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Lab0 AI FDE workflow and open multi-platform positioning",
+        "url": "https://lab0.ai/ai-fde",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator directory: founders, Spring 2026 batch, team size and early traction claims",
+        "url": "https://www.ycombinator.com/companies/lab0",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Arga Labs",
+    "website": "https://www.argalabs.com/",
+    "hq": "San Francisco, USA",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Agent infrastructure",
+    "subsector": "Production-like sandboxes and digital twins for testing AI agents and software",
+    "layer": "Developer tool",
+    "product": "Creates isolated, resettable environments containing API, MCP and CLI-compatible twins of third-party services so applications and agents can run cross-system workflows, generate scenarios, capture traces and compare outcomes without production side effects.",
+    "targetCustomer": "Software and AI teams shipping agents or applications that act across external services",
+    "buyer": "Head of AI engineering, platform engineering leader, developer-productivity leader or application-security leader",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Agentic test planning",
+      "Stateful digital twins",
+      "Natural-language scenario generation",
+      "Semantic test abstraction",
+      "Sandbox orchestration and replay"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Infrastructure",
+      "Workflow integration"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 3,
+    "fundingUsdM": null,
+    "fundingDisplay": "Y Combinator Spring 2026; funding amount not publicly disclosed",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; amount not publicly disclosed",
+    "headcount": "4 (YC directory)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator",
+      "Comma Capital"
+    ],
+    "traction": "Arga has a live self-serve free plan, a team plan and a paid enterprise motion. Its YC profile says limited features are publicly available; its LinkedIn page says it has onboarded Seed-to-Series-B customers and caught production integration bugs, but names no customer and publishes no revenue, retention, fidelity benchmark or workload volume.",
+    "confidence": "Medium",
+    "notes": "The product is materially more than a generic agent-evaluation dashboard: it attempts to own the execution environment through stateful third-party-service twins, per-PR sandboxes, traces and production-informed scenarios. The defensible asset could become breadth and behavioral fidelity of the twin library plus accumulated failure scenarios. That moat is unproven and expensive to maintain as external APIs evolve; cloud sandboxes, browser-testing platforms and model-lab simulators can converge on the same layer. Documentation says agent/security testing is in private beta, so it should not be treated as broadly production-ready. Claims about thousands of parallel instances, customers and caught bugs are company-issued, not independently audited; use of scoped production data also creates security and privacy risk.",
+    "sources": [
+      {
+        "label": "Arga Labs product, supported twins, sandbox workflow and positioning",
+        "url": "https://www.argalabs.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Arga documentation: architecture, validation modes and production-informed scenarios",
+        "url": "https://docs.argalabs.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Arga plans, self-serve limits and paid go-to-market",
+        "url": "https://docs.argalabs.com/plans",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator directory: Spring 2026 batch, founders, team size and launch claims",
+        "url": "https://www.ycombinator.com/companies/arga-labs",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Arga Labs LinkedIn: employee band, Comma Capital backing and early-customer claims",
+        "url": "https://www.linkedin.com/company/arga-labs",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Flowscope",
+    "website": "https://www.flowscope.com/",
+    "hq": "San Francisco, USA",
+    "founded": 2025,
+    "stage": "Seed",
+    "sector": "Horizontal enterprise AI",
+    "subsector": "Agentic process mining, workflow redesign and AI-native transformation services",
+    "layer": "AI-native service",
+    "product": "Uses observation agents to shadow work and generate process maps, then combines engineers and agents to redesign and automate repetitive workflows on the customer's existing systems, with ongoing maintenance and outcome-based pricing.",
+    "targetCustomer": "Mid-market and enterprise operations teams, including private-equity portfolio companies",
+    "buyer": "COO, CFO, head of transformation or private-equity operating partner",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Agentic process observation",
+      "Process mining",
+      "LLM-based workflow analysis",
+      "Cross-system workflow automation",
+      "Outcome monitoring"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Proprietary data",
+      "Workflow integration"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 2,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "Y Combinator Spring 2026; funding amount not separately announced",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Y Combinator Spring 2026; amount not separately announced",
+    "headcount": "2 (YC directory)",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Y Combinator"
+    ],
+    "traction": "Flowscope publishes no named customer, revenue, deployment count or independently verified savings. Its YC profile asks for introductions to CFOs, COOs and private-equity operating partners, consistent with a very early enterprise-services go-to-market rather than established product traction.",
+    "confidence": "Medium",
+    "notes": "Flowscope explicitly says it is structurally a consulting/services firm: an engineer enters the customer environment, an agent observes employees for roughly two weeks, and the team ships and maintains automation on the existing stack. It proposes a fixed diagnostic fee followed by pricing equal to 25% of measured savings. That is strong métier integration but weak demonstrated technical differentiation today. The venture case depends on the unverified claim that agent infrastructure built for the first ten customers is reusable across the next hundred; custom integration labor, long enterprise sales, savings attribution disputes, employee-surveillance/privacy constraints and customer-specific exceptions could keep delivery linear. Do not classify it as conventional SaaS or treat its claims of speed and margins as audited outcomes.",
+    "sources": [
+      {
+        "label": "Flowscope homepage: two-week process observation, automation and ongoing maintenance",
+        "url": "https://www.flowscope.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Flowscope operating model, outcome pricing and explicit services-firm structure",
+        "url": "https://www.flowscope.com/blog/aligned-ai-engagement-flowscope",
+        "type": "primary"
+      },
+      {
+        "label": "Y Combinator directory: Spring 2026 batch, founders, team size, target buyers and launch description",
+        "url": "https://www.ycombinator.com/companies/flowscope",
+        "type": "credible-secondary"
+      }
+    ]
+  }
+]

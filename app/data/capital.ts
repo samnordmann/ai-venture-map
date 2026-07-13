@@ -1,7 +1,7 @@
 import capitalResearch from "../../research/incoming/14-capital-ecosystem.json";
 import type { CapitalFact, CapitalNode, FundingArchetype } from "./types";
 
-export const capitalFacts = capitalResearch.facts satisfies CapitalFact[];
+export const capitalFacts = capitalResearch.facts as CapitalFact[];
 
 export const fundingArchetypes: FundingArchetype[] = [
   { name: "Foundation / model lab", examples: "modèles, multimodal, world models", whatGetsFunded: "Équipe recherche rare, benchmark frontier, accès compute et ambition plateforme.", evidenceBeforeRound: "Résultat technique reproductible, talent concentré, partenaire compute/capital crédible.", durableMoat: "Research velocity + compute + distribution + data feedback.", commonFailure: "Dépendance à une course au capital que seuls quelques acteurs peuvent soutenir." },
@@ -12,4 +12,4 @@ export const fundingArchetypes: FundingArchetype[] = [
   { name: "AI-native service", examples: "admin santé, audit, assurance, operations", whatGetsFunded: "Service complet vendu à un budget existant avec trajectoire d’automatisation et marge.", evidenceBeforeRound: "Revenu, SLA/outcome, part humaine instrumentée et repeatability inter-clients.", durableMoat: "Operations data, workflow ownership, distribution et modèle de risque.", commonFailure: "Agence déguisée : chaque client exige une équipe et du code différents." },
 ];
 
-export const capitalNodes = capitalResearch.nodes satisfies CapitalNode[];
+export const capitalNodes = capitalResearch.nodes as CapitalNode[];

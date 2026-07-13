@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:44:39.114Z",
+  "generatedAt": "2026-07-13T18:07:41.672Z",
   "usedFiles": [
     "01-foundation-models.json",
     "02-ai-infrastructure.json",
@@ -13,7 +13,11 @@
     "10-chips-hardware-edge.json",
     "11-data-infrastructure.json",
     "12-france-ecosystem.json",
-    "13-europe-uk-ecosystem.json"
+    "13-europe-uk-ecosystem.json",
+    "17a-user-companies.json",
+    "17b-user-companies.json",
+    "17c-user-companies.json",
+    "17d-user-companies.json"
   ],
   "ignoredFiles": [
     "14-capital-ecosystem.json",
@@ -21,16 +25,20 @@
     "15-trends-taxonomy.json",
     "16-qa-fixes.json"
   ],
-  "recordsBeforeDeduplication": 261,
-  "uniqueCompanies": 254,
+  "recordsBeforeDeduplication": 277,
+  "uniqueCompanies": 266,
   "duplicateNames": [
     "Arize AI",
     "Basis",
+    "Etched",
     "Groq",
+    "Norm AI",
     "Numeric",
     "Phaidra",
     "Poolside",
-    "Rillet"
+    "Rillet",
+    "Together AI",
+    "Z.ai (Zhipu AI)"
   ],
   "errors": []
 }

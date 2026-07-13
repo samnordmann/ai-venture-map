@@ -4,23 +4,25 @@ import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const metadataBase = new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000");
 
 export const metadata: Metadata = {
+  metadataBase,
   title: "AI Venture Atlas — cartographie startups, tendances et idées",
   description: "Un atlas de recherche interactif pour comparer l’écosystème des startups IA, les tendances de marché et les thèses business à explorer.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   openGraph: {
     title: "AI Venture Atlas",
-    description: "254 entreprises, 15 tendances et 30 thèses pour comprendre où la valeur et les moats se forment dans l’IA.",
+    description: "266 entreprises, 15 tendances et 30 thèses pour comprendre où la valeur et les moats se forment dans l’IA.",
     type: "website",
     locale: "fr_FR",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Cartographie abstraite de l’écosystème mondial des startups IA" }],
+    images: [{ url: "og.png", width: 1200, height: 630, alt: "Cartographie abstraite de l’écosystème mondial des startups IA" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Venture Atlas",
     description: "Cartographie sourcée des startups IA, tendances, capital et idées à falsifier.",
-    images: ["/og.png"],
+    images: ["og.png"],
   },
 };
 
