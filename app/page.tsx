@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import companiesJson from "./data/companies.json";
 import { capitalFacts, capitalNodes, fundingArchetypes } from "./data/capital";
 import { averageIdeaScore, ideas } from "./data/ideas";
@@ -105,20 +105,57 @@ function SourceLinks({ sources, compact = false }: { sources: Company["sources"]
 }
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const navigation = [
+    ["#cartographie", "Cartographie"],
+    ["#editeur", "Éditeur"],
+    ["#tendances", "Tendances"],
+    ["#capital", "Capital"],
+    ["#idees", "Idées"],
+    ["#methode", "Méthode"],
+  ];
+
+  useEffect(() => {
+    if (!menuOpen) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+    document.body.classList.add("mobile-menu-open");
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.body.classList.remove("mobile-menu-open");
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [menuOpen]);
+
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <header className="site-header">
-      <a className="brand" href="#top" aria-label="AI Venture Atlas — accueil">
+      <a className="brand" href="#top" aria-label="AI Venture Atlas — accueil" onClick={closeMenu}>
         <span className="brand-mark">A</span>
         <span><strong>AI Venture Atlas</strong><small>research workspace</small></span>
       </a>
-      <nav aria-label="Navigation principale">
-        <a href="#cartographie">Cartographie</a>
-        <a href="#editeur">Éditeur</a>
-        <a href="#tendances">Tendances</a>
-        <a href="#capital">Capital</a>
-        <a href="#idees">Idées</a>
-        <a href="#methode">Méthode</a>
+      <button
+        ref={menuButtonRef}
+        className={`menu-button ${menuOpen ? "open" : ""}`}
+        type="button"
+        aria-expanded={menuOpen}
+        aria-controls="main-navigation"
+        aria-label={menuOpen ? "Fermer le menu" : "Ouvrir le menu"}
+        onClick={() => setMenuOpen((open) => !open)}
+      >
+        <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
+        <b>Menu</b>
+      </button>
+      <nav id="main-navigation" className={menuOpen ? "open" : ""} aria-label="Navigation principale">
+        {navigation.map(([href, label]) => <a href={href} key={href} onClick={closeMenu}>{label}</a>)}
       </nav>
+      {menuOpen && <button className="menu-backdrop" type="button" aria-label="Fermer le menu" onClick={closeMenu} />}
       <span className="as-of">Données au {AS_OF}</span>
     </header>
   );
@@ -190,6 +227,7 @@ function CompanyExplorer({
   const [sort, setSort] = useState<CompanySort>("fundingUsdM");
   const [direction, setDirection] = useState<"asc" | "desc">("desc");
   const [selected, setSelected] = useState<string | null>(null);
+  const selectedTrigger = useRef<HTMLElement | null>(null);
 
   const options = useMemo(() => ({
     sectors: [...new Set(companies.map((company) => company.sector))].sort(),
@@ -225,12 +263,42 @@ function CompanyExplorer({
 
   const selectedCompany = companies.find((company) => company.recordId === selected) ?? null;
 
+  useEffect(() => {
+    if (!selectedCompany) return;
+    const media = window.matchMedia("(max-width: 980px)");
+    const syncScrollLock = () => document.body.classList.toggle("company-detail-open", media.matches);
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setSelected(null);
+        window.requestAnimationFrame(() => selectedTrigger.current?.focus());
+      }
+    };
+    syncScrollLock();
+    media.addEventListener("change", syncScrollLock);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.body.classList.remove("company-detail-open");
+      media.removeEventListener("change", syncScrollLock);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [selectedCompany]);
+
   const reset = () => {
     setQuery(""); setSector("Tous"); setLayer("Toutes"); setRegion("Toutes"); setStatus("Tous"); setStage("Tous"); setMoat("Tous"); setMinFunding("0");
   };
-  const selectFromMap = (recordId: string) => {
+  const openCompany = (recordId: string) => {
+    selectedTrigger.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     setSelected(recordId);
-    window.requestAnimationFrame(() => document.getElementById("company-table-start")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+  };
+  const closeCompany = () => {
+    setSelected(null);
+    window.requestAnimationFrame(() => selectedTrigger.current?.focus());
+  };
+  const selectFromMap = (recordId: string) => {
+    openCompany(recordId);
+    if (!window.matchMedia("(max-width: 980px)").matches) {
+      window.requestAnimationFrame(() => document.getElementById("company-table-start")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+    }
   };
 
   return (
@@ -270,7 +338,7 @@ function CompanyExplorer({
             <tbody>
               {filtered.map((company) => (
                 <tr key={company.recordId} className={selected === company.recordId ? "selected" : ""}>
-                  <td><button className="company-name" onClick={() => setSelected(company.recordId)}>{company.name}</button><span className="table-sub">{company.product}</span></td>
+                  <td><button className="company-name" onClick={() => openCompany(company.recordId)}>{company.name}</button><span className="table-sub">{company.product}</span></td>
                   <td><span className="sector-dot" style={{ background: sectorColor(company.sector) }} />{company.sector}<span className="table-sub">{company.layer} · {company.subsector}</span></td>
                   <td>{company.hq || "Inconnu"}<span className="table-sub">{company.status} · {company.stage || "stade non public"}</span></td>
                   <td><strong>{formatFunding(company.fundingUsdM, company.fundingDisplay)}</strong><span className="table-sub">{company.headcount || "Taille inconnue"}</span></td>
@@ -283,14 +351,45 @@ function CompanyExplorer({
           </table>
           {!filtered.length && <div className="empty-state"><strong>Aucun résultat</strong><p>Élargis les filtres ou réinitialise la recherche.</p></div>}
         </div>
+        <div className="company-card-list" aria-label="Entreprises">
+          {filtered.map((company) => (
+            <button
+              className={selected === company.recordId ? "company-card selected" : "company-card"}
+              type="button"
+              key={company.recordId}
+              onClick={() => openCompany(company.recordId)}
+              aria-label={`Ouvrir la fiche de ${company.name}`}
+            >
+              <span className="company-card-head">
+                <span><i style={{ background: sectorColor(company.sector) }} />{company.sector}</span>
+                <strong>{formatFunding(company.fundingUsdM)}</strong>
+              </span>
+              <span className="company-card-name">{company.name}</span>
+              <span className="company-card-product">{company.product}</span>
+              <span className="company-card-meta">{company.hq || "Siège inconnu"} · {company.stage || company.status}</span>
+              <span className="company-card-tags">{company.differentiators.slice(0, 2).map((item) => <i key={item}>{item}</i>)}</span>
+              <span className="company-card-foot">
+                <span>tech {company.technicalDepth}/5 · métier {company.verticalIntegration}/5</span>
+                <strong>Ouvrir la fiche <span aria-hidden="true">→</span></strong>
+              </span>
+            </button>
+          ))}
+          {!filtered.length && <div className="empty-state"><strong>Aucun résultat</strong><p>Élargis les filtres ou réinitialise la recherche.</p></div>}
+        </div>
         {selectedCompany && (
-          <CompanyDetail
-            company={selectedCompany}
-            note={personalNotes[selectedCompany.recordId] ?? ""}
-            onNoteChange={(value) => onNoteChange(selectedCompany.recordId, value)}
-            onEdit={() => onEdit(selectedCompany.recordId)}
-            onClose={() => setSelected(null)}
-          />
+          <>
+            <button className="company-detail-backdrop" type="button" onClick={closeCompany} aria-label="Fermer la fiche entreprise" />
+            <CompanyDetail
+              company={selectedCompany}
+              note={personalNotes[selectedCompany.recordId] ?? ""}
+              onNoteChange={(value) => onNoteChange(selectedCompany.recordId, value)}
+              onEdit={() => {
+                closeCompany();
+                onEdit(selectedCompany.recordId);
+              }}
+              onClose={closeCompany}
+            />
+          </>
         )}
       </div>
     </section>
@@ -343,10 +442,10 @@ function CompanyDetail({
   onClose: () => void;
 }) {
   return (
-    <aside className="company-detail">
-      <button className="close-button" onClick={onClose} aria-label="Fermer la fiche">×</button>
+    <aside className="company-detail" aria-labelledby="company-detail-title">
+      <button className="close-button" onClick={onClose} aria-label="Fermer la fiche" autoFocus>×</button>
       <span className="eyebrow">Fiche entreprise</span>
-      <h3>{company.name}</h3>
+      <h3 id="company-detail-title">{company.name}</h3>
       <a className="website-link" href={company.website} target="_blank" rel="noreferrer">Site officiel ↗</a>
       <button className="detail-edit-button" onClick={onEdit}>Modifier cette fiche</button>
       <p className="detail-product">{company.product}</p>
