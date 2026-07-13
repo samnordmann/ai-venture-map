@@ -1,0 +1,396 @@
+{
+  "asOf": "2026-07-13",
+  "facts": [
+    {
+      "metric": "$258.7B, soit 61%",
+      "label": "Part de l'IA dans le capital-risque mondial en 2025",
+      "context": "L'OCDE estime, à partir de Preqin, que les entreprises IA ont capté 258,7 Md$ sur 427,1 Md$ de VC mondial en 2025. La part était de 30% en 2022. Il s'agit de VC, corporate VC inclus, pas de toute la formation de capital IA.",
+      "source": {
+        "label": "OECD — Venture capital investments in artificial intelligence through 2025",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/venture-capital-investments-in-artificial-intelligence-through-2025_3bcb227f/a13752f5-en.pdf",
+        "type": "public-statistics"
+      }
+    },
+    {
+      "metric": "73%; médiane $5M contre moyenne $35.8M",
+      "label": "Concentration de la valeur dans les méga-deals IA en 2025",
+      "context": "Les deals supérieurs à 100 M$ représentent environ 73% de la valeur du VC IA. Les cinq plus gros totalisent près de 63 Md$, environ un quart du total, et les deals supérieurs à 1 Md$ presque la moitié. La médiane très inférieure à la moyenne interdit d'utiliser le ticket moyen comme proxy d'un tour seed typique.",
+      "source": {
+        "label": "OECD — Venture capital investments in artificial intelligence through 2025",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/venture-capital-investments-in-artificial-intelligence-through-2025_3bcb227f/a13752f5-en.pdf",
+        "type": "public-statistics"
+      }
+    },
+    {
+      "metric": "États-Unis 75% ($194B); UE27 6% ($15.8B); Chine 5% ($13.9B); Royaume-Uni 5% ($13.8B)",
+      "label": "Répartition géographique de la valeur des deals VC IA en 2025",
+      "context": "La géographie des sociétés financées est extrêmement concentrée. Côté investisseurs identifiés, les investisseurs américains représentent aussi 56% de la valeur sortante. Les montants privés sous-estiment toutefois les mécanismes publics ou quasi-publics, en particulier les guidance funds chinois.",
+      "source": {
+        "label": "OECD — Venture capital investments in artificial intelligence through 2025",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/venture-capital-investments-in-artificial-intelligence-through-2025_3bcb227f/a13752f5-en.pdf",
+        "type": "public-statistics"
+      }
+    },
+    {
+      "metric": "$109.3B, environ 42% du VC IA",
+      "label": "VC dirigé vers l'infrastructure IT et l'hébergement en 2025",
+      "context": "Selon l'OCDE, l'infrastructure IT et l'hébergement sont devenus le premier secteur receveur avec 109,3 Md$ en 2025, contre 47,4 Md$ en 2024. La course au compute absorbe donc une part disproportionnée du capital et ne décrit pas la disponibilité de financement pour une application SaaS ordinaire.",
+      "source": {
+        "label": "OECD — Venture capital investments in artificial intelligence through 2025",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/venture-capital-investments-in-artificial-intelligence-through-2025_3bcb227f/a13752f5-en.pdf",
+        "type": "public-statistics"
+      }
+    },
+    {
+      "metric": "$344.66B d'investissement privé IA, dont $170.87B en IA générative",
+      "label": "Estimation Stanford/Quid de l'investissement privé mondial en 2025",
+      "context": "Stanford rapporte une hausse de 127,5% de l'investissement privé IA en 2025 et une croissance supérieure à 200% pour l'IA générative. Cette mesure, fondée sur Quid et plus large que le VC Preqin de l'OCDE, illustre la sensibilité des totaux à la définition et au fournisseur de données; les deux séries ne doivent pas être additionnées.",
+      "source": {
+        "label": "Stanford HAI — 2026 AI Index, Economy chapter",
+        "url": "https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf",
+        "type": "public-statistics"
+      }
+    },
+    {
+      "metric": "796 M€ de financements, 414 M€ d'equity direct et 293 M€ de fonds de fonds",
+      "label": "Action Bpifrance dans la deeptech en 2025",
+      "context": "Bpifrance indique 1 080 bénéficiaires des financements, 90 startups investies ou réinvesties en fonds propres et plus de 10 Md€ déployés vers la deeptech depuis 2019. Ce périmètre est deeptech, pas IA uniquement; il montre néanmoins le rôle du capital public et de l'effet de levier en France.",
+      "source": {
+        "label": "Bpifrance — Bilan 2025 du Plan Deeptech",
+        "url": "https://presse.bpifrance.fr/a-loccasion-du-lancement-de-la-premiere-european-deeptech-week-bpifrance-dresse-le-bilan-annuel-du-plan-deeptech-dedie-a-un-ecosysteme-resilient-et-pret-a-changer-dechelle/?lang=fra",
+        "type": "primary"
+      }
+    },
+    {
+      "metric": "634 M€ de budget 2026; subvention <2,5 M€; investissement de 1 à 10 M€",
+      "label": "Capacité 2026 de l'EIC Accelerator",
+      "context": "L'EIC Accelerator Open dispose de 414 M€ et les Challenges de 220 M€. Le programme cible des startups et PME à TRL 6-8 dont le risque reste trop élevé pour le privé seul, avec grant, blended finance ou equity-only. Les montants supérieurs relèvent du dispositif STEP Scale Up.",
+      "source": {
+        "label": "European Innovation Council — EIC Accelerator 2026",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+        "type": "official-program"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Y Combinator",
+      "kind": "Accélérateur et investisseur à termes standardisés",
+      "geography": "États-Unis; candidatures mondiales avec forte gravité Silicon Valley",
+      "stage": "Pré-seed / seed",
+      "focus": "Généraliste technologique; très forte densité de startups IA",
+      "relevance": "Accélère lancement, itération et accès au seed via batch et Demo Day. Le deal public de 500 k$ rend YC surtout pertinent pour une équipe capable d'atteindre très vite un signal d'usage ou de revenu.",
+      "source": {
+        "label": "Y Combinator — Standard Deal",
+        "url": "https://www.ycombinator.com/deal",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Techstars",
+      "kind": "Réseau mondial d'accélérateurs et fonds de pré-seed",
+      "geography": "Mondial, programmes locaux et sectoriels",
+      "stage": "Pré-seed / seed, avec follow-on possible",
+      "focus": "Généraliste; plusieurs programmes couvrent IA, deeptech, santé et enterprise",
+      "relevance": "Programme de trois mois, mentorat et réseau corporate/investisseurs. L'offre officielle depuis 2025 est de 220 k$; la valeur dépend fortement de la qualité du programme local et du fit sectoriel.",
+      "source": {
+        "label": "Techstars — Investment Terms Update",
+        "url": "https://www.techstars.com/newsroom/investment-terms",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Entrepreneurs First",
+      "kind": "Talent investor et company builder",
+      "geography": "Europe, États-Unis et Inde, avec pont vers San Francisco",
+      "stage": "Pré-idée / pré-équipe jusqu'au seed",
+      "focus": "Fondateurs à fort potentiel, souvent techniques; IA, deeptech et B2B fréquents",
+      "relevance": "Différencié pour former une équipe avant la société: grant sans equity pendant l'idéation, puis jusqu'à 250 k$ et suivi annoncé jusqu'à la Série B. La sélection porte d'abord sur le potentiel individuel et la vitesse d'exécution.",
+      "source": {
+        "label": "Entrepreneurs First — Programme et financement",
+        "url": "https://www.joinef.com/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "AI House (ex-AI2 Incubator)",
+      "kind": "Incubateur spécialisé et capital pré-seed",
+      "geography": "Seattle, États-Unis; réseau national et accompagnement partiellement distant",
+      "stage": "Idéation / pré-seed / seed",
+      "focus": "IA appliquée à des problèmes métiers réels",
+      "relevance": "Combine incubation longue, expertise IA, capital et accès à des pilotes. Plus adapté aux fondateurs techniques ou experts métier qui ont besoin d'un partenaire de construction qu'à une société déjà en hypercroissance.",
+      "source": {
+        "label": "AI House — Incubation and Capital",
+        "url": "https://aihouse.vc/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Andreessen Horowitz (a16z)",
+      "kind": "VC multi-stage",
+      "geography": "États-Unis avec portée mondiale",
+      "stage": "Seed, venture et growth",
+      "focus": "Toute la pile IA: foundation models, core systems, developer tools, cloud, data et sécurité, plus applications",
+      "relevance": "Pertinent pour une ambition de catégorie et une équipe capable de défendre un marché mondial. La plateforme infra rend explicites les thèses par couche, mais la concurrence est extrême et les tours tardifs contribuent fortement aux gros totaux observés.",
+      "source": {
+        "label": "a16z — Infra investing team and portfolio",
+        "url": "https://a16z.com/infra/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Sequoia Capital",
+      "kind": "VC multi-stage",
+      "geography": "États-Unis et international",
+      "stage": "Seed à growth",
+      "focus": "IA/ML, enterprise, consumer, sécurité, fintech, santé et deeptech",
+      "relevance": "Acteur de référence pour sociétés visant une catégorie mondiale; le portefeuille officiel montre une couverture allant des modèles et outils développeurs aux applications verticales. L'accès suppose un signal fondateur, produit ou marché exceptionnel, pas seulement une démo LLM.",
+      "source": {
+        "label": "Sequoia Capital — Our Companies",
+        "url": "https://sequoiacap.com/our-companies/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Lightspeed Venture Partners",
+      "kind": "VC mondial multi-stage",
+      "geography": "États-Unis, Europe, Inde, Israël et autres marchés",
+      "stage": "Seed à Série F et au-delà",
+      "focus": "Modèles, infrastructure, developer tooling et applications IA enterprise, santé, fintech et consumer",
+      "relevance": "Sa présence sur toute la pile et tous les stades convient aux sociétés compute-intensive comme aux applications à distribution prouvée. Lightspeed déclare environ 2,5 Md$ investis dans plus de 100 entreprises de la pile IA.",
+      "source": {
+        "label": "Lightspeed — AI portfolio and investment scope",
+        "url": "https://lsvp.com/stories/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "General Catalyst",
+      "kind": "VC multi-stage et venture creation",
+      "geography": "États-Unis, Europe, Inde et mondial",
+      "stage": "Seed à growth",
+      "focus": "IA appliquée, santé, défense/résilience, industrie et logiciels d'entreprise",
+      "relevance": "Intéressant pour des systèmes IA intégrés à des secteurs complexes ou critiques, où partenariats, transformation opérationnelle et distribution comptent autant que le modèle. Son portefeuille public inclut Anthropic, Applied Intuition, Hippocratic AI et Helsing.",
+      "source": {
+        "label": "General Catalyst — Portfolio",
+        "url": "https://www.generalcatalyst.com/portfolio",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Seedcamp",
+      "kind": "First-check VC européen",
+      "geography": "Europe, avec réseau de follow-on européen et américain",
+      "stage": "Pré-seed / seed; réserves jusqu'à Série B et au-delà",
+      "focus": "Généraliste tech avec forte activité IA, developer tools, fintech, santé et infrastructure",
+      "relevance": "Bon point d'entrée européen pour une équipe qui peut devenir mondiale. Fund VII annonce 220 M$ pour les premiers chèques et 100 M$ pour le follow-on; l'avantage principal est le réseau de fondateurs et d'investisseurs aval.",
+      "source": {
+        "label": "Seedcamp — Fund VII",
+        "url": "https://seedcamp.com/fund-vii/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Kima Ventures",
+      "kind": "Investisseur seed à cadence élevée",
+      "geography": "France et mondial",
+      "stage": "Tous stades selon le site, principalement utile en pré-seed / seed",
+      "focus": "Généraliste sectoriel et géographique, incluant applications IA, robotique, biotech et industrie",
+      "relevance": "Ticket public standard de 150 k$ et environ 100 nouveaux deals par an: utile comme premier signal ou participant de syndicat, moins adapté comme unique financeur d'une feuille de route compute ou hardware lourde.",
+      "source": {
+        "label": "Kima Ventures — The Kima Deal",
+        "url": "https://www.kimaventures.com/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Elaia",
+      "kind": "VC tech et deeptech européen",
+      "geography": "France et Europe",
+      "stage": "Pré-seed / seed, avec capacité de follow-on",
+      "focus": "B2B deeptech: computing, IA nouvelle génération, cloud/cybersécurité, sciences de la vie et innovation industrielle",
+      "relevance": "Fort fit pour spinout ou équipe scientifique avec IP, prototype et liens laboratoire. Le fonds DTS3 fermé à 134 M€ en 2026 investit officiellement de 1 à 13 M€ dans des sociétés B2B européennes de pré-seed et seed.",
+      "source": {
+        "label": "Elaia — DTS3 final close",
+        "url": "https://www.elaia.com/wp-content/uploads/2026/03/DTS3-Final-Close-ENG.pdf",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Serena",
+      "kind": "VC early-stage avec plateforme opérationnelle",
+      "geography": "France et Europe",
+      "stage": "Pré-seed à Série A",
+      "focus": "Applied AI, modern data stack, open source, SaaS, climat, deeptech et impact",
+      "relevance": "Pertinent pour B2B data/IA avec ambition de leadership européen et preuve de mise en production. Serena privilégie le lead ou co-lead et met en avant l'aide opérationnelle produit, structuration et expansion internationale.",
+      "source": {
+        "label": "Serena — Investment strategy",
+        "url": "https://www.serena.vc/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "Vsquared Ventures",
+      "kind": "VC deeptech early-stage",
+      "geography": "Allemagne et Europe",
+      "stage": "Early stage",
+      "focus": "Quantum, computing, semi-conducteurs, espace, énergie, biotech et technologies industrielles",
+      "relevance": "Cible les entreprises dont le moat vient d'une avancée scientifique ou hardware et d'une trajectoire d'industrialisation, plutôt qu'un simple avantage de distribution logiciel. Le portefeuille officiel met en avant IQM et Isar Aerospace comme paris précoces.",
+      "source": {
+        "label": "Vsquared Ventures — About",
+        "url": "https://vsquared.vc/about/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "EIC Accelerator",
+      "kind": "Capital public européen: grant, blended finance et equity patient",
+      "geography": "Union européenne et pays associés à Horizon Europe",
+      "stage": "TRL 6-8 vers commercialisation et scale-up",
+      "focus": "Innovations game-changing, deeptech et à risque trop élevé pour le privé seul",
+      "relevance": "Instrument majeur pour financer dérisquage technique et passage au marché sans dépendre uniquement du VC. L'exigence porte sur excellence, impact, risque et capacité de scale-up; le processus est nettement plus lourd qu'un pitch seed.",
+      "source": {
+        "label": "European Innovation Council — EIC Accelerator 2026",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+        "type": "official-program"
+      }
+    },
+    {
+      "name": "Bpifrance — Concours i-Lab",
+      "kind": "Subvention France 2030 et label de concours",
+      "geography": "France",
+      "stage": "Projet de création ou entreprise de moins de deux ans",
+      "focus": "Technologies innovantes et deeptech, R&D, propriété intellectuelle et prototypes",
+      "relevance": "Peut financer jusqu'à 600 k€ de dépenses R&D éligibles sans dilution. Très adapté à un projet IA réellement technologique ou scientifique; un wrapper SaaS sans risque R&D, IP ou prototype défendable est mal aligné.",
+      "source": {
+        "label": "Bpifrance — Concours d'innovation i-Lab, 28e édition",
+        "url": "https://www.bpifrance.fr/nos-appels-a-projets-concours/concours-dinnovation-i-lab",
+        "type": "official-program"
+      }
+    },
+    {
+      "name": "Eurostars",
+      "kind": "Financement public transnational de R&D collaborative",
+      "geography": "Pays Eurostars, UE et partenaires associés",
+      "stage": "PME innovante en R&D pré-commerciale",
+      "focus": "Projets civils de R&D orientés marché dans tous les domaines, menés par une PME",
+      "relevance": "Utile lorsqu'un produit IA exige une collaboration technologique internationale et un plan de commercialisation. Le consortium doit réunir au moins deux entités indépendantes de deux pays; taux et plafonds dépendent des financeurs nationaux.",
+      "source": {
+        "label": "Eureka Network — Eurostars Call 11",
+        "url": "https://www.eurekanetwork.org/eurostars-call-11-opens-today/",
+        "type": "official-program"
+      }
+    },
+    {
+      "name": "M12",
+      "kind": "Corporate VC de Microsoft",
+      "geography": "Mondial, avec accès à l'écosystème Microsoft",
+      "stage": "Seed à Série B",
+      "focus": "AI apps, sécurité de l'IA, cloud infrastructure, data ops et modèles, deeptech et systèmes",
+      "relevance": "Combine equity et accès potentiel au GTM, à la recherche et aux produits Microsoft. Fort fit pour B2B enterprise et infrastructure; il faut néanmoins gérer la perception d'alignement stratégique et le risque de dépendance à une plateforme.",
+      "source": {
+        "label": "M12 — Investment focus",
+        "url": "https://m12.vc/",
+        "type": "primary"
+      }
+    },
+    {
+      "name": "AWS Generative AI Accelerator",
+      "kind": "Accélérateur corporate et crédits cloud",
+      "geography": "Mondial",
+      "stage": "Early stage avec produit et maturité technique suffisante pour un programme intensif",
+      "focus": "IA générative et agentique, modèles, fine-tuning, inference et services de la pile IA",
+      "relevance": "Offre jusqu'à 1 M$ de crédits AWS, expertise technique et support GTM. Les critères publics valorisent expérience de l'équipe, cas d'usage clair, maturité produit et traction. Les crédits réduisent le burn compute mais ne remplacent pas du cash.",
+      "source": {
+        "label": "AWS — Generative AI Accelerator",
+        "url": "https://aws.amazon.com/startups/programs/generative-ai/",
+        "type": "official-program"
+      }
+    },
+    {
+      "name": "NVIDIA Inception",
+      "kind": "Programme corporate d'écosystème, sans prise d'equity",
+      "geography": "Mondial",
+      "stage": "Prototype à production",
+      "focus": "Startups IA, data science et accelerated computing",
+      "relevance": "Accès gratuit à formation, outils, offres hardware/software, crédits partenaires et réseau VC. C'est un accélérateur de capacité technique et de réseau, pas une annonce de financement; l'adhésion ne doit pas être comptée comme capital levé.",
+      "source": {
+        "label": "NVIDIA — Inception Program for Startups",
+        "url": "https://www.nvidia.com/en-us/startups/",
+        "type": "primary"
+      }
+    }
+  ],
+  "archetypes": [
+    {
+      "name": "Frontier model ou infrastructure de compute",
+      "whatGetsFunded": "Équipe de recherche ou systèmes hors norme, ambition de plateforme mondiale, amélioration mesurable de performance/coût et capacité à sécuriser compute, données et distribution. Les gros VC et partenaires stratégiques peuvent financer très tôt, mais les besoins deviennent rapidement des méga-rondes.",
+      "evidenceBeforeRound": "Résultats reproductibles, benchmarks pertinents avec méthodologie, chercheurs/ingénieurs reconnus, prototype à échelle, accès crédible au compute et premiers design partners ou développeurs.",
+      "durableMoat": "Co-design algorithmes-systèmes, données difficiles à reproduire, savoir-faire d'entraînement/inférence, effets d'écosystème, contrats d'infrastructure et capacité de financement.",
+      "commonFailure": "Économie unitaire non soutenable, dépendance au fournisseur de compute, avantage benchmark transitoire, open source ou hyperscaler qui commoditise la couche, besoin de capital supérieur à la capacité de syndication."
+    },
+    {
+      "name": "Infrastructure développeur, data, evals ou agent runtime",
+      "whatGetsFunded": "Outil qui devient une brique obligatoire de production: baisse démontrable du coût ou de la latence, fiabilité, observabilité, sécurité, orchestration ou accès aux données. L'open source peut créer le signal initial.",
+      "evidenceBeforeRound": "Adoption développeur organique, usage récurrent en production, contributions externes, benchmarks coût/performance, intégrations et quelques clients payants avec workload significatif.",
+      "durableMoat": "Communauté et standard de fait, données télémétriques, intégrations profondes, switching costs opérationnels, performance système et compatibilité multi-modèles/multi-cloud.",
+      "commonFailure": "Fonctionnalité absorbée par un hyperscaler ou framework open source, utilisateurs gratuits sans conversion, faible pouvoir de pricing, dépendance à une API de modèle et différenciation réduite à une interface."
+    },
+    {
+      "name": "Application B2B verticale ou agent de workflow",
+      "whatGetsFunded": "Produit qui remplace un coût de travail précis ou augmente un revenu mesurable dans un workflow difficile, avec fondateurs connaissant le métier. Les secteurs réglementés sont finançables si la fiabilité, l'intégration et le chemin de conformité sont explicites.",
+      "evidenceBeforeRound": "Pilotes payants ou lettres d'intention de vrais acheteurs, temps/erreurs réduits, rétention d'usage, précision sur données client, intégrations aux systèmes de record et champion métier identifié.",
+      "durableMoat": "Données de workflow avec droits d'usage, distribution et canal, intégration au système de record, certifications, feedback loop humain et expertise métier encodée dans le produit.",
+      "commonFailure": "Démo impressionnante mais non fiable en production, cycle de vente long, coût d'inférence supérieur à la valeur créée, absence de propriétaire budgétaire, services manuels cachés et moat limité au prompt."
+    },
+    {
+      "name": "Deeptech, physical AI, robotique ou semi-conducteurs",
+      "whatGetsFunded": "Spinout ou équipe scientifique avec rupture technique, marché industriel stratégique et étapes de dérisquage lisibles. En Europe, la combinaison grant public, fonds deeptech et industriel stratégique est fréquente.",
+      "evidenceBeforeRound": "IP et liberté d'exploitation, prototype ou démonstrateur, plan TRL, données d'essais, partenaire industriel, chemin de certification et budget/timeline jusqu'au prochain jalon de valeur.",
+      "durableMoat": "Brevets plus savoir-faire tacite, co-design hardware/software, procédés de fabrication, qualification client, supply chain et années de données expérimentales.",
+      "commonFailure": "Sous-estimation du capex et du temps d'industrialisation, prototype non fabricable, dépendance à un unique client ou fournisseur, gap entre grant et round equity, dilution avant product-market fit."
+    },
+    {
+      "name": "IA pour la science, la santé ou un domaine réglementé",
+      "whatGetsFunded": "Équipe mixte IA-domaine, accès légal à des données de qualité et endpoint clinique/scientifique ou opérationnel précis. La valeur doit dépasser l'automatisation générique et intégrer validation, sécurité et réglementation.",
+      "evidenceBeforeRound": "Étude rétrospective ou prospective, baseline crédible, reproductibilité, accord de données, protocole de validation, sponsor institutionnel et stratégie réglementaire/remboursement quand applicable.",
+      "durableMoat": "Données longitudinales et annotations, validation réglementaire, propriété intellectuelle, partenariats recherche/soins et intégration à un workflow critique.",
+      "commonFailure": "Fuite de données ou droits insuffisants, métrique ML sans bénéfice métier/clinique, validation trop lente, généralisation faible, acheteur et utilisateur non alignés, réglementation traitée après le produit."
+    },
+    {
+      "name": "Application consumer ou prosumer IA",
+      "whatGetsFunded": "Croissance organique très rapide, rétention de cohortes, fréquence d'usage et coût d'acquisition bas. Le produit doit montrer une boucle d'amélioration ou un canal propriétaire avant que le modèle de base ne rende la fonctionnalité banale.",
+      "evidenceBeforeRound": "Cohortes de rétention, utilisateurs actifs, création/partage viral, conversion payante, marge brute après inference et vitesse d'itération produit.",
+      "durableMoat": "Marque et distribution, réseau ou contenu utilisateur, données avec consentement, personnalisation cumulative et communauté de créateurs.",
+      "commonFailure": "Pic de nouveauté sans rétention, CAC qui augmente, coût d'inférence caché, dépendance aux app stores ou plateformes, copie rapide par le fournisseur du modèle."
+    },
+    {
+      "name": "IA souveraine ou infrastructure stratégique",
+      "whatGetsFunded": "Technologie contribuant à autonomie, sécurité, défense, énergie, cloud ou semi-conducteurs, avec demande publique/industrielle crédible. Le capital combine souvent VC, fonds publics et CVC.",
+      "evidenceBeforeRound": "Client ou programme stratégique, contraintes de souveraineté explicites, certifications et supply chain, avantage technique, plan de production et cofinancement privé/public.",
+      "durableMoat": "Accréditations, contrats longs, intégration à une chaîne de valeur critique, IP, capacité industrielle locale et coût de remplacement élevé.",
+      "commonFailure": "Dépendance à une priorité politique temporaire, marchés publics trop lents, dual-use mal cadré, export controls, concentration client et économie non viable hors subvention."
+    }
+  ],
+  "conclusions": [
+    "Le marché 2025 ne finance pas uniformément 'l'IA': il surpondère les modèles, le compute et quelques gagnants tardifs. Pour un fondateur seed, le signal utile est la médiane, le nombre de deals early-stage et les critères du fonds, pas le total de dollars.",
+    "Deux profils dominent: d'un côté l'équipe de recherche/systèmes exceptionnelle capable d'absorber beaucoup de capital; de l'autre l'application qui prouve vite un ROI, une distribution ou une rétention. Une couche LLM générique entre les deux est la moins défendable.",
+    "En France et en Europe, le chemin rationnel d'une deeptech est souvent grant ou concours pour dérisquer IP/prototype, puis VC spécialisé, puis industriel/EIC ou fonds multi-stage. Il faut préparer le bridge avant l'épuisement du grant: le non-dilutif ne garantit pas le round suivant.",
+    "Les preuves attendues diffèrent selon le capital: accélérateurs jugent vitesse et potentiel fondateur; VC seed juge usage, marché et wedge; fonds deeptech/publics jugent IP, TRL, impact et plan de dérisquage; CVC juge en plus le fit stratégique et l'intégration à son écosystème.",
+    "Les sociétés les plus finançables montrent un moat indépendant du fournisseur de modèle: données avec droits, intégration au workflow, distribution, performance système, IP/industrialisation ou réglementation. 'Nous utilisons le meilleur modèle' n'est pas un moat durable.",
+    "Les crédits cloud, programmes gratuits et introductions investisseurs réduisent le burn et améliorent l'accès, mais ne sont ni du revenu ni du cash equity. Ils doivent être modélisés séparément dans la runway et comparés avec le risque de lock-in.",
+    "Pour une startup française visant un grand marché, une structure de financement purement domestique risque de plafonner au scale-up: l'OCDE mesure 15,8 Md$ de VC IA dans toute l'UE27 contre 194 Md$ aux États-Unis en 2025. Il faut donc penser syndicat et go-to-market international dès le seed."
+  ],
+  "caveats": [
+    "Définitions non homogènes: l'OCDE/Preqin mesure le VC, corporate VC inclus, tandis que Stanford/Quid mesure une catégorie plus large d'investissement privé. Les totaux 258,7 Md$ et 344,66 Md$ ne sont ni contradictoires ni additionnables.",
+    "Biais de méga-deals: 73% de la valeur 2025 vient de tours supérieurs à 100 M$; la moyenne de 35,8 M$ masque une médiane de 5 M$. Un agrégat en dollars ne mesure donc pas l'accessibilité du seed.",
+    "Biais de couverture: les bases privées ajoutent souvent les petits deals rétroactivement, contiennent des tours non divulgués et appliquent leur propre classification 'AI'. Les chiffres 2025 pourront être révisés.",
+    "Dette et instruments hybrides: les annonces 'funding' peuvent mélanger equity, venture debt, convertibles, subventions, crédits cloud et engagements non tirés. Les facts OCDE ci-dessus sont limités au VC selon Preqin; les nodes distinguent autant que possible cash, grant, equity et crédits.",
+    "Biais géographique: le pays est souvent celui du siège légal ou de l'entité financée, pas nécessairement celui des fondateurs, de la R&D, des emplois ou des bénéficiaires économiques. Les flux transfrontaliers et structures Delaware amplifient ce problème.",
+    "Capital public sous-compté dans les bases privées: guidance funds chinois, grants européens, commande publique et investissement interne des grands groupes ne sont pas capturés de façon comparable. L'OCDE indique elle-même que le VC n'est qu'un point de vue sur l'écosystème.",
+    "Les données Bpifrance citées couvrent toute la deeptech française et non l'IA seule; Mistral AI et quelques gros tours peuvent aussi gonfler les levées agrégées. Elles démontrent une capacité publique/industrielle, pas la disponibilité automatique de capital pour toute startup IA.",
+    "Les sites de fonds sont des sources primaires sur leurs programmes, portfolios et thèses, mais aussi des supports marketing: les portfolios peuvent être sélectifs ou non exhaustifs, et les critères réels, réserves et termes de chaque deal restent confidentiels.",
+    "Les termes, budgets et appels sont valides au 13 juillet 2026 et peuvent changer. Vérifier les pages officielles et documents juridiques avant toute candidature ou décision financière.",
+    "Aucune source privée ou information confidentielle NVIDIA n'a été utilisée; NVIDIA Inception est décrit uniquement à partir de sa page publique et n'est pas traité comme un investissement."
+  ]
+}

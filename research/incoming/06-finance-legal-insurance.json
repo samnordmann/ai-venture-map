@@ -1,0 +1,888 @@
+[
+  {
+    "name": "Harvey",
+    "website": "https://www.harvey.ai/",
+    "hq": "San Francisco, USA",
+    "founded": 2022,
+    "stage": "Growth",
+    "sector": "Legal",
+    "subsector": "Enterprise legal workflow",
+    "layer": "Vertical application",
+    "product": "AI workspace and configurable agents for legal research, drafting, due diligence, litigation and in-house legal workflows.",
+    "targetCustomer": "Large law firms, corporate legal teams and asset managers",
+    "buyer": "Managing partner, general counsel or legal operations leader",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Retrieval-augmented generation"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Distribution", "Proprietary data", "Technical"],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 1000,
+    "fundingDisplay": ">$1B",
+    "fundingAsOf": "2026-03-25",
+    "latestRound": "Growth round, Mar 2026 ($200M at $11B valuation)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["GIC", "Sequoia Capital", "Andreessen Horowitz", "Coatue", "Kleiner Perkins", "Conviction Partners"],
+    "traction": "Harvey reports more than 100,000 lawyers at 1,300+ organizations in 60 countries and 25,000 custom agents as of Mar 2026.",
+    "confidence": "High",
+    "notes": "Workflow-native platform with legal engineering, enterprise integrations and embedded agent configuration, not a thin prompt wrapper. Distribution and accumulated customer workflows are meaningful, but core model dependence remains; adoption and traction figures are company-reported.",
+    "sources": [
+      {
+        "label": "Harvey $200M growth round and operating metrics, Mar 2026",
+        "url": "https://www.harvey.ai/blog/harvey-raises-at-dollar11-billion-valuation-to-scale-agents-across-law-firms-and-enterprises",
+        "type": "primary"
+      },
+      {
+        "label": "Harvey Series D and customer metrics, Feb 2025",
+        "url": "https://www.harvey.ai/blog/harvey-raises-series-d",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Legora",
+    "website": "https://legora.com/",
+    "hq": "Stockholm, Sweden",
+    "founded": 2023,
+    "stage": "Growth",
+    "sector": "Legal",
+    "subsector": "Collaborative legal workflow",
+    "layer": "Vertical application",
+    "product": "Collaborative AI platform for legal research, drafting, document review and firm-specific legal workflows.",
+    "targetCustomer": "Law firms and corporate legal departments",
+    "buyer": "Managing partner, general counsel or innovation leader",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Retrieval-augmented generation"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Distribution", "Proprietary data"],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 785,
+    "fundingDisplay": ">$785M disclosed lower bound",
+    "fundingAsOf": "2026-04-30",
+    "latestRound": "Series D, Mar-Apr 2026 ($600M including extension)",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-04-30",
+    "investors": ["Accel", "Atlassian Ventures", "NVentures", "ICONIQ Growth", "General Catalyst", "Redpoint Ventures"],
+    "traction": "Legora reported more than $100M ARR, 1,000+ customer organizations in 50+ markets and 400 employees in Apr 2026.",
+    "confidence": "High",
+    "notes": "Strong firmwide distribution and legal-engineering deployment indicate real workflow ownership rather than a generic copilot. Funding is a conservative sum of the >$35M disclosed by Mar 2025, $150M Series C and $600M Series D; it is not presented as an exact lifetime total. Scale metrics are company-reported.",
+    "sources": [
+      {
+        "label": "Legora Series D extension and operating scale, Apr 2026",
+        "url": "https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors",
+        "type": "primary"
+      },
+      {
+        "label": "Legora $550M Series D, Mar 2026",
+        "url": "https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth",
+        "type": "primary"
+      },
+      {
+        "label": "Legora $150M Series C and customer scale, Oct 2025",
+        "url": "https://legora.com/blog/series-c",
+        "type": "primary"
+      },
+      {
+        "label": "Legora US launch and prior funding, Mar 2025",
+        "url": "https://legora.com/newsroom/legora-launches-in-the-us",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Spellbook",
+    "website": "https://spellbook.com/",
+    "hq": "Toronto, Canada",
+    "founded": null,
+    "stage": "Series B",
+    "sector": "Legal",
+    "subsector": "Contract drafting and review",
+    "layer": "Vertical application",
+    "product": "Microsoft Word-native AI for drafting, reviewing and negotiating commercial contracts.",
+    "targetCustomer": "Transactional law firms and in-house legal teams",
+    "buyer": "Managing partner, general counsel or legal operations leader",
+    "gtm": "Hybrid",
+    "aiTech": ["LLM", "Retrieval-augmented generation"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Distribution", "Proprietary data"],
+    "moatStrength": 3,
+    "technicalDepth": 3,
+    "verticalIntegration": 4,
+    "fundingUsdM": 120,
+    "fundingDisplay": ">$120M including $40M debt",
+    "fundingAsOf": "2026-03-04",
+    "latestRound": "$40M debt financing, Mar 2026; Series B, Oct 2025 ($50M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Khosla Ventures", "Threshold Ventures", "Inovia Capital", "Bling Capital", "RBCx"],
+    "traction": "Spellbook reports roughly 4,000-4,500 legal teams across 80 countries and tripled revenue in 2025.",
+    "confidence": "Medium",
+    "notes": "Word-native placement and contract-specific workflows create more distribution and usage depth than a standalone chatbot. Wrapper risk is still material because the product explicitly uses third-party frontier LLMs and owns a narrower transaction surface. Funding is a lower bound combining >$80M private investment with subsequent $40M debt; product launched in 2022, but corporate founding year is left null.",
+    "sources": [
+      {
+        "label": "Spellbook Series B, customers and markets, Oct 2025",
+        "url": "https://spellbook.com/blog/series-b",
+        "type": "primary"
+      },
+      {
+        "label": "RBCx $40M debt financing and operating metrics, Mar 2026",
+        "url": "https://www.rbcx.com/news/press-releases/spellbook-secures-40m-usd-debt-financing-from-rbcx-to-support-strategic-acquisitions-in-consolidating-legal-ai-market/",
+        "type": "primary"
+      },
+      {
+        "label": "Government of Canada profile: product launch, investment and employment",
+        "url": "https://www.canada.ca/en/atlantic-canada-opportunities/campaigns/impacts/spellbook.html",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Eve",
+    "website": "https://www.eve.legal/",
+    "hq": "San Mateo, USA",
+    "founded": null,
+    "stage": "Series B",
+    "sector": "Legal",
+    "subsector": "Plaintiff law firm workflow",
+    "layer": "Vertical application",
+    "product": "AI platform spanning intake, casework, document preparation and resolution for plaintiff law firms.",
+    "targetCustomer": "Plaintiff-side law firms",
+    "buyer": "Firm owner or managing partner",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Document AI"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Technical", "Proprietary data", "Distribution"],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 150,
+    "fundingDisplay": ">=$150M disclosed in Series A and B",
+    "fundingAsOf": "2025-09-30",
+    "latestRound": "Series B, Sep 2025 ($103M at >$1B valuation)",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-07-13",
+    "investors": ["Andreessen Horowitz", "Spark Capital", "Lightspeed Venture Partners", "Menlo Ventures"],
+    "traction": "Eve reported more than 450 firms, over 200,000 cases processed annually and $3.5B+ recovered for clients in Sep 2025.",
+    "confidence": "Medium",
+    "notes": "The intake-to-resolution product owns a broader plaintiff workflow than a legal chatbot, with domain-specific case context and distribution. Outcome metrics are company-reported and legal accuracy, liability and human-supervision requirements remain core risks. Funding is the disclosed Series A plus Series B, not asserted as an exact lifetime total.",
+    "sources": [
+      {
+        "label": "Eve Series B and case metrics, Sep 2025",
+        "url": "https://www.eve.legal/blogs/the-next-chapter-in-ai-transformation-for-law-firms",
+        "type": "primary"
+      },
+      {
+        "label": "Eve Series A, Jan 2025",
+        "url": "https://www.eve.legal/blogs/the-dawn-of-a-new-era-in-plaintiff-law-eve-secures-47m-series-a",
+        "type": "primary"
+      },
+      {
+        "label": "Eve financing and customer count, PR Newswire, Sep 2025",
+        "url": "https://www.prnewswire.com/news-releases/eve-raises-103-million-at-1-billion-valuation-to-help-plaintiff-firms-deliver-justice-through-ai-transformation-302570807.html",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Eve LinkedIn company profile and employee range",
+        "url": "https://www.linkedin.com/company/eve-legal",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Norm AI",
+    "website": "https://www.norm.ai/",
+    "hq": "New York, USA",
+    "founded": 2023,
+    "stage": "Growth",
+    "sector": "Compliance",
+    "subsector": "Regulatory compliance and legal services",
+    "layer": "AI-native service",
+    "product": "Supervised AI agents and an affiliated law firm that execute regulatory compliance work for financial institutions and enterprises.",
+    "targetCustomer": "Regulated financial institutions and large enterprises",
+    "buyer": "Chief compliance officer, general counsel or chief risk officer",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Supervisory AI"],
+    "deployment": "Cloud",
+    "differentiators": ["Regulatory", "Proprietary data", "Workflow integration", "Technical"],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 260,
+    "fundingDisplay": ">$260M",
+    "fundingAsOf": "2026-07-07",
+    "latestRound": "Series C, Jul 2026 ($120M at $1.2B valuation)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Khosla Ventures", "Blackstone", "Bain Capital Ventures", "Craft Ventures", "Coatue", "Vanguard", "New York Life"],
+    "traction": "Norm AI says its customers include institutions representing $30T in assets under management and that it has raised more than $260M since its Jul 2023 founding.",
+    "confidence": "High",
+    "notes": "Deep vertical integration through supervised legal agents, an affiliated licensed law firm and outcome-based pricing makes this an AI-native service rather than a software wrapper. Human review, legal-services regulation, conflicts and service delivery economics are material constraints; customer metrics are company-reported.",
+    "sources": [
+      {
+        "label": "Norm AI Series C, funding total and customer scale, Jul 2026",
+        "url": "https://www.norm.ai/resources/norm-ai-raises-20-million-at-a-1-2-billion-valuation",
+        "type": "primary"
+      },
+      {
+        "label": "Norm AI technology and supervisory architecture",
+        "url": "https://www.norm.ai/technology",
+        "type": "primary"
+      },
+      {
+        "label": "Norm AI company timeline and funding milestones",
+        "url": "https://www.norm.ai/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Bretton AI",
+    "website": "https://www.bretton.com/",
+    "hq": "San Francisco, USA",
+    "founded": null,
+    "stage": "Series B",
+    "sector": "Compliance",
+    "subsector": "Financial crime compliance operations",
+    "layer": "AI-native service",
+    "product": "Configurable AI agents and managed operations for AML, KYC, fraud, lending and risk investigations.",
+    "targetCustomer": "Banks, fintechs and other regulated financial institutions",
+    "buyer": "Chief compliance officer, head of financial crime or chief risk officer",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Document AI"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Regulatory", "Technical", "Distribution"],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 95,
+    "fundingDisplay": "$95M",
+    "fundingAsOf": "2026-02-10",
+    "latestRound": "Series B, Feb 2026 ($75M; rebranded from Greenlite AI)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Sapphire Ventures", "Greylock", "Y Combinator", "Thomson Reuters Ventures", "Canvas Ventures", "TIAA Ventures"],
+    "traction": "Bretton reported that the aggregate market capitalization of its customer base grew from about $150B to more than $1T before its Feb 2026 Series B.",
+    "confidence": "High",
+    "notes": "Agents execute full investigations with audit trails against customer policies and data, showing real regulated-workflow integration. It overlays rather than replaces incumbent systems, and forward-deployed or managed-service labor can limit software margins; traction is company-reported.",
+    "sources": [
+      {
+        "label": "Bretton $75M Series B and Greenlite rebrand, Feb 2026",
+        "url": "https://www.bretton.com/blog/bretton-raises-75m-series-b-to-modernize-aml-kyc-staffing",
+        "type": "primary"
+      },
+      {
+        "label": "Greenlite $15M Series A and prior funding total, May 2025",
+        "url": "https://www.bretton.com/blog/greenlite-ai-raises-15-million-series-a",
+        "type": "primary"
+      },
+      {
+        "label": "Bretton platform architecture and workflows",
+        "url": "https://www.bretton.com/platform",
+        "type": "primary"
+      },
+      {
+        "label": "Bretton Series B customer-base signal, Business Wire",
+        "url": "https://www.businesswire.com/news/home/20260209387593/en/Bretton-AI-Raises-%2475M-Series-B-Rebrands-from-Greenlite-AI-to-Build-the-AI-Standard-for-Financial-Crime",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Flagright",
+    "website": "https://www.flagright.com/",
+    "hq": "Distributed",
+    "founded": 2022,
+    "stage": "Series A",
+    "sector": "Compliance",
+    "subsector": "AML and financial crime compliance",
+    "layer": "Vertical application",
+    "product": "Unified AML platform covering transaction monitoring, screening, risk scoring, case management, regulatory filing and AI agents.",
+    "targetCustomer": "Fintechs, banks, payment providers and digital asset companies",
+    "buyer": "Chief compliance officer or head of financial crime",
+    "gtm": "Hybrid",
+    "aiTech": ["Machine learning", "Agentic AI", "Graph analytics"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Regulatory", "Infrastructure", "Distribution"],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 19.6,
+    "fundingDisplay": "$19.6M disclosed",
+    "fundingAsOf": "2026-06-16",
+    "latestRound": "Series A, Jun 2026 ($12.5M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Infinity Ventures", "Sella Venture Partners", "Frontline Ventures", "Y Combinator"],
+    "traction": "Flagright reported 50 customers across six continents and a 35-person team at its Apr 2025 seed round.",
+    "confidence": "High",
+    "notes": "A unified AML data and case-management layer with APIs and no-code configuration is more defensible than a standalone compliance copilot. The market is crowded, and speed or detection improvements remain vendor-reported. Current headcount is not disclosed; funding is the sum of three announced rounds.",
+    "sources": [
+      {
+        "label": "Flagright $12.5M Series A, Jun 2026",
+        "url": "https://www.flagright.com/post/flagright-to-define-the-ai-operating-system-category-for-financial-crime-compliance",
+        "type": "primary"
+      },
+      {
+        "label": "Flagright $4.3M seed, customer count and product scope, Apr 2025",
+        "url": "https://www.flagright.com/post/flagright-raises-4-3-million-in-seed-funding-to-advance-ai-native-aml-compliance-and-risk-management-solutions",
+        "type": "primary"
+      },
+      {
+        "label": "Flagright $2.8M pre-seed, Sep 2023",
+        "url": "https://www.flagright.com/post/flagright-raises-a-2-8m-pre-seed-round-to-help-startups-fight-financial-crime-and-money-laundering",
+        "type": "primary"
+      },
+      {
+        "label": "Flagright distributed-company operating model",
+        "url": "https://www.flagright.com/post/why-flagright-doesnt-have-a-traditional-hq",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Sardine",
+    "website": "https://www.sardine.ai/",
+    "hq": "San Francisco, USA",
+    "founded": 2020,
+    "stage": "Growth",
+    "sector": "Finance",
+    "subsector": "Fraud, compliance and credit risk infrastructure",
+    "layer": "Vertical application",
+    "product": "Risk platform combining fraud detection, compliance, credit underwriting, device intelligence, behavioral signals and investigation agents.",
+    "targetCustomer": "Banks, fintechs, marketplaces and large digital businesses",
+    "buyer": "Chief risk officer, head of fraud or chief compliance officer",
+    "gtm": "Hybrid",
+    "aiTech": ["Machine learning", "Graph analytics", "Agentic AI", "Behavioral biometrics"],
+    "deployment": "Cloud",
+    "differentiators": ["Proprietary data", "Network effects", "Infrastructure", "Workflow integration"],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 145,
+    "fundingDisplay": "$145M",
+    "fundingAsOf": "2025-02-11",
+    "latestRound": "Series C, Feb 2025 ($70M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Activant Capital", "Andreessen Horowitz", "Google Ventures", "Experian Ventures", "Nyca Partners"],
+    "traction": "Sardine reported more than 300 enterprise customers, 130% ARR growth in 2024 and a near doubling of its customer base.",
+    "confidence": "High",
+    "notes": "Device and behavior telemetry, risk rules, graph signals, consortium data and production APIs make this risk infrastructure rather than an LLM wrapper. Cross-customer data can compound, subject to privacy and data-sharing constraints; commercial metrics are company-reported.",
+    "sources": [
+      {
+        "label": "Sardine Series C, total funding and platform scope, Feb 2025",
+        "url": "https://www.sardine.ai/blog/series-c-announcement",
+        "type": "primary"
+      },
+      {
+        "label": "Sardine customer and ARR metrics, Business Wire, Feb 2025",
+        "url": "https://www.businesswire.com/news/home/20250211169372/en/Sardine-AI-Raises-%2470M-to-Make-Fraud-and-Compliance-Teams-More-Productive",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Sardine Series A and risk-platform origins",
+        "url": "https://www.sardine.ai/blog/our-series-a-announcement",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Resistant AI",
+    "website": "https://resistant.ai/",
+    "hq": "Prague, Czech Republic",
+    "founded": 2019,
+    "stage": "Series B",
+    "sector": "Finance",
+    "subsector": "Document and transaction fraud detection",
+    "layer": "Vertical application",
+    "product": "Forensic AI that detects manipulated documents, anomalous transactions and suspicious behavioral patterns for financial institutions.",
+    "targetCustomer": "Banks, lenders, insurers and fintechs",
+    "buyer": "Head of fraud, chief risk officer or head of financial crime",
+    "gtm": "Enterprise sales",
+    "aiTech": ["Forensic machine learning", "Document AI", "Anomaly detection"],
+    "deployment": "Cloud",
+    "differentiators": ["Technical", "Proprietary data", "Research", "Workflow integration"],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 3,
+    "fundingUsdM": 55.35,
+    "fundingDisplay": "$55.35M",
+    "fundingAsOf": "2025-10-13",
+    "latestRound": "Series B, Oct 2025 ($25M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["DTCP", "Experian", "Google Ventures", "Index Ventures", "Credo Ventures", "Notion Capital"],
+    "traction": "Resistant AI reported 150M documents analyzed, fourfold customer growth and tenfold ARR growth between its Series A and Series B; its current site reports 180M+ documents.",
+    "confidence": "High",
+    "notes": "Purpose-built forensic and transaction models provide technical depth beyond generic LLMs and integrate into existing decision stacks. It is a narrower risk point solution rather than a system of record; scale and performance metrics are company-reported. Funding total comes from CB Insights, with round size cross-checked against the company.",
+    "sources": [
+      {
+        "label": "Resistant AI $25M Series B and operating metrics, Oct 2025",
+        "url": "https://resistant.ai/blog/resistant-ai-raises-25-million-in-series-b-funding-to-empower-ai-agents-to-fight-fraud-and-fincrime",
+        "type": "primary"
+      },
+      {
+        "label": "Resistant AI Series A extension and team signal",
+        "url": "https://resistant.ai/news/resistant-ai-extends-series-a-to-27.6m",
+        "type": "primary"
+      },
+      {
+        "label": "Resistant AI funding total, CB Insights",
+        "url": "https://www.cbinsights.com/company/resistant-ai/financials",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Resistant AI founding and seed round, TechCrunch",
+        "url": "https://techcrunch.com/2020/04/30/index-and-credo-lead-a-2-75m-seed-in-anti-fraud-tech-resistant-ai/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Sixfold",
+    "website": "https://www.sixfold.ai/",
+    "hq": "New York, USA",
+    "founded": 2023,
+    "stage": "Series B",
+    "sector": "Insurance",
+    "subsector": "Commercial insurance underwriting",
+    "layer": "Vertical application",
+    "product": "AI underwriting platform that reads submissions, applies carrier guidelines, produces cited recommendations and connects to existing insurance systems.",
+    "targetCustomer": "Commercial insurers, MGAs and reinsurers",
+    "buyer": "Chief underwriting officer or head of underwriting operations",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Document AI", "Machine learning", "Agentic AI"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Proprietary data", "Technical", "Regulatory"],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 51.5,
+    "fundingDisplay": "$51.5M",
+    "fundingAsOf": "2026-01-29",
+    "latestRound": "Series B, Jan 2026 ($30M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Brewer Lane Ventures", "Bessemer Venture Partners", "Salesforce Ventures", "Guidewire"],
+    "traction": "Sixfold reported more than 1M submissions processed across 40+ insurance lines for customers representing $265B in gross written premium by Jan 2026.",
+    "confidence": "High",
+    "notes": "Encoding carrier underwriting guidelines and integrating recommendations into production stacks provides real workflow depth without requiring a core-system replacement. It does not own the policy system of record, and all scale metrics are vendor-reported. Funding total uses CB Insights; round size is company-confirmed.",
+    "sources": [
+      {
+        "label": "Sixfold $30M Series B and underwriting scale, Jan 2026",
+        "url": "https://www.sixfold.ai/content/post/series-b-ai-underwriter",
+        "type": "primary"
+      },
+      {
+        "label": "Sixfold 2025 operating milestones",
+        "url": "https://www.sixfold.ai/2025-milestones",
+        "type": "primary"
+      },
+      {
+        "label": "Sixfold Series A, models and founding year",
+        "url": "https://www.sixfold.ai/content/post/sixfolds-series-a",
+        "type": "primary"
+      },
+      {
+        "label": "Sixfold funding total, CB Insights",
+        "url": "https://www.cbinsights.com/company/sixfold-ai/financials",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Federato",
+    "website": "https://www.federato.ai/",
+    "hq": "San Francisco, USA",
+    "founded": 2020,
+    "stage": "Growth",
+    "sector": "Insurance",
+    "subsector": "Policy lifecycle and underwriting system",
+    "layer": "Vertical application",
+    "product": "AI-native insurance platform spanning submission intake, underwriting, quoting, policy administration and portfolio management.",
+    "targetCustomer": "Property and casualty carriers, MGAs and specialty insurers",
+    "buyer": "Chief underwriting officer, chief information officer or head of operations",
+    "gtm": "Enterprise sales",
+    "aiTech": ["Agentic AI", "LLM", "Document AI", "Decision intelligence"],
+    "deployment": "Cloud",
+    "differentiators": ["Distribution", "Workflow integration", "Infrastructure", "Proprietary data"],
+    "moatStrength": 5,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 180,
+    "fundingDisplay": ">$180M",
+    "fundingAsOf": "2025-11-18",
+    "latestRound": "Series D, Nov 2025 ($100M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Goldman Sachs Alternatives", "Emergence Capital", "Caffeinated Capital", "StepStone Group", "Pear VC"],
+    "traction": "Federato reported tripling revenue year over year before its Nov 2025 Series D and supports the full policy lifecycle.",
+    "confidence": "High",
+    "notes": "The policy-lifecycle and system-of-record surface creates substantially stronger workflow ownership than an underwriting copilot. The moat depends on successful carrier implementations and durable data models; long deployments and incumbent core-platform competition remain significant. Funding is disclosed as more than $180M.",
+    "sources": [
+      {
+        "label": "Federato $100M Series D, total funding and revenue growth, Nov 2025",
+        "url": "https://www.federato.ai/articles/federato-raises-100-million-series-d-led-by-goldman-sachs",
+        "type": "primary"
+      },
+      {
+        "label": "Federato Series C and RiskOps product scope, Nov 2024",
+        "url": "https://www.federato.ai/articles/federato-raises-80-million-to-date-with-series-c-accelerating-ai-era-for-insurance",
+        "type": "primary"
+      },
+      {
+        "label": "Federato agentic AI foundation and implementation evidence, May 2026",
+        "url": "https://www.federato.ai/articles/the-agentic-ai-foundation",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Akur8",
+    "website": "https://www.akur8.com/",
+    "hq": "Paris, France",
+    "founded": 2018,
+    "stage": "Growth",
+    "sector": "Insurance",
+    "subsector": "Actuarial pricing and reserving",
+    "layer": "Vertical application",
+    "product": "Transparent machine-learning platform for insurance pricing, reserving, rate analysis and deployment into policy systems.",
+    "targetCustomer": "Property and casualty insurers, MGAs and actuarial teams",
+    "buyer": "Chief actuary, chief pricing officer or chief underwriting officer",
+    "gtm": "Enterprise sales",
+    "aiTech": ["Machine learning", "Optimization", "Explainable AI"],
+    "deployment": "Cloud",
+    "differentiators": ["Technical", "Regulatory", "Workflow integration", "Proprietary data"],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 180,
+    "fundingDisplay": "$180M",
+    "fundingAsOf": "2024-09-16",
+    "latestRound": "Series C, Sep 2024 ($120M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["One Peak", "Partners Group", "Guidewire"],
+    "traction": "Akur8 reported more than 165 employees across eight offices and $180M total funding in its 2024 annual report.",
+    "confidence": "High",
+    "notes": "Actuarial algorithms, transparent model controls and rating-engine deployment are deep domain capabilities, not an LLM wrapper. The product owns pricing and reserving workflows but not the full policy lifecycle; regulated model approval and incumbent actuarial tooling constrain switching.",
+    "sources": [
+      {
+        "label": "Akur8 $120M Series C and $180M total funding, Sep 2024",
+        "url": "https://www.akur8.com/news/akur8-secures-120-million-in-series-c-round-to-accelerate-growth-of-its-next-generation-actuarial-platform",
+        "type": "primary"
+      },
+      {
+        "label": "Akur8 2024 annual report and operating scale",
+        "url": "https://www.akur8.com/resources/2024-annual-report",
+        "type": "primary"
+      },
+      {
+        "label": "Akur8 Guidewire PolicyCenter pricing deployment integration",
+        "url": "https://www.akur8.com/news/akur8-accelerator-for-ai-powered-pricing",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "FurtherAI",
+    "website": "https://www.furtherai.com/",
+    "hq": "San Francisco, USA",
+    "founded": 2023,
+    "stage": "Series A",
+    "sector": "Insurance",
+    "subsector": "Insurance workflow automation",
+    "layer": "Vertical application",
+    "product": "AI agents that automate insurance submissions, policy checks, claims, compliance and other document-heavy workflows.",
+    "targetCustomer": "Commercial insurers, brokers and MGAs",
+    "buyer": "Chief operations officer, chief underwriting officer or digital transformation leader",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Document AI"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Technical", "Distribution"],
+    "moatStrength": 3,
+    "technicalDepth": 3,
+    "verticalIntegration": 4,
+    "fundingUsdM": 30,
+    "fundingDisplay": "$30M disclosed",
+    "fundingAsOf": "2025-10-07",
+    "latestRound": "Series A, Oct 2025 ($25M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Andreessen Horowitz", "Nexus Venture Partners", "Y Combinator", "South Park Commons"],
+    "traction": "FurtherAI reported 25+ enterprise clients by May 2026, including three top-five brokers and four top-ten carriers.",
+    "confidence": "Medium",
+    "notes": "Multiple live workflow integrations and enterprise references make this more than a demo wrapper, but it remains early and appears to orchestrate document extraction and third-party models rather than own a core insurance system. Implementation intensity and all performance claims require independent validation.",
+    "sources": [
+      {
+        "label": "FurtherAI $25M Series A and integration plans, Oct 2025",
+        "url": "https://www.furtherai.com/blog/%20furtherai-announces-25m-series-a-from-andreessen-horowitz-to-transform-insurance-workflows-with-ai-automating-busywork",
+        "type": "primary"
+      },
+      {
+        "label": "FurtherAI $5M seed, Apr 2025",
+        "url": "https://www.furtherai.com/blog/furtherai-raises-new-funding-to-help-commercial-insurers-reduce-expense-ratios-by-50",
+        "type": "primary"
+      },
+      {
+        "label": "FurtherAI product workflow library",
+        "url": "https://www.furtherai.com/product",
+        "type": "primary"
+      },
+      {
+        "label": "FurtherAI customer signal and European expansion, May 2026",
+        "url": "https://www.furtherai.com/blog/furtherai-appoints-t-om-bradley-to-lead-uk-and-eu-expansion",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Rillet",
+    "website": "https://www.rillet.com/",
+    "hq": "San Francisco, USA",
+    "founded": null,
+    "stage": "Growth",
+    "sector": "Finance",
+    "subsector": "AI-native ERP and general ledger",
+    "layer": "Vertical application",
+    "product": "AI-native ERP centered on a general ledger, close automation, revenue recognition, reporting and native finance-stack integrations.",
+    "targetCustomer": "High-growth and mid-market companies",
+    "buyer": "Chief financial officer or controller",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Machine learning"],
+    "deployment": "Cloud",
+    "differentiators": ["Infrastructure", "Distribution", "Workflow integration", "Proprietary data"],
+    "moatStrength": 5,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 100,
+    "fundingDisplay": ">$100M",
+    "fundingAsOf": "2025-08-06",
+    "latestRound": "Series B, Aug 2025 ($70M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Andreessen Horowitz", "ICONIQ Growth", "Sequoia Capital", "Oak HC/FT", "First Round Capital", "Creandum", "Susa Ventures"],
+    "traction": "Rillet reported more than 400 customers in Apr 2026; its Series B announcement said customers could close books in three days and implement in four weeks.",
+    "confidence": "High",
+    "notes": "Owning the general ledger and finance controls makes Rillet a system of record rather than an AI overlay, with strong workflow and data gravity. ERP migration risk, audit controls and incumbent competition from NetSuite, Oracle and Microsoft are substantial; speed metrics are company-reported.",
+    "sources": [
+      {
+        "label": "Rillet $70M Series B, funding total and product claims, Aug 2025",
+        "url": "https://www.globenewswire.com/news-release/2025/08/06/3128328/0/en/Rillet-raises-70M-to-replace-20th-century-accounting-software-with-AI-native-ERP-built-by-accountants.html",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Rillet financing coverage and total funding, Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/ai-accounting-startup-rillet-raises-113240804.html",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Rillet-EY alliance, general-ledger architecture and customer count, Apr 2026",
+        "url": "https://www.rillet.com/blog/rillet-ey-partnership-announcement",
+        "type": "primary"
+      },
+      {
+        "label": "Rillet native integration with Cin7",
+        "url": "https://www.rillet.com/blog/rillet-and-cin7-announce-strategic-partnership-to-bring-ai-native-accounting-to-product-businesses",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Basis",
+    "website": "https://www.getbasis.ai/",
+    "hq": "New York, USA",
+    "founded": 2023,
+    "stage": "Series B",
+    "sector": "Finance",
+    "subsector": "Accounting agent platform",
+    "layer": "AI-native service",
+    "product": "Long-running AI agents and a forward-deployed team that automate accounting-firm workflows while accountants supervise outputs.",
+    "targetCustomer": "Accounting firms",
+    "buyer": "Managing partner or head of accounting operations",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Agentic AI", "Computer use"],
+    "deployment": "Cloud",
+    "differentiators": ["Technical", "Workflow integration", "Proprietary data", "Distribution"],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": 137.6,
+    "fundingDisplay": "$137.6M disclosed",
+    "fundingAsOf": "2026-02-24",
+    "latestRound": "Series B, Feb 2026 ($100M at $1.15B valuation)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Accel", "GV", "Khosla Ventures", "NFDG", "OpenAI Startup Fund"],
+    "traction": "Basis says hundreds of its agents can work alongside each accountant and that it is deployed at leading accounting firms; no audited customer or revenue count was found.",
+    "confidence": "Medium",
+    "notes": "Long-horizon agents plus forward-deployed workflow redesign make this materially deeper than a chat wrapper. Service-intensive deployments, accountant oversight and frontier-model dependence may constrain margins. Funding sums the announced $3.6M seed, $34M Series A and $100M Series B.",
+    "sources": [
+      {
+        "label": "Basis $100M Series B, Feb 2026",
+        "url": "https://www.getbasis.ai/blogs/basis-raises-100m-series-b-led-by-accel-and-google-ventures",
+        "type": "primary"
+      },
+      {
+        "label": "Basis $34M Series A, Dec 2024",
+        "url": "https://www.getbasis.ai/blogs/basis-raises-a-34m-series-a-led-by-khosla-ventures",
+        "type": "primary"
+      },
+      {
+        "label": "Basis deployed-intelligence operating model",
+        "url": "https://www.getbasis.ai/blogs/introducing-deployed-intelligence",
+        "type": "primary"
+      },
+      {
+        "label": "Basis product and deployment claims",
+        "url": "https://www.getbasis.ai/careers",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Numeric",
+    "website": "https://www.numeric.io/",
+    "hq": "San Francisco, USA",
+    "founded": 2020,
+    "stage": "Series B",
+    "sector": "Finance",
+    "subsector": "Accounting close and financial operations",
+    "layer": "Vertical application",
+    "product": "Finance platform for accounting close, reconciliations, reporting, cash management and AI-assisted investigation.",
+    "targetCustomer": "Modern mid-market and enterprise finance teams",
+    "buyer": "Controller or chief financial officer",
+    "gtm": "Enterprise sales",
+    "aiTech": ["LLM", "Machine learning", "Agentic AI"],
+    "deployment": "Cloud",
+    "differentiators": ["Workflow integration", "Infrastructure", "Proprietary data", "Distribution"],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 89,
+    "fundingDisplay": "$89M",
+    "fundingAsOf": "2025-11-19",
+    "latestRound": "Series B, Nov 2025 ($51M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["IVP", "Menlo Ventures", "Founders Fund", "Alkeon Capital", "8VC"],
+    "traction": "Numeric names customers including Wealthfront, Brex, OpenAI and Plaid and reports more than 90% automated cash matching.",
+    "confidence": "High",
+    "notes": "Close management, cash workflows and an ERP-connected data layer create real operational integration, but Numeric remains an overlay rather than the ledger system of record. Expansion beyond close is execution risk, and automation metrics are company-reported.",
+    "sources": [
+      {
+        "label": "Numeric $51M Series B, customer examples and product expansion, Nov 2025",
+        "url": "https://www.numeric.io/blog/numeric-raises-51m-series-b",
+        "type": "primary"
+      },
+      {
+        "label": "Numeric $89M total funding, PR Newswire, Nov 2025",
+        "url": "https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Numeric $28M Series A",
+        "url": "https://www.numeric.io/blog/numerics-raises-28m",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Blue J",
+    "website": "https://www.bluej.com/",
+    "hq": "Toronto, Canada",
+    "founded": 2015,
+    "stage": "Growth",
+    "sector": "Tax",
+    "subsector": "Tax research and advisory",
+    "layer": "Vertical application",
+    "product": "Generative AI tax research platform that answers technical questions using curated authoritative tax-law sources and citations.",
+    "targetCustomer": "Accounting firms, tax professionals and corporate tax teams",
+    "buyer": "Tax partner, head of tax or chief financial officer",
+    "gtm": "Hybrid",
+    "aiTech": ["LLM", "Retrieval-augmented generation", "Natural language processing"],
+    "deployment": "Cloud",
+    "differentiators": ["Proprietary data", "Regulatory", "Workflow integration", "Distribution"],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": null,
+    "fundingAsOf": null,
+    "latestRound": "Series D, Aug 2025 ($122M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["Oak HC/FT", "Sapphire Ventures", "Intrepid Growth Partners", "Ten Coves Capital", "CPA.com"],
+    "traction": "Blue J reported millions of annual queries and doubled revenue and customer count in the first half of 2025; OpenAI reported usage by more than 3,000 firms across three countries.",
+    "confidence": "High",
+    "notes": "A curated authoritative corpus, tax citations and domain workflows are materially stronger than generic RAG, but third-party LLM dependence remains and the current product surface is closer to research than filing or ERP ownership. Exact lifetime funding was not clearly disclosed, so total funding is null despite the known $122M Series D.",
+    "sources": [
+      {
+        "label": "Blue J $122M Series D and operating metrics, Aug 2025",
+        "url": "https://www.bluej.com/ca/blog/blue-j-announces-122m-series-d-financing-led-by-oak-hc-ft-and-sapphire-ventures",
+        "type": "primary"
+      },
+      {
+        "label": "Blue J company history and 2023 generative-AI launch",
+        "url": "https://www.bluej.com/about-us",
+        "type": "primary"
+      },
+      {
+        "label": "OpenAI customer story on Blue J domain model and firm adoption",
+        "url": "https://openai.com/index/blue-j/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "april",
+    "website": "https://www.getapril.com/",
+    "hq": "New York, USA",
+    "founded": 2021,
+    "stage": "Series B",
+    "sector": "Tax",
+    "subsector": "Embedded tax filing infrastructure",
+    "layer": "Vertical application",
+    "product": "Embedded tax calculation, filing and optimization APIs for banks, fintechs, payroll platforms and wealth applications.",
+    "targetCustomer": "Consumer financial platforms, fintechs, payroll providers and wealth managers",
+    "buyer": "Chief product officer, head of partnerships or tax product leader",
+    "gtm": "Channel/OEM",
+    "aiTech": ["Machine learning", "Natural language processing", "Rules engine"],
+    "deployment": "Cloud",
+    "differentiators": ["Regulatory", "Infrastructure", "Distribution", "Workflow integration"],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 78,
+    "fundingDisplay": "$78M",
+    "fundingAsOf": "2025-07-23",
+    "latestRound": "Series B, Jul 2025 ($38M)",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": ["QED Investors", "Nyca Partners", "Team8", "Euclidean Capital", "Industry Ventures"],
+    "traction": "april reported national US e-file coverage and said its tax-law-to-software process became 20 times faster using AI by its Jul 2025 Series B.",
+    "confidence": "High",
+    "notes": "A tax engine, e-file authorization and embedded distribution make april regulated infrastructure rather than a chatbot wrapper. Ongoing US tax-law maintenance, filing accuracy and concentration among distribution partners are material risks; operational claims are company-reported.",
+    "sources": [
+      {
+        "label": "april $38M Series B and AI tax-engine claims",
+        "url": "https://www.getapril.com/resources/Blog/april-has-raised-a-38-million-series-b-round-led-by-qed-2fWaPRTsDoSn94tV89XeJR",
+        "type": "primary"
+      },
+      {
+        "label": "april $78M total funding and national e-file coverage, Business Wire",
+        "url": "https://www.businesswire.com/news/home/20250723253218/en/april-Raises-%2438M-Series-B-to-Embed-Tax-into-Every-Financial-Decision",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "april launch, founding and early company context, Axios",
+        "url": "https://www.axios.com/2023/04/03/april-ai-tax-startup-launch",
+        "type": "credible-secondary"
+      }
+    ]
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "model-layer-convergence",
+    "title": "La convergence des modèles déplace la différenciation vers le workload",
+    "category": "Model layer / infrastructure",
+    "horizon": "maintenant → 3 ans",
+    "signal": "Fait : en mars 2026, quatre fournisseurs de tête étaient regroupés dans une bande de 25 points Elo; sur plusieurs benchmarks professionnels, les 15 meilleurs modèles étaient séparés par seulement quelques points. Le meilleur modèle fermé gardait néanmoins 3,3 points d’avance sur le meilleur modèle ouvert.",
+    "whyNow": "Fait : les benchmarks de capacité se saturent rapidement et Stanford relève jusqu’à 42 % de questions invalides sur certains jeux d’évaluation; parallèlement, la curation permet à certains modèles plus petits d’égaler de bien plus gros modèles sur des tâches ciblées.",
+    "valueCapture": "Inférence : benchmark par workload, routage multi-modèles, post-training spécialisé et assurance de migration peuvent capter plus de valeur qu’un wrapper lié à un seul modèle.",
+    "risk": "La convergence moyenne masque des écarts importants sur les tâches difficiles, la sûreté et les modalités; un nouveau saut de frontière peut recréer du lock-in.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Technical Performance",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance",
+        "type": "Rapport"
+      },
+      {
+        "label": "Stanford AI Index 2026 — Research and Development",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/research-and-development",
+        "type": "Rapport"
+      }
+    ]
+  },
+  {
+    "id": "agent-task-reliability-economics",
+    "title": "La tâche complète devient l’unité de fiabilité et de coût des agents",
+    "category": "Agents / evals",
+    "horizon": "maintenant → 2 ans",
+    "signal": "Fait : OSWorld est passé d’environ 12 % à 66,3 % de réussite, mais les agents échouent encore près d’une fois sur trois sur des benchmarks structurés; malgré 88 % d’adoption organisationnelle de l’IA, le déploiement d’agents restait à un chiffre dans presque toutes les fonctions étudiées.",
+    "whyNow": "Fait : METR mesure désormais la durée de tâche humaine à laquelle un agent atteint 50 % ou 80 % de réussite, ce qui expose une décroissance de fiabilité avec l’horizon plutôt qu’une simple qualité par réponse.",
+    "valueCapture": "Inférence : runtime avec checkpoints, retries, budgets, supervision et evals de bout en bout; pricing au résultat vérifié plutôt qu’au token.",
+    "risk": "Les suites de tâches publiques couvrent surtout le logiciel et peuvent surestimer la transférabilité en entreprise; les fournisseurs de modèles peuvent intégrer les primitives de contrôle.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Technical Performance",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance",
+        "type": "Rapport"
+      },
+      {
+        "label": "Stanford AI Index 2026 — Economy",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy",
+        "type": "Rapport"
+      },
+      {
+        "label": "METR — Task-Completion Time Horizons",
+        "url": "https://metr.org/time-horizons/",
+        "type": "Benchmark"
+      }
+    ]
+  },
+  {
+    "id": "agent-identity-authorization",
+    "title": "Identité, autorisation et audit deviennent le control plane des agents",
+    "category": "Agent security",
+    "horizon": "maintenant → 3 ans",
+    "signal": "Fait : NIST a lancé en février 2026 une initiative dédiée aux standards d’agents, avec des axes explicites sur l’interopérabilité, la sécurité et l’identité; le NCCoE travaille séparément sur l’identification et l’autorisation des actions prises par des agents.",
+    "whyNow": "Fait : le périmètre documenté par NIST n’est plus la génération de contenu, mais des agents capables d’agir avec une supervision limitée sur du code, des données et des systèmes externes.",
+    "valueCapture": "Inférence : identité de workload, credentials éphémères, politiques par action, approbations humaines et journal de preuves indépendant du modèle.",
+    "risk": "Les standards sont encore en formation; IAM, API gateways et clouds existants peuvent absorber la couche si elle ne comprend pas la sémantique des tâches.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "NIST — AI Agent Standards Initiative",
+        "url": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative",
+        "type": "Standardisation"
+      },
+      {
+        "label": "NCCoE — Software and AI Agent Identity and Authorization",
+        "url": "https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization",
+        "type": "Projet public"
+      }
+    ]
+  },
+  {
+    "id": "agent-native-distribution",
+    "title": "La distribution B2B s’ouvre aux clients logiciels, pas seulement humains",
+    "category": "Distribution / agent-first software",
+    "horizon": "maintenant → 3 ans",
+    "signal": "Fait : MCP publie une spécification et une suite de conformité pour connecter modèles, ressources et outils; A2A spécifie la communication entre applications agentiques opaques. YC Summer 2026 demande explicitement des APIs, MCPs, CLIs et documentations conçus pour des agents.",
+    "whyNow": "Fait : plusieurs protocoles ouverts couvrent désormais découverte, invocation et interopérabilité, tandis que l’usage d’interfaces visuelles par navigateur reste une adaptation de logiciels conçus pour l’humain.",
+    "valueCapture": "Inférence : catalogue découvrable, onboarding machine-to-machine, SLA par action, paiement programmable et APIs verticales plus fiables que le browser automation.",
+    "risk": "Les protocoles sont ouverts et ne constituent pas un moat; les éditeurs peuvent réserver leurs meilleures actions à leurs propres agents ou APIs.",
+    "founderFit": "fort",
+    "confidence": "moyenne",
+    "sources": [
+      {
+        "label": "Model Context Protocol — specification",
+        "url": "https://modelcontextprotocol.io/specification/2025-11-25",
+        "type": "Standard"
+      },
+      {
+        "label": "MCP — conformance tests",
+        "url": "https://github.com/modelcontextprotocol/conformance",
+        "type": "Repository"
+      },
+      {
+        "label": "A2A — official repository",
+        "url": "https://github.com/a2aproject/A2A",
+        "type": "Repository"
+      },
+      {
+        "label": "YC RFS Summer 2026 — Software for Agents",
+        "url": "https://www.ycombinator.com/rfs?year=2026#software-for-agents",
+        "type": "Investor signal"
+      }
+    ]
+  },
+  {
+    "id": "workflow-aware-inference",
+    "title": "Le scheduler d’inférence devient stateful et workflow-aware",
+    "category": "Inference infrastructure",
+    "horizon": "1 → 3 ans",
+    "signal": "Fait : SAGA formalise les agents comme des graphes de dizaines à centaines d’appels LLM et rapporte un coût élevé quand le scheduler traite chaque appel isolément; SGLang a ouvert une roadmap de cache KV distribué explicitement dédiée aux workloads agentiques.",
+    "whyNow": "Fait : les runtimes déploient déjà prefix caching, désagrégation prefill/decode, offload et routage sensible au cache; les boucles d’agents ajoutent réutilisation d’état, branches et attente d’outils à ces contraintes.",
+    "valueCapture": "Inférence : scheduling par graphe, placement de session, cache KV persistant et SLO de temps/coût par tâche plutôt que débit maximal par requête.",
+    "risk": "SAGA reste un résultat de recherche et le gain dépend fortement du workload; les projets open source et clouds peuvent intégrer rapidement ces mécanismes.",
+    "founderFit": "fort",
+    "confidence": "moyenne",
+    "sources": [
+      {
+        "label": "SAGA — Workflow-Atomic Scheduling for AI Agent Inference",
+        "url": "https://arxiv.org/abs/2605.00528",
+        "type": "Paper"
+      },
+      {
+        "label": "SGLang — Distributed KV Cache for Agentic Workload",
+        "url": "https://github.com/sgl-project/sglang/issues/21846",
+        "type": "Repository roadmap"
+      },
+      {
+        "label": "vLLM — Automatic Prefix Caching",
+        "url": "https://docs.vllm.ai/en/latest/features/automatic_prefix_caching/",
+        "type": "Documentation"
+      }
+    ]
+  },
+  {
+    "id": "generated-systems-code-assurance",
+    "title": "Le code systèmes généré déplace le bottleneck vers la preuve",
+    "category": "Developer tools / systems",
+    "horizon": "1 → 3 ans",
+    "signal": "Fait : KernelBench exige simultanément correction et accélération des kernels générés; FastKernels montre que des gains sur benchmarks synthétiques peuvent devenir incompatibilités de stack ou dégradations silencieuses en production, et que son meilleur agent testé restait à 0,94× du baseline agrégé de production.",
+    "whyNow": "Fait : la génération couvre désormais CUDA et plusieurs DSLs, mais la validité dépend des shapes, dtypes, architectures, compilateurs et conditions numériques qui ne tiennent pas dans un test unique.",
+    "valueCapture": "Inférence : matrice hardware continue, oracles numériques, fuzzing de shapes, validation de performance reproductible et merge gates indépendants pour kernels et compilateurs.",
+    "risk": "Marché initial étroit et très exigeant; les équipes de frameworks peuvent internaliser l’assurance et les benchmarks eux-mêmes peuvent être optimisés sans transfert réel.",
+    "founderFit": "fort",
+    "confidence": "moyenne",
+    "sources": [
+      {
+        "label": "KernelBench — benchmark and toolkit",
+        "url": "https://github.com/ScalingIntelligence/KernelBench",
+        "type": "Repository"
+      },
+      {
+        "label": "FastKernels — Benchmarking GPU Kernel Generation in Production",
+        "url": "https://arxiv.org/abs/2605.23215",
+        "type": "Paper"
+      },
+      {
+        "label": "FastKernels — production benchmark code",
+        "url": "https://github.com/Snowflake-AI-Research/fastkernels",
+        "type": "Repository"
+      }
+    ]
+  },
+  {
+    "id": "ai-factory-reliability-plane",
+    "title": "La fiabilité cross-layer devient un produit de l’AI factory",
+    "category": "Infrastructure reliability",
+    "horizon": "maintenant → 4 ans",
+    "signal": "Fait : Meta attribue plus de 66 % des interruptions observées pendant les entraînements Llama 3 à des pannes de SRAM, HBM, compute grid ou réseau; Stanford estime que la capacité mondiale de calcul IA a crû de 3,3× par an depuis 2022.",
+    "whyNow": "Fait : à grande échelle, les fautes incluent pannes franches, stragglers et corruptions silencieuses; leur diagnostic traverse accélérateur, fabric, stockage, firmware, runtime et application.",
+    "valueCapture": "Inférence : acceptance de clusters, probes sûres en production, corrélation cross-layer, isolation automatisée et assurance de SLO/MTTR.",
+    "risk": "L’accès privilégié, la responsabilité et le besoin de données de flotte ralentissent la vente; hyperscalers et OEMs ont intérêt à intégrer ces fonctions.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Meta Engineering — How Meta keeps its AI hardware reliable",
+        "url": "https://engineering.fb.com/2025/07/22/data-infrastructure/how-meta-keeps-its-ai-hardware-reliable/",
+        "type": "Engineering primary"
+      },
+      {
+        "label": "Stanford AI Index 2026 — Research and Development",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/research-and-development",
+        "type": "Rapport"
+      },
+      {
+        "label": "Meta Engineering — Infrastructure Evolution and AI",
+        "url": "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
+        "type": "Engineering primary"
+      }
+    ]
+  },
+  {
+    "id": "power-aware-compute",
+    "title": "L’électricité devient une primitive du scheduler de calcul",
+    "category": "Energy × compute",
+    "horizon": "maintenant → 5 ans",
+    "signal": "Fait : l’IEA mesure +17 % de consommation électrique des data centers en 2025 et +50 % pour les sites centrés IA; elle documente des variations de charge supérieures à 50 % en moins d’une seconde. DOE/NASPI étudie déjà les oscillations de charge de grands centres IA.",
+    "whyNow": "Fait : la demande mondiale des data centers est projetée près de 950 TWh en 2030 dans le scénario central de l’IEA, tandis que les délais d’interconnexion et d’équipements électriques limitent les nouveaux sites; LBNL identifie le déplacement de charge comme une option avec obstacles techniques et réglementaires.",
+    "valueCapture": "Inférence : scheduler grid-aware liant deadlines, checkpoints, qualité de service et signaux électriques; orchestration de batteries et preuve contractuelle de flexibilité.",
+    "risk": "La flexibilité réellement livrable varie par workload et contrat; régulation utility, sécurité du grid interface et garanties de disponibilité allongent le GTM.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "IEA 2026 — Key Questions on Energy and AI",
+        "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+        "type": "Rapport"
+      },
+      {
+        "label": "LBNL — DOE Data Center Load Flexibility Workshop Summary",
+        "url": "https://eta.lbl.gov/publications/doe-data-center-load-flexibility",
+        "type": "Rapport public"
+      },
+      {
+        "label": "DOE — Monitoring Oscillations from Large Data Centers",
+        "url": "https://www.energy.gov/oe/articles/monitoring-oscillations-large-data-centers",
+        "type": "Source publique"
+      }
+    ]
+  },
+  {
+    "id": "rack-scale-hardware",
+    "title": "Le rack, son alimentation et son refroidissement remplacent le serveur comme unité hardware",
+    "category": "Hardware / data centers",
+    "horizon": "maintenant → 5 ans",
+    "signal": "Fait : l’IEA estime que la densité de puissance des serveurs IA a été multipliée par 11 entre 2020 et 2025 et pourrait encore quadrupler d’ici 2027; OCP et ASHRAE ont créé une alliance sur les standards de refroidissement liquide.",
+    "whyNow": "Fait : IEA documente des contraintes simultanées sur HBM, transformateurs et power electronics; OCP travaille sur alimentation haute tension DC, CDUs et interfaces de racks à très haute densité.",
+    "valueCapture": "Inférence : qualification rack-to-grid, commissioning, télémétrie thermo-électrique, digital twins et composants/interconnexions standardisés peuvent être vendus comme système plutôt que pièce isolée.",
+    "risk": "CapEx, certifications et cycles OEM sont lourds; la standardisation réduit certains différentiels et les hyperscalers peuvent verticaliser la conception.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "IEA 2026 — Key Questions on Energy and AI",
+        "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+        "type": "Rapport"
+      },
+      {
+        "label": "OCP and ASHRAE — liquid cooling standards alliance",
+        "url": "https://www.opencompute.org/blog/open-compute-project-foundation-and-ashrae-form-new-alliance",
+        "type": "Standards body"
+      },
+      {
+        "label": "OCP — Call for AI Data Center Infrastructure Standards",
+        "url": "https://www.opencompute.org/about/a-call-for-collaboration-on-ai-data-center-infrastructure-standards",
+        "type": "Standards body"
+      }
+    ]
+  },
+  {
+    "id": "closed-loop-scientific-ai",
+    "title": "En science, la valeur passe du modèle à la boucle expérimentale fermée",
+    "category": "Scientific AI",
+    "horizon": "maintenant → 7 ans",
+    "signal": "Fait : Stanford rapporte moins de 20 % sur la réplication de travaux scientifiques à l’échelle d’un papier et environ la moitié du score d’experts PhD sur des tâches de recherche end-to-end; la liste des découvertes IA confirmées expérimentalement reste courte.",
+    "whyNow": "Fait : DOE structure des laboratoires autonomes combinant robotique, edge AI, analyse temps réel et feedback; ARPA-E a annoncé en 2026 un programme associant modèles, outils de laboratoire automatisés et tests industriels de catalyseurs.",
+    "valueCapture": "Inférence : posséder la boucle design → make → test → analyze et vendre une métrique physique validée — yield, temps de qualification, énergie ou performance matière — plutôt qu’un copilot de littérature.",
+    "risk": "Accès aux instruments et données, reproductibilité, CapEx, expertise métier et cycles de validation dominent souvent la qualité du modèle.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Science",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/science",
+        "type": "Rapport"
+      },
+      {
+        "label": "DOE — Achieving AI-Driven Autonomous Laboratories",
+        "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/achieving-ai-driven-autonomous-laboratories",
+        "type": "Programme public"
+      },
+      {
+        "label": "ARPA-E — AI plus autonomous labs for catalyst development",
+        "url": "https://arpa-e.energy.gov/news-and-events/news-and-insights/us-department-energy-announces-34-million-pair-artificial-intelligence-autonomous-labs-accelerate-catalyst-development-0",
+        "type": "Programme public"
+      },
+      {
+        "label": "YC RFS Summer 2026 — AI-Native Discovery Engines",
+        "url": "https://www.ycombinator.com/rfs?year=2026#ai-native-discovery-engines",
+        "type": "Investor signal"
+      }
+    ]
+  },
+  {
+    "id": "constrained-domain-physical-ai",
+    "title": "L’IA physique scale d’abord dans des environnements contraints",
+    "category": "Physical AI / robotics",
+    "horizon": "maintenant → 7 ans",
+    "signal": "Fait : les robots n’atteignent que 12 % de réussite sur des tâches domestiques réelles contre 89,4 % dans RLBench simulé; les robotaxis ont atteint une forte utilisation, mais dans des zones favorables et avec reprise humaine à distance possible.",
+    "whyNow": "Fait : la Chine a représenté 54 % des installations mondiales de robots industriels en 2024, alors que le total mondial était stable; le déploiement se concentre donc sur des workflows et géographies où l’environnement peut être instrumenté.",
+    "valueCapture": "Inférence : systèmes verticaux combinant perception, contrôle, simulation, safety case, téléopération d’exception et données de flotte dans agriculture, inspection, logistique ou industrie.",
+    "risk": "Le sim-to-real, les cas de bord, la responsabilité et le coût de service hardware peuvent empêcher les marges logicielles.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Technical Performance",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance",
+        "type": "Rapport"
+      },
+      {
+        "label": "Stanford AI Index 2026 — Economy",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy",
+        "type": "Rapport"
+      },
+      {
+        "label": "IFR — World Robotics 2025",
+        "url": "https://ifr.org/worldrobotics/report-2025",
+        "type": "Industry primary"
+      }
+    ]
+  },
+  {
+    "id": "vertical-ai-service-execution",
+    "title": "Le vertical AI capture la valeur en exécutant le service, pas en ajoutant un copilote",
+    "category": "Vertical AI / AI-native services",
+    "horizon": "maintenant → 4 ans",
+    "signal": "Fait : l’adoption organisationnelle de l’IA atteignait 88 % en 2025, mais l’usage d’agents restait à un chiffre dans presque toutes les fonctions; les gains de productivité mesurés sont les plus élevés dans le travail structuré et vérifiable.",
+    "whyNow": "Fait : YC Summer 2026 appelle explicitement des entreprises qui livrent le service complet dans l’assurance, la comptabilité, l’audit, la conformité ou l’administration de santé, plutôt qu’un outil d’assistance.",
+    "valueCapture": "Inférence : paiement par dossier, transaction ou résultat, avec intégration au système of record, gestion des exceptions et responsabilité opérationnelle comme moat.",
+    "risk": "La main-d’œuvre d’exception, la réglementation et la responsabilité peuvent ramener les marges vers celles d’un service classique; YC est un signal de thèse, pas une preuve de demande.",
+    "founderFit": "moyen",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Economy",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy",
+        "type": "Rapport"
+      },
+      {
+        "label": "YC RFS Summer 2026 — AI-Native Service Companies",
+        "url": "https://www.ycombinator.com/rfs?year=2026#ai-native-service-companies",
+        "type": "Investor signal"
+      },
+      {
+        "label": "YC RFS Summer 2026 — SaaS Challengers",
+        "url": "https://www.ycombinator.com/rfs?year=2026#saas-challengers",
+        "type": "Investor signal"
+      }
+    ]
+  },
+  {
+    "id": "operational-feedback-data-moat",
+    "title": "Le moat data migre vers le feedback opérationnel et le ground truth",
+    "category": "Data",
+    "horizon": "structurel",
+    "signal": "Fait : Stanford conclut que les données synthétiques ne remplacent pas encore les données réelles en pré-entraînement et que qualité, déduplication et curation permettent de forts gains; en biologie, le développement de modèles est décrit comme de plus en plus limité par les données.",
+    "whyNow": "Fait : les laboratoires autonomes publics sont explicitement conçus comme des boucles générant de nouvelles données propres et répétables; les corpus historiques seuls ne fournissent ni décision opérationnelle ni outcome observé.",
+    "valueCapture": "Inférence : système of record qui relie entrée brute, action, exception humaine et résultat mesuré; droits contractuels sur le feedback et outils de qualité/provenance attachés au workflow.",
+    "risk": "Sans design partner et droit d’usage avant de construire, le flywheel n’existe pas; confidentialité, représentativité et délai d’obtention du ground truth limitent la vitesse.",
+    "founderFit": "moyen",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Research and Development",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/research-and-development",
+        "type": "Rapport"
+      },
+      {
+        "label": "Stanford AI Index 2026 — Medicine",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/medicine",
+        "type": "Rapport"
+      },
+      {
+        "label": "DOE — Achieving AI-Driven Autonomous Laboratories",
+        "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/achieving-ai-driven-autonomous-laboratories",
+        "type": "Programme public"
+      }
+    ]
+  },
+  {
+    "id": "executable-governance-evidence",
+    "title": "La gouvernance passe des policies aux preuves exécutables",
+    "category": "Governance / assurance",
+    "horizon": "maintenant → 4 ans",
+    "signal": "Fait : les incidents documentés sont passés de 233 en 2024 à 362 en 2025 alors que le reporting de benchmarks responsible-AI reste parcellaire; l’AI Act exige documentation technique, logs et suivi post-marché pour les systèmes concernés.",
+    "whyNow": "Fait : NIST a publié en 2026 un draft de pratiques pour rendre les évaluations automatisées valides, transparentes et reproductibles; la Commission européenne indique l’application puis l’enforcement progressif des obligations GPAI et de transparence.",
+    "valueCapture": "Inférence : evidence graph versionné reliant modèle, données, evals, contrôles, approbations et incidents; release gates et export d’audit continus intégrés au CI/CD.",
+    "risk": "Calendriers réglementaires mouvants, fragmentation sectorielle, responsabilité juridique et bundling par les suites GRC; une checklist sans contrôle runtime est facilement banalisée.",
+    "founderFit": "moyen",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Responsible AI",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/responsible-ai",
+        "type": "Rapport"
+      },
+      {
+        "label": "NIST AI 800-2 — Automated Benchmark Evaluations",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-2.ipd.pdf",
+        "type": "Draft standard"
+      },
+      {
+        "label": "EU AI Act — Regulation 2024/1689",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=en",
+        "type": "Réglementation"
+      },
+      {
+        "label": "European Commission — AI Act implementation timeline",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "type": "Source officielle"
+      }
+    ]
+  },
+  {
+    "id": "sovereign-plural-deployment",
+    "title": "Souveraineté et localisation imposent un déploiement pluraliste",
+    "category": "Sovereign infrastructure",
+    "horizon": "maintenant → 7 ans",
+    "signal": "Fait : l’Europe et l’Asie centrale sont passées de 3 à 44 clusters IA publics entre 2018 et 2025, tandis que les mesures de localisation des données divergent fortement par région; l’UE indique 19 AI Factories et 13 antennes opérationnelles.",
+    "whyNow": "Fait : compute, données et fabrication avancée restent concentrés, mais les gouvernements financent des capacités domestiques; des runtimes ouverts comme vLLM exposent des APIs compatibles et prennent en charge plusieurs familles de hardware.",
+    "valueCapture": "Inférence : control plane portable avec benchmark par workload, politique de résidence, observabilité et migration vérifiée entre API publique, cloud souverain, on-prem et edge.",
+    "risk": "Le terme souveraineté recouvre des objectifs contradictoires; achats publics, subventions et préférences nationales peuvent favoriser les incumbents locaux plutôt qu’une couche neutre.",
+    "founderFit": "fort",
+    "confidence": "haute",
+    "sources": [
+      {
+        "label": "Stanford AI Index 2026 — Policy and Governance",
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/policy-and-governance",
+        "type": "Rapport"
+      },
+      {
+        "label": "European Commission — AI Factories",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories",
+        "type": "Programme public"
+      },
+      {
+        "label": "vLLM — open inference server",
+        "url": "https://github.com/vllm-project/vllm",
+        "type": "Repository"
+      }
+    ]
+  }
+]

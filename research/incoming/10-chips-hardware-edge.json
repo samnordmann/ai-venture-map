@@ -1,0 +1,1256 @@
+[
+  {
+    "name": "Cerebras Systems",
+    "website": "https://www.cerebras.ai/",
+    "hq": "Sunnyvale, California, United States",
+    "founded": 2016,
+    "stage": "Public",
+    "sector": "AI chips and hardware",
+    "subsector": "Wafer-scale AI compute systems",
+    "layer": "Hardware",
+    "product": "Wafer-scale processors, CS systems, compiler software, and cloud capacity for large-model training and inference.",
+    "targetCustomer": "Frontier model developers, hyperscalers, governments, and large enterprises",
+    "buyer": "Chief infrastructure officer, VP AI infrastructure, or sovereign-compute program lead",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Wafer-scale processor",
+      "AI compiler",
+      "Distributed training",
+      "LLM inference"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "Not normalized: $1B Series H plus IPO and debt facilities",
+    "fundingAsOf": "2026-06-23",
+    "latestRound": "NASDAQ IPO, May 2026; $1B Series H, February 2026",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [],
+    "traction": "Cerebras reported $193.4M of Q1 2026 GAAP revenue: $110.6M hardware and $82.8M cloud and other revenue. Its announced $20B OpenAI agreement and 750 MW buildout are multi-year commitments, not current-quarter revenue or deployed capacity.",
+    "confidence": "High",
+    "notes": "This is real silicon with reported public-company revenue, not a design-win proxy. Wafer-scale integration and the compiler are unusually deep moats, but the model is capital-intensive and exposed to foundry, packaging, deployment-financing, and customer-concentration risk. Venture funding, IPO proceeds, working-capital debt, and revolvers are deliberately not added into one funding number.",
+    "sources": [
+      {
+        "label": "Cerebras Q1 2026 results and financing summary",
+        "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-strong-first-quarter-2026-results",
+        "type": "primary"
+      },
+      {
+        "label": "Cerebras IPO pricing announcement",
+        "url": "https://investors.cerebras.ai/node/6946/pdf",
+        "type": "primary"
+      },
+      {
+        "label": "Cerebras registration statement",
+        "url": "https://investors.cerebras.ai/static-files/69e853fd-a7f2-438a-a0b0-79cb2807ebed",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Groq",
+    "website": "https://groq.com/",
+    "hq": "Mountain View, California, United States",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Deterministic inference accelerators and cloud",
+    "layer": "Hardware",
+    "product": "Language Processing Unit accelerators, a statically scheduled compiler stack, and GroqCloud inference service.",
+    "targetCustomer": "AI developers, model providers, enterprises, and sovereign-compute programs",
+    "buyer": "CTO, CIO, or VP AI infrastructure",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Language Processing Unit",
+      "Static compiler scheduling",
+      "Inference runtime",
+      "LLM serving"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 3950,
+    "fundingDisplay": "Approximately $3.95B publicly reported through June 2026",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "$650M growth financing, June 2026",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "BlackRock Private Equity Partners",
+      "Disruptive",
+      "Neuberger Berman"
+    ],
+    "traction": "Groq reported 13 data centers, more than five million developers, and trillions of tokens processed weekly in June 2026; these are usage and footprint metrics, not disclosed revenue.",
+    "confidence": "Medium",
+    "notes": "The LPU and compiler are real deployed technology. The December 2025 non-exclusive technology license and transfer of the founder and team to NVIDIA materially changed standalone IP exclusivity and company scope; Groq remains independent and says GroqCloud continues. The funding total is approximate because it combines company-announced rounds with an Axios cumulative estimate.",
+    "sources": [
+      {
+        "label": "Groq LPU architecture",
+        "url": "https://groq.com/lpu-architecture",
+        "type": "primary"
+      },
+      {
+        "label": "Groq June 2026 financing and operating update",
+        "url": "https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business",
+        "type": "primary"
+      },
+      {
+        "label": "Groq non-exclusive inference technology license",
+        "url": "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale",
+        "type": "primary"
+      },
+      {
+        "label": "Groq company profile and headcount range",
+        "url": "https://www.linkedin.com/company/groq",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "SambaNova Systems",
+    "website": "https://sambanova.ai/",
+    "hq": "Palo Alto, California, United States",
+    "founded": 2017,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Reconfigurable dataflow AI systems",
+    "layer": "Hardware",
+    "product": "Reconfigurable Dataflow Unit chips, rack-scale systems, software, and hosted inference for enterprise and sovereign AI.",
+    "targetCustomer": "Large enterprises, governments, service providers, and model builders",
+    "buyer": "CIO, CTO, sovereign-AI program lead, or data-center operator",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Reconfigurable dataflow processor",
+      "AI compiler",
+      "Rack-scale inference",
+      "Model serving"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "More than $2.35B disclosed floor; Series F was only a first close",
+    "fundingAsOf": "2026-07-08",
+    "latestRound": "$1B first close of Series F, July 2026",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "General Atlantic",
+      "Seligman Ventures",
+      "T. Rowe Price Associates",
+      "Intel Capital",
+      "Qatar Investment Authority"
+    ],
+    "traction": "The company reports SN40L deployments with sovereign providers and JPMorganChase selected SambaNova as an inference infrastructure partner. SN50 has a first named customer and a planned H2 2026 shipment window, so it is not yet treated as volume revenue.",
+    "confidence": "Medium",
+    "notes": "The disclosed floor adds more than $1B raised through 2021, a $350M Series E, and the $1B first close of Series F; the exact cumulative total is unknown. The existing SN40L platform is deployed, while SN50 remains pre-shipment. Full-stack silicon-to-cloud integration is a moat but also raises capex, foundry, packaging, software-porting, and utilization risk.",
+    "sources": [
+      {
+        "label": "SambaNova Series F first close",
+        "url": "https://sambanova.ai/press/sambanova-completes-first-close-of-1b-financing-at-11b-valuation?hs_amp=true",
+        "type": "primary"
+      },
+      {
+        "label": "SambaNova Series E and SN50 announcement",
+        "url": "https://sambanova.ai/press/sambanova-unveils-fastest-chip-for-agentic-ai-collaborates-with-intel-and-raises-350m?hs_amp=true",
+        "type": "primary"
+      },
+      {
+        "label": "SambaNova sovereign deployment announcement",
+        "url": "https://sambanova.ai/press/sambanova-powers-the-ai-backbone-for-three-sovereign-ai-providers-across-australia-europe-and-the-u.k?hs_amp=true",
+        "type": "primary"
+      },
+      {
+        "label": "SambaNova company profile and headcount range",
+        "url": "https://www.linkedin.com/company/sambanova",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Tenstorrent",
+    "website": "https://tenstorrent.com/",
+    "hq": "Toronto, Canada",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "AI accelerators, RISC-V CPU IP, and open software",
+    "layer": "Hardware",
+    "product": "Programmable AI accelerators, RISC-V CPU and chiplet IP, systems, and an open-source compiler/runtime stack.",
+    "targetCustomer": "Cloud and edge system vendors, semiconductor designers, OEMs, and developers",
+    "buyer": "Chief architect, semiconductor business-unit lead, or VP engineering",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "AI accelerator",
+      "RISC-V CPU IP",
+      "Chiplet IP",
+      "Open compiler and runtime"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Research"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "At least $893M from the two disclosed 2021 and 2024 rounds; exact cumulative total not normalized",
+    "fundingAsOf": "2024-12-02",
+    "latestRound": "$693M+ Series D, December 2024",
+    "headcount": "501-1,000",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Samsung Securities",
+      "AFW Partners",
+      "Bezos Expeditions",
+      "Hyundai Motor Group"
+    ],
+    "traction": "Blackhole developer systems and cards are commercially listed, and Tenstorrent announced a compact AI device collaboration with Razer in January 2026. Product availability and partner announcements are stronger than tape-out claims but do not disclose recognized revenue.",
+    "confidence": "Medium",
+    "notes": "Its moat spans silicon, licensable CPU/chiplet IP, and open software rather than a single accelerator sale. Public reporting of headquarters is inconsistent across company profiles, so Toronto is used with medium confidence. Scaling production remains exposed to external foundry and advanced-packaging capacity, while IP licensing may be less capital-intensive than selling systems.",
+    "sources": [
+      {
+        "label": "Tenstorrent Series D announcement",
+        "url": "https://tenstorrent.com/en/newsroom/tenstorrent-closes-693m-of-series-d-funding-led-by-samsung-securities-and-afw-partners",
+        "type": "primary"
+      },
+      {
+        "label": "Tenstorrent Blackhole developer product announcement",
+        "url": "https://tenstorrent.com/en/newsroom/tenstorrent-unveils-blackhole-developer-products-redefining-ai-performance-and-cost-efficiency",
+        "type": "primary"
+      },
+      {
+        "label": "Tenstorrent and Razer compact accelerator device",
+        "url": "https://tenstorrent.com/en/newsroom/tenstorrent-unveils-first-gen-compact-ai-accelerator-device",
+        "type": "primary"
+      },
+      {
+        "label": "Tenstorrent company profile and headcount range",
+        "url": "https://www.linkedin.com/company/tenstorrent-inc.",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "d-Matrix",
+    "website": "https://www.d-matrix.ai/",
+    "hq": "Santa Clara, California, United States",
+    "founded": 2019,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Digital in-memory inference accelerators",
+    "layer": "Hardware",
+    "product": "Corsair chiplet-based digital in-memory compute accelerators plus Aviator compiler and runtime for data-center inference.",
+    "targetCustomer": "Hyperscalers, inference-cloud providers, OEMs, and large enterprises",
+    "buyer": "VP AI infrastructure, chief architect, or server-product lead",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Digital in-memory compute",
+      "Chiplet architecture",
+      "AI compiler",
+      "LLM inference"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 450,
+    "fundingDisplay": "$450M total raised",
+    "fundingAsOf": "2025-11-12",
+    "latestRound": "$275M Series C, November 2025",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Bullhound Capital",
+      "Triatomic Capital",
+      "Temasek",
+      "Microsoft M12"
+    ],
+    "traction": "d-Matrix announced Corsair entered full production in June 2026 and said priority-customer volume shipments would begin during summer 2026. This is a manufacturing milestone and shipment plan; customer revenue and named design wins remain undisclosed.",
+    "confidence": "Medium",
+    "notes": "The silicon, chiplet packaging, compiler, and runtime form a technically integrated stack. Full production materially de-risks the project relative to a tape-out, but it does not establish yield, sustained volume, utilization, or revenue. The company remains dependent on TSMC 6 nm manufacturing and advanced packaging.",
+    "sources": [
+      {
+        "label": "d-Matrix Series C announcement",
+        "url": "https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/",
+        "type": "primary"
+      },
+      {
+        "label": "d-Matrix Corsair full-production announcement",
+        "url": "https://www.d-matrix.ai/announcements/d-matrix-corsair-ai-inference-platform-enters-full-production-to-meet-customer-demand/",
+        "type": "primary"
+      },
+      {
+        "label": "d-Matrix technical white paper",
+        "url": "https://d-matrix.ai/pdf/d-Matrix-WhitePaper-Technical-FINAL.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "d-Matrix company profile and headcount range",
+        "url": "https://www.linkedin.com/company/d-matrix",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Etched",
+    "website": "https://etched.com/",
+    "hq": "San Jose, California, United States",
+    "founded": 2022,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Transformer-specific inference ASICs",
+    "layer": "Hardware",
+    "product": "Sohu transformer-specific ASICs and rack-scale inference systems optimized for transformer workloads.",
+    "targetCustomer": "Frontier model labs, inference-cloud providers, hyperscalers, and quantitative trading firms",
+    "buyer": "Chief infrastructure officer, VP AI infrastructure, or data-center architect",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Transformer ASIC",
+      "Rack-scale inference",
+      "Compiler",
+      "LLM serving"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 800,
+    "fundingDisplay": "$800M total raised",
+    "fundingAsOf": "2026-06-30",
+    "latestRound": "$500M round closed December 2025 and disclosed June 2026",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [
+      "Peter Thiel",
+      "Jane Street",
+      "Hudson River Trading",
+      "Jump Trading",
+      "Two Sigma",
+      "VentureTech Alliance"
+    ],
+    "traction": "Etched reported a functioning A0 chip, more than $1B of signed customer contracts, and first rack shipments planned for summer 2026. Contracts and successful first silicon are not recognized revenue or evidence of sustained volume yield; customers were not publicly named.",
+    "confidence": "Medium",
+    "notes": "A transformer-only architecture can deliver substantial specialization but creates architecture-obsolescence risk if dominant models move beyond compatible operators. The company was only entering shipments at the cutoff, with no disclosed revenue. Leading-edge foundry, HBM, packaging, rack power, and working-capital needs make execution highly capital-intensive.",
+    "sources": [
+      {
+        "label": "Etched financing, working-chip, contracts, and shipment announcement",
+        "url": "https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html",
+        "type": "primary"
+      },
+      {
+        "label": "TechCrunch assessment of Etched launch status",
+        "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "MatX",
+    "website": "https://matx.com/",
+    "hq": "Mountain View, California, United States",
+    "founded": 2023,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "LLM inference and training accelerators",
+    "layer": "Hardware",
+    "product": "A purpose-built accelerator and software stack for large-model inference and training, currently under development.",
+    "targetCustomer": "Frontier model developers, hyperscalers, and AI infrastructure providers",
+    "buyer": "Chief infrastructure officer or VP AI systems",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "AI accelerator",
+      "LLM inference",
+      "Model training",
+      "Compiler"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "$500M latest round; $105M of earlier seed and Series A funding separately reported",
+    "fundingAsOf": "2026-02-24",
+    "latestRound": "$500M round, February 2026",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [
+      "Spark Capital",
+      "Nat Friedman",
+      "Daniel Gross"
+    ],
+    "traction": "MatX presents MatX One as its planned product, while TechCrunch reported that TSMC-manufactured chips are targeted to ship in 2027. No shipped proprietary silicon, named design win, or revenue was publicly substantiated at the cutoff.",
+    "confidence": "Low",
+    "notes": "The team and financing are high-signal, but public technical and commercial evidence remains thin. This is a pre-shipment silicon bet with tape-out, foundry, HBM, packaging, compiler-porting, and customer-qualification risk; a high valuation or fundraise is not product validation.",
+    "sources": [
+      {
+        "label": "MatX product site",
+        "url": "https://matx.com/",
+        "type": "primary"
+      },
+      {
+        "label": "TechCrunch February 2026 financing and shipment target",
+        "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "TechCrunch 2024 seed and Series A reporting",
+        "url": "https://techcrunch.com/2024/11/22/ai-chip-startup-matx-founded-by-google-alums-raises-series-a-at-300m-valuation-sources-say/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Positron AI",
+    "website": "https://www.positron.ai/",
+    "hq": "Reno, Nevada, United States",
+    "founded": 2023,
+    "stage": "Series B",
+    "sector": "AI chips and hardware",
+    "subsector": "Memory-centric inference systems",
+    "layer": "Hardware",
+    "product": "Atlas FPGA-based inference systems and the planned Asimov custom inference ASIC platform.",
+    "targetCustomer": "AI cloud providers, model developers, enterprises, and latency-sensitive financial firms",
+    "buyer": "VP AI infrastructure, chief architect, or data-center operator",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "FPGA acceleration",
+      "Memory-centric inference",
+      "Compiler and runtime",
+      "Planned custom ASIC"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "More than $305M disclosed floor through Series B",
+    "fundingAsOf": "2026-02-04",
+    "latestRound": "$230M Series B, February 2026",
+    "headcount": "11-50",
+    "headcountAsOf": "2026-02-04",
+    "investors": [
+      "Arena Private Wealth",
+      "Jump Trading",
+      "Unless",
+      "Qatar Investment Authority",
+      "Arm"
+    ],
+    "traction": "Positron says Atlas systems are shipping. Current Atlas compute is built on Intel Agilex FPGAs; Asimov was targeting tape-out in late 2026 and production in early 2027, so proprietary ASIC traction is not yet established.",
+    "confidence": "Medium",
+    "notes": "The company has a shipping system and software stack, but its current compute moat relies partly on third-party FPGA silicon. The planned ASIC carries normal tape-out, foundry, packaging, and software-porting risks. Company forecasts of future revenue growth are excluded because no recognized revenue was disclosed.",
+    "sources": [
+      {
+        "label": "Positron Series B and product roadmap announcement",
+        "url": "https://www.businesswire.com/news/home/20260204250472/en/Positron-AI-Raises-%24230-Million-Series-B-at-Over-%241-Billion-Valuation-to-Scale-Energy-Efficient-AI-Inference",
+        "type": "primary"
+      },
+      {
+        "label": "Positron Series A announcement",
+        "url": "https://www.businesswire.com/news/home/20250728912387/en/Positron-AI-Secures-%2451.6-Million-in-Oversubscribed-Series-A-to-Accelerate-Inference-Optimized-Hardware",
+        "type": "primary"
+      },
+      {
+        "label": "EE Times analysis of Atlas FPGA implementation and team size",
+        "url": "https://www.eetimes.com/positron-230-million-funding-led-by-financial-trading-firms/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Lightmatter",
+    "website": "https://lightmatter.co/",
+    "hq": "Mountain View, California, United States",
+    "founded": 2017,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Silicon-photonic interconnect",
+    "layer": "Hardware",
+    "product": "Passage silicon-photonic interconnect, optical engines, laser modules, and reference platforms for scale-up AI systems.",
+    "targetCustomer": "Hyperscalers, accelerator vendors, switch vendors, and advanced-packaging partners",
+    "buyer": "Chief architect, silicon-photonics lead, or data-center networking executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Silicon photonics",
+      "Co-packaged optics",
+      "Optical interconnect",
+      "Advanced packaging"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Research"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": 850,
+    "fundingDisplay": "$850M total funding",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "$400M Series D, October 2024",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [],
+    "traction": "Lightmatter reports evaluation kits with lead customers and production-ready reference platforms. Passage L20 is scheduled to sample in late 2026, so current evidence is customer evaluation and integration rather than disclosed high-volume revenue.",
+    "confidence": "Medium",
+    "notes": "The current commercial focus is photonic connectivity, not the company's earlier photonic-compute thesis. Patents, multi-die optical packaging, lasers, and integration know-how are defensible, but co-packaged optics still carries yield, thermal-control, packaging, standards, and qualification risk before volume deployment.",
+    "sources": [
+      {
+        "label": "Lightmatter company facts and funding",
+        "url": "https://lightmatter.co/about/",
+        "type": "primary"
+      },
+      {
+        "label": "Lightmatter Passage L20 roadmap",
+        "url": "https://lightmatter.co/press-release/lightmatter-expands-photonic-interconnect-roadmap-with-passage-l20-unified-optical-engine-for-npo-and-obo-applications/",
+        "type": "primary"
+      },
+      {
+        "label": "Lightmatter 1.6 Tbps-per-fiber evaluation kits",
+        "url": "https://lightmatter.co/press-release/lightmatter-achieves-record-1-6-tbps-per-fiber-to-accelerate-ai-optical-interconnect/",
+        "type": "primary"
+      },
+      {
+        "label": "Lightmatter company profile and headcount range",
+        "url": "https://www.linkedin.com/company/lightmatter",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Celestial AI",
+    "website": "https://www.celestial.ai/",
+    "hq": "Santa Clara, California, United States",
+    "founded": 2020,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Photonic fabric for memory and scale-up connectivity",
+    "layer": "Hardware",
+    "product": "Photonic Fabric optical interconnect IP and chiplets for connecting AI compute, memory, and scale-up fabrics.",
+    "targetCustomer": "AI accelerator vendors, hyperscalers, memory-system designers, and switch vendors",
+    "buyer": "Chief silicon architect or data-center platform executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Silicon photonics",
+      "Optical interconnect",
+      "Chiplet integration",
+      "Advanced packaging"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Research"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "More than $515M before acquisition",
+    "fundingAsOf": "2025-03-10",
+    "latestRound": "$250M Series C1, March 2025; acquired by Marvell February 2026",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [
+      "Fidelity Management & Research Company",
+      "AMD Ventures",
+      "Samsung Catalyst Fund",
+      "VentureTech Alliance"
+    ],
+    "traction": "Marvell completed the acquisition on February 2, 2026. Marvell said initial Celestial AI revenue contribution was expected only in the second half of fiscal 2028; the cited $500M and $1B run-rate targets are forecasts, not present revenue.",
+    "confidence": "High",
+    "notes": "Celestial AI is no longer an independent startup, so the entry is an acquisition reference, not a current investable standalone company. The exit validates strategic IP value but not prior standalone revenue. Commercialization still depends on photonics manufacturing, packaging yield, customer integration, and Marvell execution.",
+    "sources": [
+      {
+        "label": "Celestial AI Series C1 and cumulative funding",
+        "url": "https://www.businesswire.com/news/home/20250310333743/en/Celestial-AI-Secures-%24250-Million-Funding-to-Revolutionize-AI-Infrastructure-with-Its-Photonic-Fabric",
+        "type": "primary"
+      },
+      {
+        "label": "Marvell acquisition completion and revenue timing",
+        "url": "https://www.marvell.com/company/newsroom/marvell-completes-acquisition-of-celestial-ai.html",
+        "type": "primary"
+      },
+      {
+        "label": "Marvell fiscal 2026 Form 10-K",
+        "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001835632-26-000011/mrvl-20260131.htm",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Ayar Labs",
+    "website": "https://ayarlabs.com/",
+    "hq": "San Jose, California, United States",
+    "founded": 2015,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Co-packaged optical I/O",
+    "layer": "Hardware",
+    "product": "TeraPHY optical I/O chiplets, SuperNova remote light sources, evaluation kits, and rack-scale co-packaged-optics reference designs.",
+    "targetCustomer": "AI accelerator vendors, hyperscalers, ASIC designers, and server OEMs",
+    "buyer": "Chief silicon architect, packaging lead, or data-center platform executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Silicon photonics",
+      "Co-packaged optics",
+      "Optical I/O chiplets",
+      "Advanced packaging"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": 870,
+    "fundingDisplay": "$870M disclosed total by adding the company-reported $370M through Series D and $500M Series E",
+    "fundingAsOf": "2026-03-03",
+    "latestRound": "$500M Series E, March 2026",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [
+      "Neuberger Berman",
+      "ARK Invest",
+      "Insight Partners",
+      "Qatar Investment Authority",
+      "Sequoia Global Equities",
+      "AMD Ventures",
+      "MediaTek"
+    ],
+    "traction": "Ayar describes TeraPHY and SuperNova as production-ready and has announced rack and ASIC integration work with Wiwynn, Alchip, and GUC. The Series E is explicitly intended to accelerate volume production; partner designs and demonstrations are not disclosed revenue or confirmed volume shipments.",
+    "confidence": "High",
+    "notes": "Multiple silicon generations, an ecosystem of ASIC and server partners, and a laser-plus-chiplet system create a credible integration moat. High-volume co-packaged optics remains sensitive to photonics yield, thermal control, laser reliability, advanced packaging, qualification timelines, and customer platform schedules.",
+    "sources": [
+      {
+        "label": "Ayar Labs Series E and volume-production objective",
+        "url": "https://ayarlabs.com/news/ayar-labs-closes-500m-series-e-accelerates-volume-production-of-co-packaged-optics/",
+        "type": "primary"
+      },
+      {
+        "label": "Ayar Labs Series D and cumulative funding through 2024",
+        "url": "https://ayarlabs.com/news/ayar-labs-155m-series-d-to-address-ai-infrastructure-includes-amd-intel-capital-nvidia/",
+        "type": "primary"
+      },
+      {
+        "label": "Ayar Labs optical I/O products",
+        "url": "https://ayarlabs.com/optical-io-products/",
+        "type": "primary"
+      },
+      {
+        "label": "Ayar Labs and Wiwynn rack-scale partnership",
+        "url": "https://ayarlabs.com/news/ayar-labs-and-wiwynn-partner-to-bring-co-packaged-optics-to-rack-scale-ai-systems/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Enfabrica",
+    "website": "https://www.enfabrica.net/",
+    "hq": "Mountain View, California, United States",
+    "founded": 2019,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "AI network and memory fabric silicon",
+    "layer": "Hardware",
+    "product": "Accelerated Compute Fabric SuperNIC silicon and memory-fabric systems for connecting accelerators, CPUs, memory, and networks.",
+    "targetCustomer": "Hyperscalers, AI cloud providers, server OEMs, and accelerator-system builders",
+    "buyer": "Chief network architect, AI systems lead, or server-product executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "SuperNIC",
+      "Ethernet fabric",
+      "Memory fabric",
+      "AI cluster networking"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "Approximately $260M reported before the September 2025 transaction",
+    "fundingAsOf": "2025-09-18",
+    "latestRound": "$115M Series C, November 2024; technology-license and talent transaction September 2025",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [
+      "Spark Capital",
+      "Atreides Management",
+      "Sutter Hill Ventures"
+    ],
+    "traction": "Enfabrica announced ACF-S availability for Q1 2025, but did not disclose volume revenue. Its current website says a transaction with NVIDIA completed in September 2025 and that remaining IP assets are available to license for a limited time.",
+    "confidence": "Medium",
+    "notes": "This was a license-plus-talent transaction rather than a conventional whole-company acquisition. The original standalone operating thesis and moat are therefore materially impaired; the company is retained only as a strategic transaction reference. Funding is secondary-source approximate, and no current independent revenue base is established.",
+    "sources": [
+      {
+        "label": "Enfabrica current company status",
+        "url": "https://www.enfabrica.net/about",
+        "type": "primary"
+      },
+      {
+        "label": "Enfabrica Series C and ACF-S availability",
+        "url": "https://www.businesswire.com/news/home/20241119607725/en/Enfabrica-Raises-%24115M-in-New-Funding-to-Advance-its-Leadership-in-AI-Networking-Solutions",
+        "type": "primary"
+      },
+      {
+        "label": "Enfabrica ACF-S product",
+        "url": "https://enfabrica.net/solution/acf-s",
+        "type": "primary"
+      },
+      {
+        "label": "CNBC transaction and cumulative funding report",
+        "url": "https://www.cnbc.com/2025/09/18/nvidia-spent-over-900-million-on-enfabrica-ceo-ai-startup-technology.html",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Hailo",
+    "website": "https://hailo.ai/",
+    "hq": "Tel Aviv, Israel",
+    "founded": 2017,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Edge AI accelerators and vision processors",
+    "layer": "Hardware",
+    "product": "Low-power Hailo-8 and Hailo-10 accelerators, Hailo-15 vision processors, modules, and software for edge inference.",
+    "targetCustomer": "Camera, automotive, robotics, industrial, and edge-compute OEMs",
+    "buyer": "Embedded-systems VP, product engineering lead, or OEM sourcing executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Edge NPU",
+      "Computer vision",
+      "Generative AI inference",
+      "Compiler and runtime"
+    ],
+    "deployment": "Edge",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Distribution"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "More than $340M disclosed through April 2024",
+    "fundingAsOf": "2024-04-02",
+    "latestRound": "$120M round, April 2024",
+    "headcount": "51-200",
+    "headcountAsOf": "2026-06-08",
+    "investors": [],
+    "traction": "Hailo-10H reached general availability in July 2025, and CTech reported more than 500,000 flagship edge chips sold. That is a real volume-silicon signal, but revenue was not disclosed and automotive starts of production remain future program milestones.",
+    "confidence": "Medium",
+    "notes": "The company reportedly laid off about 110 people, roughly half its workforce, in June 2026 amid liquidity pressure and an emergency loan. This materially weakens the outlook despite real shipped silicon. Edge design wins have long qualification cycles, and the company remains dependent on external foundry and packaging partners.",
+    "sources": [
+      {
+        "label": "Hailo funding and Hailo-10 announcement",
+        "url": "https://hailo.ai/de/company-overview/newsroom/news-de/hailo-closes-new-120-million-funding-round-and-debuts-hailo-10-a-new-powerful-ai-accelerator-bringing-generative-ai-to-edge-devices/",
+        "type": "primary"
+      },
+      {
+        "label": "Hailo-10H general availability",
+        "url": "https://hailo.ai/company-overview/newsroom/news/hailo-announces-general-availability-of-hailo-10h-edge-ai-accelerator-with-generative-ai-capabilities/",
+        "type": "primary"
+      },
+      {
+        "label": "CTech layoffs, financing pressure, and unit-sales report",
+        "url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Axelera AI",
+    "website": "https://axelera.ai/",
+    "hq": "Eindhoven, Netherlands",
+    "founded": 2021,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Edge inference accelerators",
+    "layer": "Hardware",
+    "product": "Metis edge-inference ASICs and cards plus the Voyager SDK, with Europa and Titania platforms under development.",
+    "targetCustomer": "Industrial, robotics, security, retail, and edge-server OEMs",
+    "buyer": "Embedded AI lead, product engineering VP, or OEM sourcing executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Digital in-memory compute",
+      "Edge inference",
+      "Computer vision",
+      "Compiler and SDK"
+    ],
+    "deployment": "Edge",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Distribution"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "More than $450M including equity, grants, and venture debt; not equity-comparable",
+    "fundingAsOf": "2026-02-24",
+    "latestRound": "More than $250M mixed financing, February 2026",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Innovation Industries",
+      "BlackRock",
+      "Samsung Catalyst Fund",
+      "EIC Fund"
+    ],
+    "traction": "Metis PCIe cards and M.2 modules are commercially offered with a documented SDK and partner ecosystem. Four tape-outs and orderable hardware demonstrate real silicon, but customer revenue and deployment volumes are not publicly disclosed.",
+    "confidence": "High",
+    "notes": "The funding total intentionally remains null because the company combines equity, grants, and venture debt. Digital in-memory compute plus a software toolchain is defensible, but scaling an edge-chip business requires fragmented-model support, OEM certifications, channel execution, and reliable outsourced fabrication.",
+    "sources": [
+      {
+        "label": "Axelera AI financing announcement",
+        "url": "https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth",
+        "type": "primary"
+      },
+      {
+        "label": "Axelera AI company and tape-out history",
+        "url": "https://axelera.ai/our-story",
+        "type": "primary"
+      },
+      {
+        "label": "Axelera AI Metis product documentation",
+        "url": "https://docs.axelera.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "Axelera AI company profile and headcount range",
+        "url": "https://www.linkedin.com/company/axelera-ai/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "SiMa.ai",
+    "website": "https://sima.ai/",
+    "hq": "San Jose, California, United States",
+    "founded": 2018,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Physical-AI and edge ML systems",
+    "layer": "Hardware",
+    "product": "Machine Learning System-on-Chips, modules, boards, and Palette software for computer vision and multimodal edge workloads.",
+    "targetCustomer": "Industrial, automotive, aerospace, robotics, and smart-vision OEMs",
+    "buyer": "Embedded systems VP, physical-AI product lead, or OEM engineering executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Edge MLSoC",
+      "Computer vision",
+      "Multimodal inference",
+      "Compiler and runtime"
+    ],
+    "deployment": "Edge",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Workflow integration"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 355,
+    "fundingDisplay": "$355M total funding",
+    "fundingAsOf": "2025-08-01",
+    "latestRound": "$85M financing, August 2025",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Maverick Capital",
+      "StepStone Group"
+    ],
+    "traction": "SiMa.ai markets production-ready Modalix systems-on-module and has announced automotive and embedded-design collaborations. These are real product and qualification signals, but the company does not disclose unit volumes or recognized revenue.",
+    "confidence": "Medium",
+    "notes": "The moat is the combined MLSoC, Palette software, and low-power physical-AI deployment workflow. OEM design wins can take years to convert into production revenue, especially in automotive; external foundry capacity, packaging, qualification, and broad model/operator support remain execution risks.",
+    "sources": [
+      {
+        "label": "SiMa.ai financing and cumulative funding",
+        "url": "https://sima.ai/press-release/sima-ai-raises-85m-to-scale-physical-ai-bringing-total-funding-to-355m/",
+        "type": "primary"
+      },
+      {
+        "label": "SiMa.ai Modalix product brief",
+        "url": "https://sima.ai/wp-content/uploads/2026/03/Modalix-SoC-Product-Brief_06.4.pdf",
+        "type": "primary"
+      },
+      {
+        "label": "SiMa.ai and Synopsys automotive collaboration",
+        "url": "https://sima.ai/press-release/sima-ai-expands-strategic-collaboration-with-synopsys-to-accelerate-automotive-ai-innovation/",
+        "type": "primary"
+      },
+      {
+        "label": "SiMa.ai company profile and headcount range",
+        "url": "https://www.linkedin.com/company/sima-ai",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "FuriosaAI",
+    "website": "https://furiosa.ai/",
+    "hq": "Seoul, South Korea",
+    "founded": 2017,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Data-center inference accelerators",
+    "layer": "Hardware",
+    "product": "RNGD data-center inference accelerator cards, servers, compiler, runtime, and model-serving software.",
+    "targetCustomer": "Cloud providers, enterprises, governments, and server OEMs",
+    "buyer": "VP AI infrastructure, chief architect, or data-center operator",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "AI accelerator",
+      "HBM memory",
+      "Tensor contraction processor",
+      "Compiler and runtime"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 246,
+    "fundingDisplay": "$246M total funding",
+    "fundingAsOf": "2025-07-31",
+    "latestRound": "$125M Series C bridge, July 2025",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "DSC Investment",
+      "Korea Development Bank",
+      "Naver"
+    ],
+    "traction": "FuriosaAI announced RNGD mass production in January 2026 and receipt of an initial 4,000-unit manufacturing lot from TSMC and ASUS. Receiving chips and beginning volume shipping is stronger than a tape-out, but it is not evidence that 4,000 units were sold or that revenue was recognized.",
+    "confidence": "High",
+    "notes": "RNGD is real 5 nm, HBM3-based silicon with public developer documentation and an integrated software stack. The next risks are sales conversion, production yield, software coverage, and reliable access to TSMC, HBM, advanced packaging, and server manufacturing capacity.",
+    "sources": [
+      {
+        "label": "FuriosaAI Series C bridge and cumulative funding",
+        "url": "https://furiosa.ai/blog/announcing-furiosaais-125m-series-c-bridge-funding-to-scale-sustainable-ai-compute",
+        "type": "primary"
+      },
+      {
+        "label": "FuriosaAI RNGD mass-production announcement",
+        "url": "https://furiosa.ai/blog/rngd-enters-mass-production-the-high-performance-ai-accelerator-for-any-data-center",
+        "type": "primary"
+      },
+      {
+        "label": "FuriosaAI RNGD developer documentation",
+        "url": "https://developer.furiosa.ai/v2026.1.0-rc2/en/overview/rngd.html",
+        "type": "primary"
+      },
+      {
+        "label": "FuriosaAI company profile and headcount range",
+        "url": "https://www.linkedin.com/company/furiosaai",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Rebellions",
+    "website": "https://rebellions.ai/",
+    "hq": "Seongnam, South Korea",
+    "founded": 2020,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "AI inference NPUs and rack systems",
+    "layer": "Hardware",
+    "product": "ATOM and REBEL inference NPUs, accelerator cards, compiler software, servers, and rack-scale systems.",
+    "targetCustomer": "Cloud and telecom providers, enterprises, governments, and server OEMs",
+    "buyer": "VP AI infrastructure, telecom cloud executive, or sovereign-compute lead",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "AI NPU",
+      "Chiplet accelerator",
+      "Compiler and runtime",
+      "Rack-scale inference"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Infrastructure"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 850,
+    "fundingDisplay": "$850M total raised",
+    "fundingAsOf": "2026-03-30",
+    "latestRound": "$400M pre-IPO financing, March 2026",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [
+      "Mirae Asset Financial Group",
+      "Korea National Growth Fund",
+      "Arm",
+      "Samsung Ventures"
+    ],
+    "traction": "Rebellions says ATOM and ATOM-Max are in mass production and deployed in South Korea, Japan, Saudi Arabia, and the United States. It launched RebelRack and RebelPod in March 2026, but does not disclose recognized revenue or deployment volumes.",
+    "confidence": "Medium",
+    "notes": "The 2024 merger with Sapeon and 2026 acquisition of SqueezeBits broadened silicon, systems, and software integration; the company itself reports the $850M total. Deployment claims are not independently quantified. Samsung foundry, HBM, advanced packaging, software compatibility, and pre-IPO capital discipline remain material risks.",
+    "sources": [
+      {
+        "label": "Rebellions pre-IPO financing and rack-system launch",
+        "url": "https://rebellions.ai/newsroom/rebellions-closes-400-million-pre-ipo-and-launches-rebelrack-and-rebelpod-to-accelerate-global-expansion/",
+        "type": "primary"
+      },
+      {
+        "label": "Rebellions Series C and deployment claims",
+        "url": "https://rebellions.ai/newsroom/rebellions-raises-250-million-to-advance-the-next-generation-ai-infrastructure-backed-by-arm-and-samsung/",
+        "type": "primary"
+      },
+      {
+        "label": "Rebellions newsroom and SqueezeBits acquisition",
+        "url": "https://rebellions.ai/company/newsroom/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "DEEPX",
+    "website": "https://deepx.ai/",
+    "hq": "Seongnam, South Korea",
+    "founded": 2018,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "Low-power edge NPUs",
+    "layer": "Hardware",
+    "product": "DX-M1 and related low-power edge NPU chips, modules, boards, compiler, and runtime for physical-AI devices.",
+    "targetCustomer": "Camera, robotics, industrial, mobility, and embedded-device OEMs",
+    "buyer": "Embedded AI lead, product engineering VP, or OEM sourcing executive",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "Edge NPU",
+      "Computer vision",
+      "Physical AI",
+      "Compiler and runtime"
+    ],
+    "deployment": "Edge",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Distribution"
+    ],
+    "moatStrength": 2,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 95,
+    "fundingDisplay": "Approximately $95M reported through the May 2024 Series C",
+    "fundingAsOf": "2024-05-10",
+    "latestRound": "$80.5M Series C, May 2024",
+    "headcount": null,
+    "headcountAsOf": null,
+    "investors": [
+      "SkyLake Equity Partners",
+      "BNW Investments",
+      "AJU IB Investment",
+      "TimeFolio Asset Management"
+    ],
+    "traction": "DEEPX reports more than 300 customer validation requests and announced a three-year mass-production partnership with AAEON after certification and pre-orders. Validation requests, an MOU, and pre-orders are pipeline indicators rather than recognized revenue or proven volume shipments.",
+    "confidence": "Medium",
+    "notes": "The company has real DX-M1 silicon and module partners, but commercial scale remains less evidenced than technical validation. Fragmented edge workloads, price-sensitive channels, OEM qualification, foundry and packaging dependence, and the gap between MOU and purchase volume are material risks.",
+    "sources": [
+      {
+        "label": "DEEPX Series C announcement",
+        "url": "https://www.prnewswire.com/apac/news-releases/korean-semiconductor-industry-titans-back-deepx-in-series-c-funding-round-302141177.html",
+        "type": "primary"
+      },
+      {
+        "label": "DEEPX and AAEON mass-production partnership",
+        "url": "https://deepx.ai/deepx-announces-global-physical-ai-mass-production-partnership-with-aaeon/",
+        "type": "primary"
+      },
+      {
+        "label": "DEEPX press archive and validation pipeline",
+        "url": "https://deepx.ai/category/press/",
+        "type": "primary"
+      },
+      {
+        "label": "TechCrunch cumulative funding report",
+        "url": "https://techcrunch.com/2024/05/09/ai-chip-startup-deepx-secures-80-5m-series-c-at-a-529m-valuation/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "proteanTecs",
+    "website": "https://www.proteantecs.com/",
+    "hq": "Haifa, Israel",
+    "founded": 2017,
+    "stage": "Growth",
+    "sector": "AI chips and hardware",
+    "subsector": "On-chip telemetry and semiconductor lifecycle analytics",
+    "layer": "Infrastructure",
+    "product": "Embedded on-chip monitoring agents, integration IP, and analytics software for silicon production, power, performance, reliability, and in-field health.",
+    "targetCustomer": "Semiconductor vendors, hyperscalers, automotive suppliers, and electronics-system manufacturers",
+    "buyer": "Silicon engineering VP, quality and reliability lead, or data-center hardware executive",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "On-chip telemetry",
+      "Machine learning",
+      "Predictive reliability",
+      "Post-silicon analytics"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "More than $250M after a March 2026 strategic investment",
+    "fundingAsOf": "2026-03-04",
+    "latestRound": "Undisclosed TGVP strategic investment, March 2026; $51M Series D, September 2025",
+    "headcount": "201-500",
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "IAG Capital Partners",
+      "Samsung Catalyst Fund",
+      "Arm",
+      "Siemens",
+      "TGVP"
+    ],
+    "traction": "The company reports integrations with semiconductor and systems partners and says it is rolling out with major customers, but customer revenue is not disclosed. Its agents must be designed into chips, creating longer qualification cycles but potentially high switching costs once deployed.",
+    "confidence": "High",
+    "notes": "This is semiconductor tooling and lifecycle infrastructure, not an AI accelerator. The moat comes from embedded design-in, hard-to-replace telemetry IP, cross-lifecycle data, and analytics integration. Revenue scale, customer concentration, and the split between license, services, and recurring software remain unknown.",
+    "sources": [
+      {
+        "label": "proteanTecs technology and product scope",
+        "url": "https://www.proteantecs.com/",
+        "type": "primary"
+      },
+      {
+        "label": "proteanTecs Series D announcement",
+        "url": "https://www.businesswire.com/news/home/20250909126860/en/Electronics-Monitoring-Leader-proteanTecs-Raises-%2451M-in-Series-D-Funding",
+        "type": "primary"
+      },
+      {
+        "label": "proteanTecs strategic investment and cumulative funding",
+        "url": "https://www.businesswire.com/news/home/20260304079989/en/proteanTecs-Receives-Strategic-Investment-from-TOPPAN-Group-Venture-Arm-TGVP",
+        "type": "primary"
+      },
+      {
+        "label": "proteanTecs company profile and headcount range",
+        "url": "https://www.linkedin.com/company/proteantecs",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Astera Labs",
+    "website": "https://www.asteralabs.com/",
+    "hq": "San Jose, California, United States",
+    "founded": 2017,
+    "stage": "Public",
+    "sector": "AI chips and hardware",
+    "subsector": "Data-center connectivity silicon",
+    "layer": "Hardware",
+    "product": "PCIe and CXL retimers, fabric switches, cable modules, and management software for AI and cloud connectivity.",
+    "targetCustomer": "Hyperscalers, server and accelerator OEMs, and data-center platform vendors",
+    "buyer": "Chief platform architect, server engineering executive, or hyperscale procurement lead",
+    "gtm": "Channel/OEM",
+    "aiTech": [
+      "PCIe connectivity",
+      "CXL fabric",
+      "Retimers",
+      "Data-center telemetry"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": null,
+    "fundingDisplay": "Public company; venture and IPO financing not normalized",
+    "fundingAsOf": "2026-03-11",
+    "latestRound": "NASDAQ IPO, March 2024",
+    "headcount": "501-1,000",
+    "headcountAsOf": "2025-12-31",
+    "investors": [],
+    "traction": "Astera Labs reported $852.5M of fiscal 2025 revenue, up from $396.3M in fiscal 2024, and 756 full-time employees at year-end. This is a public revenue benchmark for connectivity silicon rather than a startup design-win proxy.",
+    "confidence": "High",
+    "notes": "The 10-K warns that design wins and qualification do not guarantee sales and discloses customer concentration, limited manufacturing sources, Taiwan-centered fabrication and distribution, and export-control exposure. The fabless model limits owned-capex needs but leaves material TSMC, packaging, geography, inventory, and end-market concentration risk.",
+    "sources": [
+      {
+        "label": "Astera Labs fiscal 2025 Form 10-K",
+        "url": "https://ir.asteralabs.com/sec-filings/sec-filing/10-k/0001736297-26-000010",
+        "type": "primary"
+      },
+      {
+        "label": "Astera Labs product portfolio",
+        "url": "https://www.asteralabs.com/products/",
+        "type": "primary"
+      },
+      {
+        "label": "Astera Labs investor relations",
+        "url": "https://ir.asteralabs.com/",
+        "type": "primary"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1355 @@
+[
+  {
+    "name": "Abridge",
+    "website": "https://www.abridge.com",
+    "hq": "Pittsburgh, USA",
+    "founded": 2018,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Ambient clinical intelligence and documentation",
+    "layer": "Vertical application",
+    "product": "Enterprise clinical AI platform that converts patient-clinician conversations into structured documentation and supports coding, evidence and follow-on workflows.",
+    "targetCustomer": "Health systems, hospitals and ambulatory provider organizations",
+    "buyer": "Chief Medical Information Officer, Chief Digital Officer or clinical operations leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Automatic speech recognition",
+      "Clinical LLMs",
+      "Contextual reasoning",
+      "Retrieval-augmented generation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 830,
+    "fundingDisplay": "~$830M announced",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series E extension, Apr 2026 ($316M); strategic investments announced Jun 2026 with terms undisclosed",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Andreessen Horowitz",
+      "Khosla Ventures",
+      "IVP",
+      "Lightspeed Venture Partners"
+    ],
+    "traction": "Abridge reported deployments at more than 150 enterprise health systems in Jun 2025 and expanded from documentation into clinical, financial and evidence workflows in Jun 2026.",
+    "confidence": "Medium",
+    "notes": "The approximately $830M aggregate is from a credible secondary source and includes a reported 2026 Series E extension; Abridge did not disclose the later strategic-investment amount. Adoption and workflow metrics are company-reported.",
+    "sources": [
+      {
+        "label": "Series E and enterprise deployments",
+        "url": "https://www.abridge.com/blog/series-e",
+        "type": "primary"
+      },
+      {
+        "label": "Series D",
+        "url": "https://www.abridge.com/press-release/series-d",
+        "type": "primary"
+      },
+      {
+        "label": "2026 clinician-intelligence platform announcement",
+        "url": "https://www.abridge.com/press-release/patient-centered-clinician-intelligence-platform-keynote",
+        "type": "primary"
+      },
+      {
+        "label": "Series E extension and aggregate funding",
+        "url": "https://fortune.com/2026/06/11/abridge-operating-system-medicine-nvidia-eli-lilly-artsight/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Ambience Healthcare",
+    "website": "https://www.ambiencehealthcare.com",
+    "hq": "San Francisco, USA",
+    "founded": 2020,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Ambient documentation, coding and clinical documentation integrity",
+    "layer": "Vertical application",
+    "product": "Ambient AI platform for clinical notes, coding, clinical documentation integrity and administrative workflows across inpatient and ambulatory settings.",
+    "targetCustomer": "Large health systems and multispecialty provider groups",
+    "buyer": "Chief Medical Information Officer, Chief Digital Officer or revenue-cycle executive",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Automatic speech recognition",
+      "Clinical LLMs",
+      "Medical coding models",
+      "Agentic workflow automation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 345,
+    "fundingDisplay": "~$345M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series C, Jul 2025 ($243M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Oak HC/FT",
+      "Andreessen Horowitz",
+      "OpenAI Startup Fund",
+      "Kleiner Perkins",
+      "Optum Ventures"
+    ],
+    "traction": "The Series C announcement says the platform supports more than 100 specialties and integrates with Epic, Oracle Cerner and athenahealth; the deployment footprint remains company-reported.",
+    "confidence": "Medium",
+    "notes": "Public funding aggregates conflict: STAT reported about $345M while CB Insights lists $313M. The larger figure is retained as an explicitly approximate credible-secondary estimate rather than false precision.",
+    "sources": [
+      {
+        "label": "Series C, product scope and investors",
+        "url": "https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-243-million-series-c-to-scale-its-ai-platform-for-health-systems",
+        "type": "primary"
+      },
+      {
+        "label": "Current product and deployment updates",
+        "url": "https://www.ambiencehealthcare.com/blog",
+        "type": "primary"
+      },
+      {
+        "label": "Aggregate funding estimate",
+        "url": "https://www.statnews.com/2025/07/29/ambience-healthcare-ai-scribe-new-fundraise/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Nabla",
+    "website": "https://www.nabla.com",
+    "hq": "Paris, France",
+    "founded": 2018,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Ambient clinical assistant and agentic workflow",
+    "layer": "Vertical application",
+    "product": "Clinical AI assistant for ambient documentation, dictation and real-time workflow support, with an extensible agent platform for provider organizations.",
+    "targetCustomer": "Hospitals, health systems, clinics and individual clinicians",
+    "buyer": "Chief Medical Information Officer, clinical operations leader or clinician",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Automatic speech recognition",
+      "Clinical LLMs",
+      "Information extraction",
+      "Agentic workflow automation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 3,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 120,
+    "fundingDisplay": "$120M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series C, Jun 2025 ($70M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "HV Capital",
+      "Highland Europe",
+      "DST Global",
+      "Cathay Innovation",
+      "Build Collective"
+    ],
+    "traction": "Nabla reported 85,000 clinicians across more than 130 healthcare organizations when it announced its Series C in Jun 2025.",
+    "confidence": "High",
+    "notes": "Usage counts are company-reported. The competitive ambient-scribe market limits moat absent sustained workflow expansion, proprietary data advantages and measured clinical outcomes.",
+    "sources": [
+      {
+        "label": "Series C, total funding and adoption",
+        "url": "https://www.nabla.com/blog/70m-series-c",
+        "type": "primary"
+      },
+      {
+        "label": "Current ambient assistant capabilities",
+        "url": "https://help.nabla.com/en/articles/781954",
+        "type": "primary"
+      },
+      {
+        "label": "Series C investor detail",
+        "url": "https://www.prnewswire.com/news-releases/nabla-raises-70m-series-c-to-deliver-agentic-ai-to-the-heart-of-clinical-workflows-bringing-total-funding-to-120m-302483646.html",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Qventus",
+    "website": "https://www.qventus.com",
+    "hq": "Mountain View, USA",
+    "founded": 2012,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Hospital operations and care-flow automation",
+    "layer": "Vertical application",
+    "product": "AI-based hospital operations platform with workflow automation for perioperative care, inpatient capacity and discharge planning.",
+    "targetCustomer": "Hospitals and integrated health systems",
+    "buyer": "Chief Operating Officer, Chief Nursing Officer or perioperative operations executive",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Predictive machine learning",
+      "Optimization",
+      "Agentic workflow automation",
+      "Operational analytics"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 198,
+    "fundingDisplay": "Up to ~$198M announced, including $20M optional debt",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series D package, Jan 2025 ($85M equity plus up to $20M optional debt)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "KKR",
+      "Bessemer Venture Partners",
+      "Thomas H. Lee Partners",
+      "Norwest Venture Partners",
+      "Premier"
+    ],
+    "traction": "Qventus reported deployment at more than 150 hospital facilities and continued enterprise expansions in May 2025.",
+    "confidence": "Medium",
+    "notes": "The aggregate combines the previously reported $93M with the full $105M Series D package; only $85M of the latter was equity and the $20M debt facility may not have been drawn. Customer and operational-impact claims are company-reported.",
+    "sources": [
+      {
+        "label": "Series D announcement",
+        "url": "https://www.qventus.com/company/newsroom/qventus-announces-105-million-investment-series-d-led-by-kkr/",
+        "type": "primary"
+      },
+      {
+        "label": "Series D equity and optional-debt structure",
+        "url": "https://techcrunch.com/2025/01/13/more-money-comes-to-ai-healthcare-qventus-nabs-105m-at-a-400m-valuation/",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "Prior funding aggregate",
+        "url": "https://www.axios.com/2022/02/28/thl-50m-growth-investment-qventus",
+        "type": "credible-secondary"
+      },
+      {
+        "label": "2025 hospital footprint and perioperative traction",
+        "url": "https://www.qventus.com/company/newsroom/qventus-ai-teammates-transform-the-perioperative-care-journey-driving-strategic-surgical-growth-and-winning-several-new-clients-and-enterprise-wide-expansions/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Tennr",
+    "website": "https://www.tennr.com",
+    "hq": "New York, USA",
+    "founded": 2021,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Referral intake and patient-access automation",
+    "layer": "Vertical application",
+    "product": "AI referral-orchestration platform that reads inbound clinical documents, checks eligibility and routes patients through provider intake workflows.",
+    "targetCustomer": "Specialty provider groups, durable medical equipment suppliers and post-acute providers",
+    "buyer": "Chief Operating Officer, patient-access leader or revenue-cycle executive",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Specialized language models",
+      "Document understanding",
+      "Information extraction",
+      "Workflow automation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Network effects"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 159.75,
+    "fundingDisplay": "~$159.8M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series C, Jun 2025 ($101M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "IVP",
+      "Andreessen Horowitz",
+      "Lightspeed Venture Partners",
+      "GV",
+      "ICONIQ Growth",
+      "Foundation Capital"
+    ],
+    "traction": "At the Series C, Tennr reported hundreds of provider organizations, millions of patients processed and revenue growth of more than 3x since its Series B.",
+    "confidence": "Medium",
+    "notes": "Traction is company-reported. The total-funding figure comes from a financing database; the $101M latest round is directly announced. Referral-network effects are plausible but not yet independently quantified.",
+    "sources": [
+      {
+        "label": "Series C, product and traction",
+        "url": "https://www.prnewswire.com/news-releases/healthcare-referrals-are-where-patients-get-lost-tennr-raises-101m-to-bring-the-visibility-our-system-desperately-needs-302485255.html",
+        "type": "primary"
+      },
+      {
+        "label": "Current platform",
+        "url": "https://www.tennr.com/",
+        "type": "primary"
+      },
+      {
+        "label": "Aggregate funding",
+        "url": "https://www.cbinsights.com/company/tennr/financials",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "AKASA",
+    "website": "https://akasa.com",
+    "hq": "South San Francisco, USA",
+    "founded": 2018,
+    "stage": "Series B",
+    "sector": "Healthcare",
+    "subsector": "Revenue-cycle management and medical coding",
+    "layer": "Vertical application",
+    "product": "Generative AI platform for medical coding, clinical documentation integrity, prior authorization and other health-system revenue-cycle workflows.",
+    "targetCustomer": "Health systems, hospitals and academic medical centers",
+    "buyer": "Chief Financial Officer, revenue-cycle executive or health-information-management leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Healthcare-specific LLMs",
+      "Document understanding",
+      "Medical coding models",
+      "Workflow automation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 85,
+    "fundingDisplay": "$85M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series B, Mar 2021 ($60M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "BOND",
+      "Andreessen Horowitz",
+      "Costanoa Ventures"
+    ],
+    "traction": "Cleveland Clinic completed an AKASA coding rollout across all U.S. locations and had processed tens of thousands of encounters before expanding into clinical documentation integrity in Oct 2025.",
+    "confidence": "High",
+    "notes": "The last disclosed financing is stale, but a 2025 enterprise-wide Cleveland Clinic deployment is a current execution signal. The 250M-claim training corpus often cited by AKASA dates to 2021 and should not be treated as a current independent benchmark.",
+    "sources": [
+      {
+        "label": "Series B and total funding",
+        "url": "https://akasa.com/press/akasa-raises-60-million-in-series-b-round",
+        "type": "primary"
+      },
+      {
+        "label": "Cleveland Clinic enterprise expansion",
+        "url": "https://akasa.com/press/cleveland-clinic-akasa-deepen-ai-partnership",
+        "type": "primary"
+      },
+      {
+        "label": "Current platform and solution scope",
+        "url": "https://akasa.com/platform/",
+        "type": "primary"
+      },
+      {
+        "label": "Historical claims-data scale",
+        "url": "https://akasa.com/press/accelerated-growth-and-expanding-customer-base",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Aidoc",
+    "website": "https://www.aidoc.com",
+    "hq": "Tel Aviv, Israel",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Radiology AI and clinical care coordination",
+    "layer": "Vertical application",
+    "product": "Clinical AI platform for imaging-based case prioritization, diagnostic support and cross-specialty care coordination through an enterprise AI operating layer.",
+    "targetCustomer": "Hospitals, radiology groups and integrated health systems",
+    "buyer": "Chief Medical Officer, radiology chair, Chief Information Officer or clinical AI leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Medical computer vision",
+      "Multimodal foundation models",
+      "Clinical NLP",
+      "Workflow orchestration"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Infrastructure",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory",
+      "Distribution"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 500,
+    "fundingDisplay": ">$500M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series E, Apr 2026 ($150M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Goldman Sachs Alternatives",
+      "General Catalyst",
+      "Square Peg Capital",
+      "Wellington Management",
+      "TCV"
+    ],
+    "traction": "Aidoc reported deployment in nearly 2,000 hospitals and analysis of more than 120M cases when announcing a Jun 2026 FDA Breakthrough Device designation for investigational report drafting.",
+    "confidence": "High",
+    "notes": "The Series E announcement says total funding exceeded $500M but does not provide an exact aggregate. FDA Breakthrough Device designation expedites interaction with FDA; it is not marketing clearance for the investigational First Read product.",
+    "sources": [
+      {
+        "label": "Series E, total funding and CARE foundation model",
+        "url": "https://www.aidoc.com/about/news/aidoc-raises-150-million-series-e-led-by-goldman-sachs-to-scale-clinical-ai-for-earlier-safer-diagnoses/",
+        "type": "primary"
+      },
+      {
+        "label": "Breakthrough designation and operating footprint",
+        "url": "https://www.aidoc.com/about/news/aidoc-receives-fda-breakthrough-device-designation-for-ai-that-drafts-radiology-reports/",
+        "type": "primary"
+      },
+      {
+        "label": "Prior Series D and platform context",
+        "url": "https://www.aidoc.com/about/news/aidoc-110-million-funding/",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Viz.ai",
+    "website": "https://www.viz.ai",
+    "hq": "San Francisco, USA",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "AI disease detection and care coordination",
+    "layer": "Vertical application",
+    "product": "FDA-cleared disease-detection and care-coordination platform that analyzes imaging and alerts multidisciplinary care teams to time-sensitive findings.",
+    "targetCustomer": "Hospitals, health systems and specialist care networks",
+    "buyer": "Clinical service-line leader, Chief Medical Officer or Chief Information Officer",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Medical computer vision",
+      "Clinical NLP",
+      "Risk detection",
+      "Mobile care-team orchestration"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Workflow integration",
+      "Regulatory",
+      "Distribution",
+      "Network effects"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 250,
+    "fundingDisplay": ">$250M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series D, Apr 2022 ($100M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Insight Partners",
+      "Scale Venture Partners",
+      "Tiger Global Management",
+      "Kleiner Perkins"
+    ],
+    "traction": "Viz.ai reported more than 1,000 hospital customers at its 2022 Series D and announced an FDA-cleared subdural-hemorrhage care collaboration with Johnson & Johnson in Apr 2026.",
+    "confidence": "High",
+    "notes": "The funding benchmark is stale even though operating and partnership announcements are current. Hospital counts and 2025 profitability claims are company-reported; FDA clearance is indication- and product-specific.",
+    "sources": [
+      {
+        "label": "Series D and hospital footprint",
+        "url": "https://www.viz.ai/news/viz-ai-raises-100-million-in-series-d-funding",
+        "type": "primary"
+      },
+      {
+        "label": "Series C and cumulative funding baseline",
+        "url": "https://www.viz.ai/news/viz-ai-raises-71-million-series-c-round-led-by-scale-venture-partners-and-insight-partners",
+        "type": "primary"
+      },
+      {
+        "label": "2026 subdural hemorrhage collaboration",
+        "url": "https://www.viz.ai/news/viz-ai-announces-strategic-collaboration-to-expand-access-to-ai-powered-subdural-hemorrhage-care",
+        "type": "primary"
+      },
+      {
+        "label": "2025 operating update",
+        "url": "https://www.viz.ai/news/viz-ai-closes-2025-with-record-scale-and-patient-impact",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "PathAI",
+    "website": "https://www.pathai.com",
+    "hq": "Boston, USA",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Digital pathology and biomarker development",
+    "layer": "Vertical application",
+    "product": "AI-powered digital pathology platform spanning diagnostic slide workflow, algorithm-assisted interpretation and biopharma biomarker services.",
+    "targetCustomer": "Health systems, pathology laboratories and biopharma R&D organizations",
+    "buyer": "Pathology chair, laboratory executive or biopharma translational-medicine leader",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Computational pathology",
+      "Vision foundation models",
+      "Multimodal biomarker models",
+      "Image analysis"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": 255.5,
+    "fundingDisplay": "~$255.5M before pending acquisition",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Definitive Roche acquisition agreement announced May 2026; closing expected in H2 2026",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "General Atlantic",
+      "General Catalyst",
+      "D1 Capital Partners",
+      "Kaiser Permanente"
+    ],
+    "traction": "PathAI and MedStar Health announced an Apr 2026 deployment of AISight Dx and AI applications across MedStar's digital-pathology program.",
+    "confidence": "Medium",
+    "notes": "Roche's acquisition is signed but not yet closed, so PathAI is retained with an explicit pending-transaction flag. Aggregate funding is secondary-sourced; the last directly announced major equity round was the $165M Series C in 2021.",
+    "sources": [
+      {
+        "label": "Series C",
+        "url": "https://www.pathai.com/resources/pathai-announces-completion-of-165-million-financing-for-advancing-medicine-with-ai-powered-pathology",
+        "type": "primary"
+      },
+      {
+        "label": "MedStar deployment",
+        "url": "https://www.pathai.com/news/pathai-and-medstar-health-announce-partnership-to-deploy-the-aisight-dx-digital-pathology-platform-and-advanced-ai-applications",
+        "type": "primary"
+      },
+      {
+        "label": "Definitive Roche acquisition agreement",
+        "url": "https://www.roche.com/investors/updates/inv-update-2026-05-07",
+        "type": "primary"
+      },
+      {
+        "label": "Aggregate private funding estimate",
+        "url": "https://forgeglobal.com/pathai_ipo/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Ibex Medical Analytics",
+    "website": "https://ibex-ai.com",
+    "hq": "Tel Aviv, Israel",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "AI-powered cancer pathology",
+    "layer": "Vertical application",
+    "product": "Computational pathology platform that helps pathologists detect, grade and quantify cancer on digitized tissue slides.",
+    "targetCustomer": "Pathology laboratories, hospitals and health systems",
+    "buyer": "Pathology chair, laboratory director or Chief Medical Officer",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Computational pathology",
+      "Medical computer vision",
+      "Deep learning",
+      "Image segmentation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 100,
+    "fundingDisplay": ">$100M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series C, Sep 2023 ($55M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "83North",
+      "Octopus Ventures",
+      "aMoon",
+      "General Electric",
+      "Dell Technologies Capital"
+    ],
+    "traction": "Ibex reports a training and validation corpus exceeding 10M slide images; FDA records show 510(k) clearance for Galen Second Read for prostate biopsies in Jan 2025.",
+    "confidence": "High",
+    "notes": "The company discloses only that total funding exceeds $100M. The cited FDA clearance is scoped to a prostate second-read product and should not be generalized to every Galen module or cancer type.",
+    "sources": [
+      {
+        "label": "Series C and total funding",
+        "url": "https://ibex-ai.com/ibex-series-c-funding/",
+        "type": "primary"
+      },
+      {
+        "label": "Company platform and dataset scale",
+        "url": "https://ibex-ai.com/",
+        "type": "primary"
+      },
+      {
+        "label": "FDA 510(k) database entry K241232",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241232",
+        "type": "regulatory"
+      }
+    ]
+  },
+  {
+    "name": "Rad AI",
+    "website": "https://www.radai.com",
+    "hq": "San Francisco, USA",
+    "founded": 2018,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Radiology reporting and follow-up workflow",
+    "layer": "Vertical application",
+    "product": "Generative AI radiology platform that drafts report impressions, supports full report generation and manages follow-up recommendations.",
+    "targetCustomer": "Radiology practices, hospitals and health systems",
+    "buyer": "Radiology chair, practice executive or Chief Medical Information Officer",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Radiology LLMs",
+      "Speech recognition",
+      "Clinical NLP",
+      "Report generation"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 140,
+    "fundingDisplay": ">$140M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series C, Jan 2025 ($60M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Transformation Capital",
+      "Khosla Ventures",
+      "World Innovation Lab",
+      "UP.Partners"
+    ],
+    "traction": "Rad AI states that its products are used by radiologists serving roughly 40% of U.S. health systems; this market-share claim is company-reported.",
+    "confidence": "High",
+    "notes": "The proprietary-report corpus and deep PACS/RIS workflow integration support defensibility, but reported market reach is not an independently audited revenue metric. Reporting assistance should not be conflated with autonomous diagnosis.",
+    "sources": [
+      {
+        "label": "Series C and cumulative funding",
+        "url": "https://www.radai.com/news/rad-ai-closes-60m-series-c-to-further-solidify-leadership-in-healthcare-generative-ai",
+        "type": "primary"
+      },
+      {
+        "label": "Company history, proprietary data and market footprint",
+        "url": "https://www.radai.com/about",
+        "type": "primary"
+      },
+      {
+        "label": "Current reporting product",
+        "url": "https://www.radai.com/reporting",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Qure.ai",
+    "website": "https://www.qure.ai",
+    "hq": "Mumbai, India",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Radiology screening and diagnostic support",
+    "layer": "Vertical application",
+    "product": "Medical imaging AI suite for chest X-ray, head CT and lung-nodule screening, triage and diagnostic-support workflows.",
+    "targetCustomer": "Hospitals, imaging providers, public-health programs and life-sciences companies",
+    "buyer": "Radiology leader, hospital executive or public-health program director",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Medical computer vision",
+      "Deep learning",
+      "Image classification",
+      "Image segmentation"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 4,
+    "fundingUsdM": 121,
+    "fundingDisplay": "At least $121M in disclosed equity rounds",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series D, Sep 2024 ($65M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "360 ONE Asset",
+      "Merck Global Health Innovation Fund",
+      "Kae Capital",
+      "HealthQuad"
+    ],
+    "traction": "At its Series D, Qure.ai reported deployments across more than 3,000 sites in 90 countries and 18 FDA-cleared indications.",
+    "confidence": "Medium",
+    "notes": "The funding figure is a conservative floor derived from publicly disclosed $16M, $40M and $65M equity rounds, not an asserted exact lifetime total; grants are excluded. Site, country and clearance counts are company-reported and time-stamped to 2024.",
+    "sources": [
+      {
+        "label": "Series D, global footprint and regulatory count",
+        "url": "https://www.qure.ai/us/news-press-coverages/qure-ai-gets-series-d-funding-to-expand-healthcare-ai",
+        "type": "primary"
+      },
+      {
+        "label": "Series A financing",
+        "url": "https://www.qure.ai/us/news-press-coverages/qure-ai-raises-million-from-sequoia-india",
+        "type": "primary"
+      },
+      {
+        "label": "Company newsroom including Series C",
+        "url": "https://www.qure.ai/us/newsroom",
+        "type": "primary"
+      },
+      {
+        "label": "FY2024-25 impact report",
+        "url": "https://www.qure.ai/us/impact-stories/qure-ai-fy-24-25-impact-report-global-ai-healthcare-innovations",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Recursion",
+    "website": "https://www.recursion.com",
+    "hq": "Salt Lake City, USA",
+    "founded": 2013,
+    "stage": "Public",
+    "sector": "Healthcare",
+    "subsector": "AI-native drug discovery and development",
+    "layer": "AI-native service",
+    "product": "Integrated drug-discovery and development company combining automated wet labs, multimodal biological and chemical data, machine learning and an internal and partnered therapeutic pipeline.",
+    "targetCustomer": "Biopharma partners and patients served by Recursion's internal pipeline",
+    "buyer": "Biopharma research executive or business-development leader",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Multimodal foundation models",
+      "Phenotypic screening",
+      "Graph machine learning",
+      "Generative chemistry",
+      "Scientific computing"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Infrastructure",
+      "Proprietary data",
+      "Workflow integration"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "Public company; $754M cash and equivalents at 2025-12-31; lifetime financing not consolidated",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Public company (Nasdaq: RXRX); no comparable latest venture round",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [],
+    "traction": "Recursion reported five clinical programs, $74.7M in 2025 revenue and $754M in year-end cash and equivalents, with runway expected into early 2028.",
+    "confidence": "High",
+    "notes": "The platform's vertically integrated data-lab-compute loop is unusually deep, but clinical proof remains early and capital intensity is material. The 2025 10-K reports an accumulated deficit of about $2.1B; the 2024 Exscientia acquisition complicates historical comparisons.",
+    "sources": [
+      {
+        "label": "2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000039/rxrx-20251231.htm",
+        "type": "regulatory-filing"
+      },
+      {
+        "label": "FY2025 results and pipeline update",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000038/exhibit991-10xk25.htm",
+        "type": "regulatory-filing"
+      },
+      {
+        "label": "2026 platform and pipeline presentation",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000002/recursionjpm2026presenta.htm",
+        "type": "regulatory-filing"
+      }
+    ]
+  },
+  {
+    "name": "Isomorphic Labs",
+    "website": "https://www.isomorphiclabs.com",
+    "hq": "London, United Kingdom",
+    "founded": 2021,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "AI-first drug design",
+    "layer": "AI-native service",
+    "product": "AI-native drug-design company developing internal therapeutic programs and biopharma collaborations using structural-biology and generative-design models.",
+    "targetCustomer": "Biopharma partners and Isomorphic Labs' internal therapeutic pipeline",
+    "buyer": "Biopharma research and business-development executive",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Protein structure prediction",
+      "Multimodal foundation models",
+      "Generative molecular design",
+      "Scientific machine learning"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Infrastructure",
+      "Proprietary data"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 4,
+    "fundingUsdM": 2700,
+    "fundingDisplay": "$2.7B",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series B, May 2026 ($2.1B)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Thrive Capital",
+      "Alphabet",
+      "GV"
+    ],
+    "traction": "The company announced its IsoDDE drug-design engine in Feb 2026 and raised $2.1B in May 2026 to scale its internal pipeline and external collaborations.",
+    "confidence": "High",
+    "notes": "Capital and technical lineage are exceptional, but disclosed benchmark and pipeline claims are company-reported and human clinical efficacy remains unproven. The business is an integrated drug developer and partner, not a conventional SaaS platform.",
+    "sources": [
+      {
+        "label": "Series B",
+        "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+        "type": "primary"
+      },
+      {
+        "label": "First external investment round",
+        "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-600m-external-investment-round",
+        "type": "primary"
+      },
+      {
+        "label": "IsoDDE drug-design engine",
+        "url": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Generate:Biomedicines",
+    "website": "https://generatebiomedicines.com",
+    "hq": "Somerville, USA",
+    "founded": 2018,
+    "stage": "Public",
+    "sector": "Healthcare",
+    "subsector": "Generative protein therapeutics",
+    "layer": "AI-native service",
+    "product": "Integrated protein-therapeutics developer using generative machine learning, high-throughput experimentation and automated bioengineering to design and advance medicines.",
+    "targetCustomer": "Patients served by its pipeline and biopharma collaboration partners",
+    "buyer": "Biopharma research or business-development executive",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Generative protein models",
+      "Protein language models",
+      "High-throughput experimentation",
+      "Active learning"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Infrastructure",
+      "Proprietary data"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": ">$750M private capital before IPO; $400M gross IPO proceeds in Feb 2026",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Initial public offering, Feb 2026 ($400M gross proceeds)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Flagship Pioneering"
+    ],
+    "traction": "Generate:Biomedicines states that it entered the public market with more than $750M in prior capital and five clinical-stage programs; the IPO added $400M in gross proceeds.",
+    "confidence": "High",
+    "notes": "Lifetime financing is not forced into one exact number because the company reports private capital as greater than $750M. Clinical-stage entry validates translation into trials, not efficacy; the prospectus reports a $203.2M net loss for 2025.",
+    "sources": [
+      {
+        "label": "Company platform, capital history and pipeline",
+        "url": "https://generatebiomedicines.com/about-us",
+        "type": "primary"
+      },
+      {
+        "label": "IPO pricing",
+        "url": "https://generatebiomedicines.com/media-center/generate-biomedicines-inc-announces-pricing-of-initial-public-offering",
+        "type": "primary"
+      },
+      {
+        "label": "IPO prospectus",
+        "url": "https://www.sec.gov/Archives/edgar/data/2100782/000119312526083190/generate_bio_424b4.htm",
+        "type": "regulatory-filing"
+      },
+      {
+        "label": "Series C",
+        "url": "https://generatebiomedicines.com/media-center/series-c-financing-announcement",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Xaira Therapeutics",
+    "website": "https://www.xaira.com",
+    "hq": "San Francisco, USA",
+    "founded": 2024,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "AI-native therapeutics development",
+    "layer": "AI-native service",
+    "product": "Integrated biotechnology company combining machine learning, scaled biological data generation and therapeutic development to build an internal drug pipeline.",
+    "targetCustomer": "Patients served by Xaira's internal therapeutic pipeline",
+    "buyer": "Not applicable; internal drug-development model",
+    "gtm": "Unknown",
+    "aiTech": [
+      "Protein and biological foundation models",
+      "Generative biology",
+      "High-throughput data generation",
+      "Scientific machine learning"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Infrastructure",
+      "Proprietary data"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 1000,
+    "fundingDisplay": ">$1B committed capital",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Launch financing, Apr 2024 (more than $1B committed capital)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "ARCH Venture Partners",
+      "Foresite Capital",
+      "F-Prime Capital",
+      "NEA",
+      "Sequoia Capital",
+      "Lux Capital",
+      "Lightspeed Venture Partners"
+    ],
+    "traction": "Xaira launched with more than $1B of committed capital and an integrated team spanning machine learning, data generation and therapeutic development; it has not publicly established human clinical efficacy.",
+    "confidence": "Medium",
+    "notes": "Committed capital is not necessarily identical to cash funded at launch. Public evidence on pipeline maturity, clinical assets and operating scale is limited relative to the financing, so technical promise should not be confused with clinical validation.",
+    "sources": [
+      {
+        "label": "Launch, product model and committed capital",
+        "url": "https://www.businesswire.com/news/home/20240423707240/en/",
+        "type": "primary"
+      },
+      {
+        "label": "Current company news",
+        "url": "https://www.xaira.com/news-content",
+        "type": "primary"
+      },
+      {
+        "label": "Independent launch and financing context",
+        "url": "https://techcrunch.com/2024/04/24/xaira-an-ai-drug-discovery-startup-launches-with-a-massive-1b-says-its-ready-to-start-developing-drugs/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Genesis Molecular AI",
+    "website": "https://www.genesis.ml",
+    "hq": "San Diego, USA",
+    "founded": 2019,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "Generative small-molecule drug discovery",
+    "layer": "AI-native service",
+    "product": "AI drug-discovery company combining molecular foundation models, structure-based generative design and wet-lab feedback for internal and partnered small-molecule programs.",
+    "targetCustomer": "Biopharma R&D organizations and Genesis's internal pipeline",
+    "buyer": "Biopharma research or business-development executive",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Molecular foundation models",
+      "3D generative chemistry",
+      "Geometric deep learning",
+      "Active learning"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Proprietary data",
+      "Infrastructure"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": 320,
+    "fundingDisplay": ">$320M disclosed equity capital",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Strategic equity investment from Incyte, May 2026 ($40M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Andreessen Horowitz",
+      "Fidelity Management & Research Company",
+      "BlackRock",
+      "T. Rowe Price",
+      "Menlo Ventures"
+    ],
+    "traction": "Incyte expanded its collaboration with Genesis in May 2026; the two agreements provide $150M in total upfront consideration, including a new $40M equity investment, and use Genesis's wet-lab-connected molecular AI platform.",
+    "confidence": "High",
+    "notes": "Funding includes the prior more-than-$280M equity total plus Incyte's disclosed $40M equity investment. Collaboration upfront payments are commercial or non-dilutive consideration and are excluded from the funding total. No partnered clinical efficacy is yet public.",
+    "sources": [
+      {
+        "label": "Company history and financing milestones",
+        "url": "https://www.genesis.ml/about",
+        "type": "primary"
+      },
+      {
+        "label": "Series B and cumulative funding",
+        "url": "https://www.businesswire.com/news/home/20230821419353/en/Genesis-Therapeutics-Closes-Oversubscribed-%24200-Million-Series-B",
+        "type": "primary"
+      },
+      {
+        "label": "Incyte collaboration and wet-lab platform",
+        "url": "https://www.genesis.ml/partners-pipeline",
+        "type": "primary"
+      },
+      {
+        "label": "Incyte expansion and equity investment",
+        "url": "https://incytecorp.gcs-web.com/news-releases/news-release-details/incyte-and-genesis-expand-molecular-ai-collaboration-accelerate",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Unlearn",
+    "website": "https://www.unlearn.ai",
+    "hq": "San Francisco, USA",
+    "founded": 2017,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "AI digital twins for clinical trials",
+    "layer": "AI-native service",
+    "product": "Clinical-trial design platform that builds disease-specific AI digital twins to support synthetic-control methods, prognostic modeling and trial planning.",
+    "targetCustomer": "Biopharma clinical-development teams and clinical-research organizations",
+    "buyer": "Head of Clinical Development, biostatistics leader or trial-design executive",
+    "gtm": "Enterprise sales",
+    "aiTech": [
+      "Generative machine learning",
+      "Digital twins",
+      "Longitudinal patient modeling",
+      "Bayesian statistics"
+    ],
+    "deployment": "Cloud",
+    "differentiators": [
+      "Research",
+      "Technical",
+      "Proprietary data",
+      "Regulatory"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 5,
+    "verticalIntegration": 3,
+    "fundingUsdM": 130,
+    "fundingDisplay": ">$130M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series C, Feb 2024 ($50M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Altimeter Capital",
+      "Radical Ventures",
+      "Wittington Ventures",
+      "Mubadala Capital"
+    ],
+    "traction": "Unlearn gained access to CHDI Foundation's Enroll-HD data in 2026 to advance Huntington's disease modeling, adding a disease-specific data asset to its trial-design work.",
+    "confidence": "High",
+    "notes": "Digital-twin and synthetic-control benefits depend on disease-specific data quality and protocol design. Regulatory or statistical acceptance is study-specific and is not a blanket endorsement of synthetic controls for all pivotal trials.",
+    "sources": [
+      {
+        "label": "Series C and cumulative funding",
+        "url": "https://www.businesswire.com/news/home/20240206806844/en/Unlearn-Raises-%2450-Million-Series-C-to-Optimize-Clinical-Research-With-AI-Powered-Digital-Twin-Technology",
+        "type": "primary"
+      },
+      {
+        "label": "Current digital-twin platform",
+        "url": "https://www.unlearn.ai/",
+        "type": "primary"
+      },
+      {
+        "label": "2026 Huntington's disease data collaboration",
+        "url": "https://www.newswire.com/news/unlearn-advances-huntingtons-disease-ai-modeling-through-access-to-22732325",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "name": "Tempus AI",
+    "website": "https://www.tempus.com",
+    "hq": "Chicago, USA",
+    "founded": 2015,
+    "stage": "Public",
+    "sector": "Healthcare",
+    "subsector": "Precision-medicine diagnostics, data and clinical-trial matching",
+    "layer": "Infrastructure",
+    "product": "Multimodal precision-medicine platform combining clinical and molecular diagnostics, licensed healthcare data, clinical decision tools and trial matching.",
+    "targetCustomer": "Providers, biopharma companies, researchers and patients",
+    "buyer": "Clinical service-line leader, diagnostics executive, biopharma R&D leader or data-science executive",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Multimodal machine learning",
+      "Clinical NLP",
+      "Genomic modeling",
+      "Large language models",
+      "Patient-trial matching"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Infrastructure",
+      "Proprietary data",
+      "Workflow integration",
+      "Regulatory",
+      "Distribution",
+      "Network effects"
+    ],
+    "moatStrength": 5,
+    "technicalDepth": 5,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "Public company; lifetime equity and debt financing not consolidated here",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Public company (Nasdaq: TEM); no comparable latest venture round",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [],
+    "traction": "Tempus reported $1.272B in 2025 revenue, more than 1.4B clinical documents, over 8.6M de-identified research records, 700-plus data connections across more than 5,000 sites and 1,400 signed clinical trials.",
+    "confidence": "High",
+    "notes": "The data, diagnostics and distribution flywheel is a strong moat, but the business is capital-intensive and acquisition-heavy. Tempus reported a $245M 2025 net loss; trial and dataset counts come from its audited-filing narrative but are operational rather than efficacy metrics.",
+    "sources": [
+      {
+        "label": "2025 Form 10-K: revenue, datasets, sites and trials",
+        "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526066961/tem-20251231.htm",
+        "type": "regulatory-filing"
+      },
+      {
+        "label": "FY2025 results",
+        "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526066931/tem-ex99_1.htm",
+        "type": "regulatory-filing"
+      }
+    ]
+  },
+  {
+    "name": "Formation Bio",
+    "website": "https://www.formation.bio",
+    "hq": "New York, USA",
+    "founded": 2016,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "AI-enabled clinical development and asset acquisition",
+    "layer": "AI-native service",
+    "product": "Technology-enabled biopharma company that acquires or licenses drug assets and uses AI, automation and trial operations to advance them through clinical development.",
+    "targetCustomer": "Patients served by Formation Bio's acquired pipeline and asset-originator partners",
+    "buyer": "Biotech asset owner, business-development executive or licensor",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Clinical-development analytics",
+      "LLM workflow automation",
+      "Trial operations optimization",
+      "Data integration"
+    ],
+    "deployment": "Hybrid",
+    "differentiators": [
+      "Technical",
+      "Infrastructure",
+      "Proprietary data",
+      "Workflow integration"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": 615,
+    "fundingDisplay": "~$615M",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series D, Jun 2024 ($372M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "Andreessen Horowitz",
+      "Sanofi",
+      "Sequoia Capital",
+      "Thrive Capital",
+      "Emerson Collective"
+    ],
+    "traction": "Formation Bio announced first-participant dosing in a Phase 1 study of BLKR201 in Jun 2026, providing a current pipeline execution signal beyond its software narrative.",
+    "confidence": "Medium",
+    "notes": "The approximately $615M lifetime total is secondary-sourced; the $372M Series D is directly announced. Vertical integration can create proprietary operational data, but faster-development claims remain largely company-reported and the model carries drug-asset selection and clinical-failure risk.",
+    "sources": [
+      {
+        "label": "Series D, platform and investors",
+        "url": "https://www.prnewswire.com/news-releases/formation-bio-secures-372mm-series-d-funding-to-grow-drug-pipeline-and-continue-expanding-ai-driven-drug-development-platform-302182347.html",
+        "type": "primary"
+      },
+      {
+        "label": "Current pipeline and trial announcements",
+        "url": "https://www.formation.bio/press",
+        "type": "primary"
+      },
+      {
+        "label": "Aggregate funding and valuation context",
+        "url": "https://www.forbes.com/sites/amyfeldman/2026/04/16/this-sam-altman-backed-18-billion-startup-bets-ai-can-get-drugs-through-clinical-trials-faster-formation-bio/",
+        "type": "credible-secondary"
+      }
+    ]
+  },
+  {
+    "name": "Eko Health",
+    "website": "https://www.ekohealth.com",
+    "hq": "Emeryville, USA",
+    "founded": 2013,
+    "stage": "Growth",
+    "sector": "Healthcare",
+    "subsector": "AI-enabled digital stethoscopes and cardiopulmonary screening",
+    "layer": "Hardware",
+    "product": "Connected digital stethoscopes and FDA-cleared AI software that support point-of-care detection of cardiac and pulmonary abnormalities.",
+    "targetCustomer": "Clinicians, health systems, primary-care practices and medical trainees",
+    "buyer": "Clinician, clinical service-line leader or procurement executive",
+    "gtm": "Hybrid",
+    "aiTech": [
+      "Acoustic deep learning",
+      "ECG signal analysis",
+      "Time-series classification",
+      "Clinical decision support"
+    ],
+    "deployment": "Hardware",
+    "differentiators": [
+      "Hardware",
+      "Technical",
+      "Proprietary data",
+      "Regulatory",
+      "Distribution"
+    ],
+    "moatStrength": 4,
+    "technicalDepth": 4,
+    "verticalIntegration": 5,
+    "fundingUsdM": null,
+    "fundingDisplay": "At least $106M in disclosed Series C and D equity; company profile reports >$165M total but instrument mix is unclear",
+    "fundingAsOf": "2026-07-13",
+    "latestRound": "Series D, Jun 2024 ($41M)",
+    "headcount": null,
+    "headcountAsOf": "2026-07-13",
+    "investors": [
+      "ARTIS Ventures",
+      "Highland Capital Partners",
+      "NTTVC",
+      "LG Technology Ventures"
+    ],
+    "traction": "Eko reports more than 750,000 devices sold and nine FDA clearances; FDA documentation independently confirms 510(k) clearance for the CORE 500 digital stethoscope.",
+    "confidence": "Medium",
+    "notes": "An exact lifetime equity/debt total is left null because the larger public aggregate does not cleanly separate grants or other instruments. FDA clearances are product- and algorithm-specific, and some AI detection capabilities require a separate paid software subscription.",
+    "sources": [
+      {
+        "label": "Series D and product strategy",
+        "url": "https://www.ekohealth.com/blogs/newsroom/eko-health-raises-41-million-to-scale-ai-driven-heart-and-lung-disease-detection",
+        "type": "primary"
+      },
+      {
+        "label": "Series C",
+        "url": "https://www.ekohealth.com/blogs/newsroom/eko-raises-65-million-in-series-c-funding",
+        "type": "primary"
+      },
+      {
+        "label": "FDA 510(k) clearance letter K233609",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233609.pdf",
+        "type": "regulatory"
+      },
+      {
+        "label": "Current product, device and clearance claims",
+        "url": "https://www.ekohealth.com/products/core-500-digital-stethoscope",
+        "type": "primary"
+      }
+    ]
+  }
+]

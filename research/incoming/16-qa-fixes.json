@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-07-13",
+  "scope": "Corrections mécaniques sûres; aucune valeur financière, traction ou headcount inventée.",
+  "http404": [
+    {
+      "company": "Carbon Re",
+      "oldUrl": "https://carbonre.com/cement-decarbonization/",
+      "action": "replace_source_url",
+      "newUrl": "https://gigaton.co/product",
+      "verifiedStatus": 200,
+      "reason": "Carbon Re est devenue Gigaton le 2026-05-26; la page produit est l'équivalent courant."
+    },
+    {
+      "company": "Carbon Re",
+      "oldUrl": "https://carbonre.com/carbon-re-raises-new-funding-to-harness-ai-to-decarbonize-the-most-energy-intensive-industries/",
+      "action": "replace_source_url",
+      "newUrl": "https://gigaton.co/article/carbon-re-raises-4-2m-seed-funding-to-tackle-gigatonnes-of-emissions-from-the-highly-pollutive-cement-industry",
+      "verifiedStatus": 200,
+      "reason": "Archive officielle Gigaton de l'annonce de seed Carbon Re."
+    },
+    {
+      "company": "Daedalean",
+      "oldUrl": "https://www.daedalean.ai/certification/ailumina-vista",
+      "action": "remove_dead_source_and_reduce_claim",
+      "newUrl": "https://www.destinus.com/post/destinus-acquires-daedalean",
+      "verifiedStatus": 200,
+      "reason": "La source courante confirme une technologie avionique certifiable et l'accord d'acquisition, mais pas le nombre exact d'audits de certification; ne pas recopier ce claim sans archive stable."
+    },
+    {
+      "company": "Daedalean",
+      "oldUrl": "https://www.daedalean.ai/capabilities/navigation",
+      "action": "replace_source_url",
+      "newUrl": "https://www.destinus.com/products/downloads",
+      "verifiedStatus": 200,
+      "reason": "Page produit Destinus actuelle listant Vista et Visual Navigation."
+    },
+    {
+      "company": "Q.ANT",
+      "oldUrl": "https://qant.com/news/q-ant-takes-photonic-ai-computing-commercial-as-ai-s-power-demand-surges/",
+      "action": "replace_source_url",
+      "newUrl": "https://qant.com/news/q-ant-takes-photonic-ai-computing-commercial-as-ais-power-demand-surges/",
+      "verifiedStatus": 200,
+      "reason": "Slug officiel courant; seule l'apostrophe du slug change."
+    }
+  ],
+  "companyFieldUpdates": [
+    {
+      "company": "Carbon Re",
+      "targetFile": "research/incoming/09-climate-energy-geospatial.json",
+      "set": {
+        "name": "Gigaton",
+        "website": "https://gigaton.co/"
+      },
+      "addSource": {
+        "label": "Gigaton — rebrand from Carbon Re",
+        "url": "https://gigaton.co/article/introducing-Gigaton",
+        "type": "primary"
+      }
+    },
+    {
+      "company": "Daedalean",
+      "targetFile": "research/incoming/13-europe-uk-ecosystem.json",
+      "setGeneratedStatus": "Acquisition annoncée",
+      "statusEvidence": "https://www.destinus.com/post/destinus-acquires-daedalean",
+      "safeTractionReplacement": "Destinus a annoncé le 5 août 2025 un accord contraignant pour acquérir Daedalean, avec clôture alors attendue avant fin 2025; aucune confirmation de clôture distincte n'a été trouvée pendant cet audit."
+    }
+  ],
+  "mechanicalDataQuality": [
+    {
+      "id": "ayar-labs-duplicate-source-url",
+      "finding": "Deux labels utilisent le même URL générique https://ayarlabs.com/news/.",
+      "replacements": [
+        {
+          "label": "Ayar Labs Series E and volume-production objective",
+          "url": "https://ayarlabs.com/news/ayar-labs-closes-500m-series-e-accelerates-volume-production-of-co-packaged-optics/",
+          "verifiedStatus": 200
+        },
+        {
+          "label": "Ayar Labs and Wiwynn rack-scale partnership",
+          "url": "https://ayarlabs.com/news/ayar-labs-and-wiwynn-partner-to-bring-co-packaged-optics-to-rack-scale-ai-systems/",
+          "verifiedStatus": 200
+        }
+      ]
+    },
+    {
+      "id": "country-label-aliases",
+      "action": "normalize_display_only",
+      "mapping": {
+        "USA": "United States",
+        "UK": "United Kingdom",
+        "Czech Republic": "Czechia"
+      }
+    },
+    {
+      "id": "funding-sort-label",
+      "targetFile": "app/page.tsx",
+      "replace": {
+        "from": ">Financement</option>",
+        "to": ">Montant public indicatif</option>"
+      }
+    },
+    {
+      "id": "method-source-wording",
+      "targetFile": "app/page.tsx",
+      "replace": {
+        "from": "Produit, siège, financement et annonces sont attachés à des sources directes et datés. Une valeur absente reste inconnue.",
+        "to": "Chaque fiche associe des sources datées; elles ne corroborent pas nécessairement chaque champ ni les claims auto-déclarés. Une valeur absente reste inconnue."
+      }
+    }
+  ],
+  "doNotAutoInfer": [
+    "Ne pas convertir fundingDisplay en fundingUsdM sans périmètre explicite equity/dette/secondaire/engagements et date de change.",
+    "Ne pas déclarer Daedalean acquise sans preuve publique de clôture; utiliser Acquisition annoncée.",
+    "Ne pas traiter 401, 403 ou 429 comme preuve qu'une URL est invalide.",
+    "Ne pas remplacer les sources auto-déclarées par une corroboration supposée; la rechercher séparément."
+  ]
+}
